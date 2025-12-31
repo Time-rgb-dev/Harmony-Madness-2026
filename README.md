@@ -1,13 +1,11 @@
-# Harmony Framework Plus
+# Harmony GitHub Madness - January 2026
 
-# NOTICE!!
-This build is beta at the moment, you can make a fangame in this all of essential features are done, use it at your own risk. [Current version: 0.9 - Stable]
+Work together or apart to make the biggest clusterfuck imaginable!
+Rules:
+- Do not intentionally make the game unplayable or grief code
+- Do not destroy other people's work
+- Please keep within the content guidelines and rules of URC and Discord as a whole. (No NSFW!!)
+- No .EXE content.
 
-# What is this?
-  Accurate and stable Sonic framework for GameMaker Studio 2 that's simple to use.
-  
-# Documentation and support
-  PDF of function sheet is currently being worked on
-  #
-  [Support server for Harmony Framework](https://discord.gg/FH4pHSEv3n). Support will not be given to Sonic.EXE or any creepypasta games!
-  
+
+
