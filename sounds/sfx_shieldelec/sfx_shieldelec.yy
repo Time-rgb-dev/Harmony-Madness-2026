@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_shieldelec",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.717098,
+  "exportDir":"",
+  "name":"sfx_shieldelec",
+  "parent":{
+    "name":"Shield",
+    "path":"folders/Sounds/Sound Effects/Shield.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_shieldelec.wav",
+  "volume":1.0,
+}
