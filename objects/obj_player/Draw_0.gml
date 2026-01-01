@@ -40,7 +40,7 @@
 		}
 		
 		//Draw the player:
-		draw_animator(animator, floor(x), floor(y), image_xscale*3, 1, image_angle, c_white, 1);
+		draw_animator(animator, floor(x), floor(y), image_xscale, 1, image_angle, c_white, 1);
 	}
 	shader_reset()
 	//Draw spindash dust effect
