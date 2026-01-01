@@ -21,5 +21,5 @@
 		}
 		
 		//If space pressed, go to the next room
-		if(keyboard_check_pressed(vk_space)) room_goto_next();
+		if(keyboard_check_pressed(vk_space) || Input.APress || Input.StartPress) room_goto_next();
 	}
