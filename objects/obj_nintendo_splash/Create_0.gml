@@ -1,3 +1,3 @@
-fade_in_room(2, FADE_BLACK);
 timer = 0;
+is_visible = false;
 done = false;

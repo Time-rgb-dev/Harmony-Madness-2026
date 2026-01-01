@@ -1,6 +1,14 @@
-c = view_camera[view_current];
-cx = camera_get_view_x(c);
-cy = camera_get_view_y(c);
+var c = view_camera[view_current];
+var cx = camera_get_view_x(c);
+var cy = camera_get_view_y(c);
+
+var character_name = "soos i guess????";
+switch(global.character)
+{
+	case CHAR_SONIC: character_name = "theodore hedgehog" break;
+	case CHAR_TAILS: character_name = "piles prower" break;
+	case CHAR_KNUX: character_name = "the red one" break;
+}
 
 
 if (obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
@@ -9,7 +17,7 @@ if (obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
 			active = true
 			audio_stop_all();
 			if(global.life > 1) {
-				music_set_fade(FADE_OUT, 100);
+				music_reset_fade(FADE_OUT);	
 			} else {
 				music_reset_fade();	
 				play_music(MUSIC.J_GAME_OVER, 0);

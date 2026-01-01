@@ -72,7 +72,7 @@ function player_state_knockout(){
 			{
 				if(global.life != 0 || !is_time_over)
 				{
-					global.life -= 1;
+					global.life = max(global.life - 1, 0);
 				}
 			}
 			
