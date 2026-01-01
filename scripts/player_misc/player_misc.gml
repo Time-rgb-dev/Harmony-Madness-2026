@@ -18,4 +18,15 @@ function player_misc(){
 	}else{
 		with(par_shield) instance_destroy();
 	}
+    
+    //Lose water
+    if(global.object_timer mod 60 == 0)
+    {
+        hydration -= 2;
+    }
+    
+    if(hydration <= 0)
+    {
+        knockout_type = K_DIE;
+    }
 }

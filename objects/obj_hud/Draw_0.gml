@@ -62,6 +62,10 @@
 			}
 		}
 		
+        //Hydration bar
+        draw_healthbar(WINDOW_WIDTH-8, WINDOW_HEIGHT-8, WINDOW_WIDTH-64, WINDOW_HEIGHT-24, obj_player.hydration,
+        #000022, c_blue, c_blue, 0, true, true);
+        
 	} else {
 		draw_sprite(spr_hudtext, 2, 16 + offset[0], 8);
 		

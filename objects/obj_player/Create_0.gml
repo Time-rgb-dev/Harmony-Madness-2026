@@ -64,7 +64,7 @@
 	can_jump = false;					//Check used for if player is able to perform a jump
 	can_roll = false;					//Check used for if player is able to perform rolling
 	allow_super = false;				//Check used for if player is able to transform into their super form
-	
+    
 	//Flags:
 	ceiling_allow = true;				//Flag for allowing ceiling landing
 	detach_allow = true;				//Flag used to allow detaching off the ground or not
@@ -89,7 +89,8 @@
 	invincible = false;					//Check used to check if player has invincibility or not
 	super = false;						//Check used to check if player is in super form
 	transform_timer = 0;				//Timer for how long to stay in the transformation state
-	
+	hydration = 100;
+    
 	//Character specifics:
 	tails_timer = 480;					//Timer used for tails flight
 	knuckles_angle = 90;				//Knuckles' gliding angle

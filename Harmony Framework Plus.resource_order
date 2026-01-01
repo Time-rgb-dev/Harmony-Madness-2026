@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Drinking Fountain","order":1,"path":"folders/Objects/Stage Objects/Common Objects/Drinking Fountain.yy",},
     {"name":"Editor Sprites","order":1,"path":"folders/Sprites/Editor Sprites.yy",},
     {"name":"GUI Sprites","order":2,"path":"folders/Sprites/GUI Sprites.yy",},
     {"name":"Menus Sprites","order":3,"path":"folders/Sprites/Menus Sprites.yy",},
@@ -10,6 +11,7 @@
     {"name":"Bridge Zone","order":3,"path":"folders/Sprites/Stage Sprites/Bridge Zone.yy",},
     {"name":"Collision","order":4,"path":"folders/Sprites/Stage Sprites/Collision.yy",},
     {"name":"Common Objects","order":5,"path":"folders/Sprites/Stage Sprites/Common Objects.yy",},
+    {"name":"Drinking Fountain","order":1,"path":"folders/Sprites/Stage Sprites/Common Objects/Drinking Fountain.yy",},
     {"name":"Common Sprites","order":6,"path":"folders/Sprites/Stage Sprites/Common Sprites.yy",},
     {"name":"Effects","order":7,"path":"folders/Sprites/Stage Sprites/Effects.yy",},
   ],
