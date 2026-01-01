@@ -34,8 +34,8 @@
 		draw_sprite(spr_hudtext, 2, 16 + offset[2], 40);
 	
 		//Red flashing text
-		if(global.rings == 0 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 4, 16 + offset[2], 40);
-		if(global.stage_timer >= 540000 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 3, 16 + offset[1], 24);
+		if(global.rings == 0 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 3, 16 + offset[0], 8);
+		if(global.stage_timer >= 540000 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 4, 16 + offset[1], 24);
 	
 		//Draw life icon
 		draw_sprite(spr_hud_life_icons, global.character, 16 + offset[3], global.window_height - 26);

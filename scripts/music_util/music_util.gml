@@ -39,9 +39,9 @@ function music_set_fade(fade_type, fade_speed)
 	obj_music.general_fade = fade_type;	
 }
 
-function music_reset_fade()
+function music_reset_fade(fade_type = FADE_IN)
 {
-	music_set_fade(FADE_IN, 1);
+	music_set_fade(fade_type, 1);
 	obj_music.general_fade_multiplier = 1;
 }
 

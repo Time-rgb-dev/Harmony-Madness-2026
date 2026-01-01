@@ -26,11 +26,11 @@
 	//Fade out
 	if(timer = 1 && state = 0)
 	{
-		music_set_fade(FADE_OUT, 1)
+		music_reset_fade(FADE_OUT);
 	}
 	
 	//Play act clear music
-	if(timer = 100 && state = 0)
+	if(timer = 2 && state = 0)
 	{
 		music_reset_fade();
 		play_music(MUSIC.J_ACT_CLEAR, 0);
@@ -88,15 +88,14 @@
 		}
 	}
 	
-	//Stop executing if extra life jingle is playing
-	if(state == 1 && audio_is_playing(j_extra_life) && timer >= 78) 
-	{
-		timer = 78;
-	}
-	
 	//Ending events
-	if(state = 1 && !obj_level.act_transition)
+	if(state = 1)
 	{
+		if(audio_is_playing(j_extra_life) && timer >= 78) 
+		{
+			timer = 78;
+		}
+	
 		if(timer = 80)
 		{
 			fade_change(FADE_OUT, 5,FADE_BLACK)
@@ -108,15 +107,4 @@
 			reset_stage_data();
 			room_goto(obj_level.next_level);
 		}
-	}
-	
-	if(state = 1 && obj_level.act_transition){
-		//Move in card stuff
-		if(timer >= 24+64)	offset_x[0] += 16;
-		if(timer >= 32+64)	offset_x[1] += 16;
-		if(timer >= 40+64)	offset_x[2] += 16;
-		if(timer >= 48+64)	offset_x[3] += 16;
-		
-		//This is fun part for scarly
-		if(!instance_exists(obj_act_transition) && timer > 148) instance_create_depth(0, 0, 0, obj_act_transition)
 	}

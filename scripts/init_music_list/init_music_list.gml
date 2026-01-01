@@ -13,6 +13,7 @@ function init_music_list()
 	music_add(MUSIC.J_GAME_OVER, j_game_over, 0.00, 0.00, false);
 	music_add(MUSIC.J_INVINCIBLE, j_invincible, 0.00, 0.00, false);
 	music_add(MUSIC.J_SPEEDSHOE, j_speedshoe, 0.00, 0.00, false);
+	music_add(MUSIC.J_ACT_START, j_zone_start, 0.00, 0.00, false);
 	music_add(MUSIC.J_ACT_CLEAR, j_zone_complete, 0.00, 0.00, false);
 	music_add(MUSIC.SUPER, j_super, 0.565);
 	music_add("FOREGONE DESTRUCTION - MICHIEL VAN DEN BOS", bgm_foregone, 0.000);
@@ -27,6 +28,7 @@ function init_music_list()
 		J_GAME_OVER,
 		J_INVINCIBLE,
 		J_SPEEDSHOE,
+		J_ACT_START,
 		J_ACT_CLEAR,
 		SUPER,
 		TITLE,
