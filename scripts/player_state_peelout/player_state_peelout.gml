@@ -9,6 +9,8 @@ function player_state_peelout(){
 	//Stop movement
 	ground_speed = 0;
 	
+	if (!audio_is_playing(sfx_peelout_charge)) play_sound(sfx_peelout_charge, true);
+	
 	//Change flags
 	direction_allow = 1 - ground;
 	movement_allow = 1 - ground;

@@ -57,6 +57,7 @@ function player_state_jump(){
 	{
 		state = player_state_dropdash;
 		play_sound(sfx_piss, true);
+		
 		exit;
 	}
 	

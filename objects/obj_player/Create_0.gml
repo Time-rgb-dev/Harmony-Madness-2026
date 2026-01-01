@@ -17,7 +17,6 @@
 	reach_range = 16;					//Range of how much angle sensors can go below floor checks
 	ceiling_lock = 0;					//Timer used for locking ceiling landing, hacky fix for collision bugs
 	facing = 1;							//Player's facing direction
-	highness = 0;                       //Amount of highness
 	
 	//Physics values
 	x_accel = 0.046875;					//Value used for player's horizontal acceleration
@@ -90,7 +89,8 @@
 	invincible = false;					//Check used to check if player has invincibility or not
 	super = false;						//Check used to check if player is in super form
 	transform_timer = 0;				//Timer for how long to stay in the transformation state
-	hydration = 100;
+	hydration = 100;                    //Hydration
+	highness = 0;                       //Amount of highness
     
 	//Character specifics:
 	tails_timer = 480;					//Timer used for tails flight

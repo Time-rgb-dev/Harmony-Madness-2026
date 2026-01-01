@@ -62,6 +62,7 @@
 	dev_menu_add_character("KNUCKLES");
 	
 	//Add all of option entries
+	dev_menu_add_option_flag("Subway Surfers", "subway_surfers");
 	dev_menu_add_option_flag("Jokes Kill You", "annoying_killing_bullshit");
 	dev_menu_add_option_number("Sound Volume", "sfx_volume", 0.0, 1.0, 0.05);
 	dev_menu_add_option_number("Music Volume", "bgm_volume", 0.0, 1.0, 0.05);
@@ -82,8 +83,8 @@
 	//Add the presentation category
 	dev_menu_add_category("REGULAR STAGES");
 	dev_menu_add_entry("YOUR LEVEL", rm_your_zone);
-	dev_menu_add_entry("ARBOREAL AGATE 1", rm_arboreal_agate1);
-	dev_menu_add_entry("ARBOREAL AGATE 2", rm_arboreal_agate2);
+	dev_menu_add_entry("WEED HILL 1", rm_arboreal_agate1);
+	dev_menu_add_entry("WEED HILL 2", rm_arboreal_agate2);
 	
 	//Add all of the rooms
 	dev_menu_add_category("EVERY SCENE");

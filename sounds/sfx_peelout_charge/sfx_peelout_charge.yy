@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.037891,
+  "duration":1.0643991,
   "exportDir":"",
   "name":"sfx_peelout_charge",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_peelout_charge.wav",
+  "soundFile":"sfx_peelout_charge.ogg",
   "volume":1.0,
 }

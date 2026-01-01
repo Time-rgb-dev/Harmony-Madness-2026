@@ -10,7 +10,7 @@ function player_state_dropdash(){
 		audio_stop_sound(sfx_piss);
 		exit;
 	}
-	hydration -= 0.2; //Removing water from your body
+	hydration -= 0.8; //Removing water from your body
 	
 	if(irandom(1) == 0)
 	{
