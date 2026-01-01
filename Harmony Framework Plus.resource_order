@@ -15,12 +15,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fon_times","order":1,"path":"fonts/fon_times/fon_times.yy",},
-    {"name":"spr_fucking_die_character","order":1,"path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},
     {"name":"obj_like_and_subscribe","order":1,"path":"objects/obj_like_and_subscribe/obj_like_and_subscribe.yy",},
     {"name":"spr_dust_effect","order":3,"path":"sprites/spr_dust_effect/spr_dust_effect.yy",},
     {"name":"spr_effect_explosion01","order":7,"path":"sprites/spr_effect_explosion01/spr_effect_explosion01.yy",},
     {"name":"spr_effect_spindash","order":6,"path":"sprites/spr_effect_spindash/spr_effect_spindash.yy",},
     {"name":"spr_effects_dropdash_dust","order":1,"path":"sprites/spr_effects_dropdash_dust/spr_effects_dropdash_dust.yy",},
+    {"name":"spr_fucking_die_character","order":1,"path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},
     {"name":"spr_hello_neighbor","order":10,"path":"sprites/spr_hello_neighbor/spr_hello_neighbor.yy",},
     {"name":"spr_inv_sparkle","order":8,"path":"sprites/spr_inv_sparkle/spr_inv_sparkle.yy",},
     {"name":"spr_may_shock_the_viewers","order":1,"path":"sprites/spr_may_shock_the_viewers/spr_may_shock_the_viewers.yy",},

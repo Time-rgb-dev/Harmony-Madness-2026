@@ -25,7 +25,7 @@
 		global.ring_extralife += 100;
 		global.life += 1;
 		SOUND_EXTRA_LIFE;
-		instance_create_depth(x,y, obj_hud.depth, obj_like_and_subscribe)
+		instance_create_depth(x,y, obj_hud.depth, obj_like_and_subscribe);
 	}
 	if(global.rings <= global.ring_extralife-200)
 	{
@@ -39,6 +39,7 @@
 		global.score_extralife += 50000;
 		global.life += 1;
 		SOUND_EXTRA_LIFE;
+		instance_create_depth(x,y, obj_hud.depth, obj_like_and_subscribe);
 	}
 	if(global.score <= global.score_extralife-100000)
 	{
