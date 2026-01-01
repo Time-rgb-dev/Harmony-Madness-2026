@@ -15,7 +15,10 @@
 		play_sound(sfx_ring);
 		
         //Add rings!
-        global.rings += 1;    
+        global.rings += 1;
+		
+		//Everyone knows that rings are made of water!
+		obj_player.hydration += 5;
         
         //Create the effect
         create_effect(x, y, spr_ring_sparkle, 0.2);
