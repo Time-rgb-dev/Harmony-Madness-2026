@@ -91,6 +91,7 @@
 	global.water_running_effect = 0;		//0 for the hydrocity effect, 1 for repeating splashes
 	global.no_skid_state = true;			//makes skidding work closer to the genesis games, instead of a seperate state
 	
+	// jokes that kill you
 	global.annoying_killing_bullshit = true;
 	
 	//Font setup:

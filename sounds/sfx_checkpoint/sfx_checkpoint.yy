@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.467642,
+  "duration":1.2330838,
   "exportDir":"",
   "name":"sfx_checkpoint",
   "parent":{
