@@ -48,6 +48,7 @@
 				
 			}
 		}
+		if(keyboard_check_pressed(vk_home)) global.subway_surfers = !global.subway_surfers;
 		
 		if(keyboard_check(vk_f6)) room_speed = 5;
 		if(keyboard_check(vk_backspace)) room_speed = 240;

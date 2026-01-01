@@ -24,6 +24,7 @@
 	global.window_width  = 426;				//Window's horizontal size
 	global.window_height = 240;				//Window's vertical size
 	global.window_size   = 2;				//Window size multiplier
+	global.subway_surfers = true;           //Wether to show subway surfers or not
 	
 	//keyboard inputs
 	global.up = vk_up;						
