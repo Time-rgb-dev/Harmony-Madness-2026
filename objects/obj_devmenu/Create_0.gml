@@ -62,6 +62,7 @@
 	dev_menu_add_character("KNUCKLES");
 	
 	//Add all of option entries
+	dev_menu_add_option_flag("Jokes Kill You", "annoying_killing_bullshit");
 	dev_menu_add_option_number("Sound Volume", "sfx_volume", 0.0, 1.0, 0.05);
 	dev_menu_add_option_number("Music Volume", "bgm_volume", 0.0, 1.0, 0.05);
 	dev_menu_add_option_number("Window Width", "window_width", 128, 1920, 1);
