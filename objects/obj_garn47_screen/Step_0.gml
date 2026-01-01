@@ -17,7 +17,7 @@
 		if(timer == 1)
 		{
 			play_sound(sfx_garn47);
-			play_music(MUSIC.TITLE, BGM);
+			play_music(MUSIC.TITLE_GARN47, BGM);
 		}
 		
 		//If space pressed, go to the next room

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":5,
   "conversionMode":0,
-  "duration":13.468322,
+  "duration":103.236984,
   "exportDir":"",
   "name":"bgm_menu",
   "parent":{

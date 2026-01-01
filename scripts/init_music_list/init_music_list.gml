@@ -7,12 +7,12 @@ function init_music_list()
 	//None here!
 	
 	//Game jingles:
-    music_add(MUSIC.TITLE, bgm_garn47_menu);
-	music_add(MUSIC.MENU, bgm_menu, 0.565);
 	music_add(MUSIC.TITLE, bgm_title, 0.00, 0.00, false);
+    music_add(MUSIC.TITLE_GARN47, bgm_garn47_menu);
+	music_add(MUSIC.MENU, bgm_menu, 0.565);
 	music_add(MUSIC.J_GAME_OVER, j_game_over, 0.00, 0.00, false);
-	music_add(MUSIC.J_INVINCIBLE, j_invincible, 0.00, 0.00, false);
-	music_add(MUSIC.J_SPEEDSHOE, j_speedshoe, 0.00, 0.00, false);
+	music_add(MUSIC.J_INVINCIBLE, j_invincible);
+	music_add(MUSIC.J_SPEEDSHOE, j_speedshoe, 2.644);
 	music_add(MUSIC.J_ACT_START, j_zone_start, 0.00, 0.00, false);
 	music_add(MUSIC.J_ACT_CLEAR, j_zone_complete, 0.00, 0.00, false);
 	music_add(MUSIC.SUPER, j_super, 0.565);
@@ -24,6 +24,8 @@ function init_music_list()
 
 	//Setup enum for music ID
 	enum MUSIC {
+		TITLE,
+		TITLE_GARN47,
 		MENU,
 		J_GAME_OVER,
 		J_INVINCIBLE,
@@ -31,5 +33,4 @@ function init_music_list()
 		J_ACT_START,
 		J_ACT_CLEAR,
 		SUPER,
-		TITLE,
 	}

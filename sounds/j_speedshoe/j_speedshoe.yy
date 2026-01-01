@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":22.613333,
+  "duration":5.846644,
   "exportDir":"",
   "name":"j_speedshoe",
   "parent":{

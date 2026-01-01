@@ -46,6 +46,9 @@ function player_water(){
 	//Aquaphobia
 	if(underwater)
 	{
+		//always fill up hydration cuz you're underwater
+		hydration = approach(hydration, 100, 1);
+		
 		//bubbles
 		if (bubble_delay > 0 && (air mod bubble_delay == 0)){
 			bubble_delay = 0

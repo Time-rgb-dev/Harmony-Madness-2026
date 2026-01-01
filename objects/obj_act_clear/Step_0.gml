@@ -103,7 +103,7 @@
 	
 		if(timer = 80)
 		{
-			fade_change(FADE_OUT, 5,FADE_BLACK)
+			fade_change(FADE_OUT, 5, FADE_BLACK)
 		}
 		
 		//Go to the next stage
