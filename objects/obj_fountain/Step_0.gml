@@ -1,6 +1,6 @@
 ///@description Scripts
     //If you're next to the fountain, you can drink
-    if(player_collide_object(C_MAIN))
+    if(collision_rectangle(bbox_left-8, bbox_top, bbox_right+7, bbox_bottom, obj_player, true, false))
     {
         can_drink = true;
     }
