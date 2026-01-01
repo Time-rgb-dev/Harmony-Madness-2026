@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_gore1",
+  "%Name":"sfx_rupee",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.2785487,
+  "duration":0.7194331,
   "exportDir":"",
-  "name":"sfx_gore1",
+  "name":"sfx_rupee",
   "parent":{
     "name":"Random Shit",
     "path":"folders/Sounds/Sound Effects/Random Shit.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_gore1.ogg",
+  "soundFile":"sfx_rupee.mp3",
   "volume":1.0,
 }

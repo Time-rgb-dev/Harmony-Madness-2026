@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_gore2",
   "parent":{
-    "name":"Sound Effects",
-    "path":"folders/Sounds/Sound Effects.yy",
+    "name":"Random Shit",
+    "path":"folders/Sounds/Sound Effects/Random Shit.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

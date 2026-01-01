@@ -26,7 +26,7 @@
     //When you're done giving the player rings, you're done
     if(timer == 120 + (max_rings*10)) triggered = true;
         
-    if(player_collide_object(C_MAIN) && obj_player.attacking)
+    if(player_collide_object(C_MAIN) && obj_player.attacking && global.annoying_killing_bullshit)
     {
         obj_player.knockout_type = K_DIE;
     }

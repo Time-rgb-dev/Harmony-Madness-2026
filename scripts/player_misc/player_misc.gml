@@ -20,7 +20,7 @@ function player_misc(){
 	}
     
     //Lose water
-    if(global.object_timer mod 60 == 0)
+    if(global.object_timer mod 60 == 0 && global.annoying_killing_bullshit)
     {
         hydration -= 2;
     }
