@@ -1,9 +1,9 @@
 /// @description Look where the player is
+    //So you can't have infinite rings
+    if(triggered) exit;
+    
     //If you're not moving while able to, add to the timer
     if(obj_player.ground_speed == 0 && !obj_player.input_disable && !triggered) timer++;
-    
-    //So you can't have infinite rings
-    if(triggered) timer = 0;
     
     //Look right
     if(obj_player.x - x >= 0) {
@@ -23,4 +23,10 @@
         }
     }
     
+    //When you're done giving the player rings, you're done
     if(timer == 120 + (max_rings*10)) triggered = true;
+        
+    if(player_collide_object(C_MAIN) && obj_player.attacking)
+    {
+        obj_player.knockout_type = K_DIE;
+    }
