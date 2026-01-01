@@ -28,4 +28,8 @@
 	}
 	
 	//Begone when underwater
-	if(obj_player.underwater) obj_player.shield = S_NONE;
+	if(obj_player.underwater) 
+	{
+		obj_hud.ltg_timer = 60;
+		obj_player.shield = S_NONE;
+	}

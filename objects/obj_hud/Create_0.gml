@@ -4,7 +4,8 @@
 	slide_in = false;
 	render = true;
 	
-	elec_timer = 0
+	elec_timer = 0;
+	ltg_timer = 0;
 	
 	for(var i = 0; i <= 3; i++)
 	{

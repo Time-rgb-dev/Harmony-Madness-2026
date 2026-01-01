@@ -18,7 +18,7 @@
 		
 		//Switch shield state
 		shield_state = 1;
-		obj_hud.elec_timer = 60
+		obj_hud.elec_timer = 60;
 		//Play sound
 		play_sound(sfx_electric_shield_jump)
 		
