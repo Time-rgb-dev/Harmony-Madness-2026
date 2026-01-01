@@ -540,8 +540,12 @@
     {"id":{"name":"spr_font_random","path":"sprites/spr_font_random/spr_font_random.yy",},},
     {"id":{"name":"spr_font_small","path":"sprites/spr_font_small/spr_font_small.yy",},},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"spr_ghz_collision","path":"sprites/spr_ghz_collision/spr_ghz_collision.yy",},},
     {"id":{"name":"spr_ghz","path":"sprites/spr_ghz/spr_ghz.yy",},},
+=======
+    {"id":{"name":"spr_fucking_die","path":"sprites/spr_fucking_die/spr_fucking_die.yy",},},
+>>>>>>> Stashed changes
 =======
     {"id":{"name":"spr_fucking_die","path":"sprites/spr_fucking_die/spr_fucking_die.yy",},},
 >>>>>>> Stashed changes
