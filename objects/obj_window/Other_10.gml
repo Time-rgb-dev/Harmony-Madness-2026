@@ -1,6 +1,6 @@
 /// @description Resize the window
 	//Screen resizing
-	camera_set_WINDOW_size(WINDOW_camera[WINDOW_current], global.window_width, global.window_height);
+	camera_set_view_size(view_camera[view_current], global.window_width, global.window_height);
 
 	//Resize the window:
 	window_set_size(global.window_width*global.window_size, global.window_height*global.window_size);

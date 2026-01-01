@@ -2,9 +2,9 @@
 	var c, cx, cy;
 	
 	//Screen values
-	c = WINDOW_camera[WINDOW_current];
-	cx = camera_get_WINDOW_x(c);
-	cy = camera_get_WINDOW_y(c);
+	c = view_camera[view_current];
+	cx = camera_get_view_x(c);
+	cy = camera_get_view_y(c);
 	
 	if (act_card) {
 		var r = offset[5] - 256;

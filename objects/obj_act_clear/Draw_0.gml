@@ -3,8 +3,8 @@
 	var cx, cy;
 
 	//Get screen position
-	cx = camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]);
-	cy = camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]);
+	cx = camera_get_view_x(view_camera[view_current]);
+	cy = camera_get_view_y(view_camera[view_current]);
 	
 	//Create surface if it doesn't exist
 	if(!surface_exists(surface)) surface = surface_create(global.window_width, global.window_height);
