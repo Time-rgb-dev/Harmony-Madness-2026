@@ -36,17 +36,8 @@
 		play_music(MUSIC.J_ACT_CLEAR, 0);
 	}
 	
-	//Move in card stuff
-	if(state = 0)
-	{
-		if(timer >= 24)	offset_x[0] = max(offset_x[0]-12, 0);
-		if(timer >= 32)	offset_x[1] = max(offset_x[1]-12, 0);
-		if(timer >= 40)	offset_x[2] = max(offset_x[2]-12, 0);
-		if(timer >= 48)	offset_x[3] = max(offset_x[3]-12, 0);
-	}
-	
 	//Subtract from the count
-	if(timer > 450 && state = 0){
+	if(timer > 475 && state = 0){
 		//Subtract time bonus
 		if(time_bonus > 0) {
 			time_bonus -= 100; 

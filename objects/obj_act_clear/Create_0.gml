@@ -6,9 +6,5 @@
 	state = 0;
 	total_bonus = 0;
 	
-	//HUD Offsets
-	for(var i = 0; i <= 3; i++)
-		offset_x[i] = 0;
-	
 	//Bonus
 	get_end_results();
