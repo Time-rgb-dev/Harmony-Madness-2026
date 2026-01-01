@@ -20,12 +20,12 @@ function player_misc(){
 	}
     
     //Lose water
-    if(global.object_timer mod 60 == 0 && global.annoying_killing_bullshit)
+    if(FRAME_TIMER mod 60 == 0 && input_disable == false && global.annoying_killing_bullshit)
     {
         hydration -= 2;
     }
     
-    if(hydration <= 0)
+    if(hydration <= 0 && state != player_state_null)
     {
         knockout_type = K_DIE;
     }

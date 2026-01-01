@@ -52,8 +52,8 @@
 			total_bonus += 100
 		}
         
-        //Subtract ring bonus
-		if(ring_bonus > 0) {
+        //Subtract hydration bonus
+		if(hydration_bonus > 0) {
 			hydration_bonus -= 100;
 			global.score += 100; 
 			total_bonus += 100;
