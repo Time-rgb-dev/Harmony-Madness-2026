@@ -65,6 +65,9 @@ function player_state_knockout(){
 			hitbox_allow = false;
 			
 			//Fade out
+			
+			draw_sprite_ext(spr_fucking_die, 0, x - WINDOW_WIDTH, y - WINDOW_HEIGHT,WINDOW_WIDTH,WINDOW_HEIGHT, 0, c_white, 1);
+			
 			if(death_timer == 120)
 			{
 				if(global.life != 0 || !is_time_over)
@@ -78,7 +81,13 @@ function player_state_knockout(){
 				}
 			}
 			
+			if(death_timer == 2) {
+				
+			}
+			
 			//Create game over
+			
+			
 			if(death_timer == 80)
 			{
 				if(global.life = 0 || is_time_over)
@@ -95,6 +104,8 @@ function player_state_knockout(){
 					}
 				}
 			}
+			
+			
 			
 			//Create bunch of bubbles for drowning event
 			if(FRAME_TIMER mod 4 == 0 && knockout_type == K_DROWN){

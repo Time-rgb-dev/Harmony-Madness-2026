@@ -84,7 +84,7 @@
 	global.chaotix_monitors = false;		//Changes monitor icons to be like chaotix, monitor icon spins and it turns into dust
 	global.use_peelout = true;				//Flag that allows peel-out ability
 	global.use_dropdash = true;				//Flag that allows dropdash ability
-	global.use_airroll = false;				//Flag that allows rolling while air-borne
+	global.use_airroll = true;				//Flag that allows rolling while air-borne
 	global.use_spindash = true;				//Flag taht allows player to use the spindash
 	global.camera_pan_type = 0;				//Variable that changes how camera panning works. 0 = No panning, 1 = Sonic CD panning[currently inaccurate], 2 = S1D/XG styled camera panning 
 	global.chaotix_dust_effect = false;		//Flag that disables classic spindash/skid dust effect

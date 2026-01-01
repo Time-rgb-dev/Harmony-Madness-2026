@@ -34,3 +34,5 @@
 			throw "Emerald shard count exceeds maximum count of " + string(min(emerald_hunt_total,10));	
 		}
 	}
+	
+	if(!instance_exists(obj_fucking_die)) instance_create_depth(0, 0, obj_hud.depth+1, obj_fucking_die);

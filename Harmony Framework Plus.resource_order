@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[
+    {"name":"fucking die","order":2,"path":"folders/Objects/fucking die.yy",},
     {"name":"Bonus Stage","order":1,"path":"folders/Objects/Stage Objects/Bonus Stage.yy",},
+    {"name":"fucking die","order":1,"path":"folders/Sprites/fucking die.yy",},
     {"name":"Bonus Stage","order":3,"path":"folders/Sprites/Stage Sprites/Bonus Stage.yy",},
     {"name":"Bridge Zone","order":1,"path":"folders/Sprites/Stage Sprites/Bridge Zone.yy",},
     {"name":"Common Sprites","order":2,"path":"folders/Sprites/Stage Sprites/Common Sprites.yy",},
