@@ -123,7 +123,8 @@
 	[
 		[9, 19],	//Sonic's hitbox
 		[9, 15],	//Tails' hitbox
-		[9, 19]		//Knuckles' hitbox
+		[9, 19],	//Knuckles' hitbox
+		[9, 13]		//Knuckles' hitbox
 	]
 	
 	//Rolling hitbox unique to each character
@@ -131,17 +132,21 @@
 	[
 		[7, 14],	//Sonic's hitbox
 		[7, 14],	//Tails' hitbox
-		[7, 14]		//Knuckles' hitbox
+		[7, 14],		//Knuckles' hitbox
+		[7, 13]		//Knuckles' hitbox
 	]
 	
 	//Camera rolling offset unique to each character
-	camera_rolling_offset = [5, 1, 5];
+	camera_rolling_offset = [5, 1, 5, 0];
 	
 	//the index for the players super form palette
 	super_color = 0;
-	super_palettes = [tex_pal_supersonic, tex_pal_supertails, tex_pal_superknux]
+	super_palettes = [tex_pal_supersonic, tex_pal_supertails, tex_pal_superknux, tex_pal_supersonic]
 	#macro SUPER_PALETTE_SIZE 16
 	#macro SUPER_PALETTE_LOOP 7
+	
+	gametap_rot = 0;
+	gametap_soundtimer = 0;
 	
 	//Setup scripts
 	player_recorder_setup();			//Setup player visuals recorder

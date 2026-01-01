@@ -2,24 +2,24 @@ function player_handle_physics(){
 	//Setup physics table for each character
 	var physics_table =
 	{
-		accel : [0.046875, 0.046875, 0.046875],
-		deaccel : [0.5,0.5,0.5],
-		fric : [0.046875, 0.046875, 0.046875],
-		grav : [0.21875, 0.21875, 0.21875],
-		top_speed : [6.0, 6.0, 6.0],
-		jump_strength : [6.5, 6.5, 6.0],
-		jump_release : [4.0, 4.0, 4.0],
-		roll_fric : [0.0234375,0.0234375,0.0234375],
-		slope_up : [0.078125, 0.078125, 0.078125],
-		slope_down : [0.3125, 0.3125, 0.3125]
+		accel : [0.046875, 0.046875, 0.046875, 0.046875],
+		deaccel : [0.5,0.5,0.5,0.5],
+		fric : [0.046875, 0.046875, 0.046875, 0.046875],
+		grav : [0.21875, 0.21875, 0.21875, 0.21875],
+		top_speed : [6.0, 6.0, 6.0, 6.0],
+		jump_strength : [6.5, 6.5, 6.0, 6.5],
+		jump_release : [4.0, 4.0, 4.0, 4.0],
+		roll_fric : [0.0234375,0.0234375,0.0234375,0.0234375],
+		slope_up : [0.078125, 0.078125, 0.078125, 0.078125],
+		slope_down : [0.3125, 0.3125, 0.3125, 0.3125]
 	};
 	
 	if (super){
-		physics_table.accel = [0.1875, 0.09375, 0.09375]
-		physics_table.deaccel = [1,0.75,0.75]
-		physics_table.grav = [0.21875, 0.21875, 0.21875]
-		physics_table.top_speed = [10.0, 8, 8]
-		physics_table.jump_strength = [8, 8, 6.0]	
+		physics_table.accel = [0.1875, 0.09375, 0.09375, 0.09375]
+		physics_table.deaccel = [1,0.75,0.75,0.75]
+		physics_table.grav = [0.21875, 0.21875, 0.21875, 0.21875]
+		physics_table.top_speed = [10.0, 8, 8, 8]
+		physics_table.jump_strength = [8, 8, 6.0, 6.0]	
 	}
 	
 	//Assign the physics value

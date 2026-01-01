@@ -6,41 +6,48 @@
 	
 	if(state = player_state_knockout || invincible_timer mod 12 >= 6 || invincible_timer = 0 || invincible)
 	{
-		if(speed_shoes || super)
+		if(character != CHAR_GAMETAP)
 		{
-			for (var i = 0; i < 3; ++i) 
+			if(speed_shoes || super)
 			{
-				if((FRAME_TIMER mod 3) = i )
+				for (var i = 0; i < 3; ++i) 
 				{
-					if(x_speed != 0 || y_speed != 0)
+					if((FRAME_TIMER mod 3) = i )
 					{
-						var gap = 9 - (3 * i);
-						with(obj_tails_object)
+						if(x_speed != 0 || y_speed != 0)
 						{
-							if(appear)
+							var gap = 9 - (3 * i);
+							with(obj_tails_object)
 							{
-								draw_sprite_ext(record_sprite[max(record_timer - gap, 0) mod 60], record_frame[max(record_timer - gap, 0) mod 60], other.record_x[max(other.record_timer - gap, 0) mod 60], other.record_y[max(other.record_timer - gap, 0) mod 60], obj_tails_object.record_direction[max(record_timer - gap, 0) mod 60], 1, obj_tails_object.record_angle[max(record_timer - gap, 0) mod 60], c_white, 1);
+								if(appear)
+								{
+									draw_sprite_ext(record_sprite[max(record_timer - gap, 0) mod 60], record_frame[max(record_timer - gap, 0) mod 60], other.record_x[max(other.record_timer - gap, 0) mod 60], other.record_y[max(other.record_timer - gap, 0) mod 60], obj_tails_object.record_direction[max(record_timer - gap, 0) mod 60], 1, obj_tails_object.record_angle[max(record_timer - gap, 0) mod 60], c_white, 1);
+								}
 							}
+							draw_sprite_ext(record_sprite[max(record_timer - gap, 0) mod 60], record_frame[max(record_timer - gap, 0) mod 60], record_x[max(record_timer - gap, 0) mod 60], record_y[max(record_timer - gap, 0) mod 60], record_direction[max(record_timer - gap, 0) mod 60], 1, record_angle[max(record_timer - gap, 0) mod 60], c_white, 1);
 						}
-						draw_sprite_ext(record_sprite[max(record_timer - gap, 0) mod 60], record_frame[max(record_timer - gap, 0) mod 60], record_x[max(record_timer - gap, 0) mod 60], record_y[max(record_timer - gap, 0) mod 60], record_direction[max(record_timer - gap, 0) mod 60], 1, record_angle[max(record_timer - gap, 0) mod 60], c_white, 1);
 					}
 				}
 			}
-		}
-		//Draw tails segment
-		if(character = CHAR_TAILS)
-		{
-			with(obj_tails_object)
+			//Draw tails segment
+			if(character = CHAR_TAILS)
 			{
-				if(appear)
+				with(obj_tails_object)
 				{
-					draw_animator(animator, floor(other.x), floor(other.y), image_xscale, 1, image_angle, c_white, 1);
+					if(appear)
+					{
+						draw_animator(animator, floor(other.x), floor(other.y), image_xscale, 1, image_angle, c_white, 1);
+					}
 				}
 			}
-		}
 		
-		//Draw the player:
-		draw_animator(animator, floor(x), floor(y), image_xscale, 1, image_angle, c_white, 1);
+			//Draw the player:
+			draw_animator(animator, floor(x), floor(y), image_xscale, 1, image_angle, c_white, 1);
+		}
+		else
+		{
+			draw_sprite_ext(spr_gametap, 0, floor(x), floor(y), image_xscale, 1, floor(gametap_rot), c_white, 1);	
+		}
 	}
 	shader_reset()
 	//Draw spindash dust effect

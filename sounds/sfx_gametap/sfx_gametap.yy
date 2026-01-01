@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_superring",
+  "%Name":"sfx_gametap",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.6180272,
+  "duration":0.22058956,
   "exportDir":"",
-  "name":"sfx_superring",
+  "name":"sfx_gametap",
   "parent":{
     "name":"Objects",
     "path":"folders/Sounds/Sound Effects/Objects.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_superring.wav",
+  "soundFile":"sfx_gametap.wav",
   "volume":1.0,
 }

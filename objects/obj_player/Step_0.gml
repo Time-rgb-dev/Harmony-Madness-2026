@@ -69,3 +69,17 @@
 	
 	//Handle player's interaction with water
 	player_water();
+	
+	gametap_rot -= ground_speed * 2;
+	
+	if(state == player_state_spindash)
+	{
+		gametap_rot -= max(spindash_rev * 3, 8) * facing;	
+	}
+	
+	gametap_soundtimer += abs(ground_speed); 
+	if(gametap_soundtimer > 60)
+	{
+		gametap_soundtimer = 0;
+		play_sound(sfx_gametap, false);	
+	}

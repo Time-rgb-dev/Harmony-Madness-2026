@@ -40,7 +40,7 @@
 		if(keyboard_check_pressed(vk_f1)) game_restart();
 		if(keyboard_check_pressed(vk_f10))
 		{
-			global.character = (global.character + 1) mod 3;
+			global.character = (global.character + 1) mod 4;
 			with(obj_player)
 			{
 				player_animation_list();
