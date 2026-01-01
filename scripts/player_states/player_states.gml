@@ -72,7 +72,7 @@ function player_state_conditions(){
 	
 	
 	//Stop if not specific state
-	if(state != player_state_dropdash)
+	if(state != player_state_dropdash || underwater)
 	{
 		audio_stop_sound(sfx_piss);
 	}

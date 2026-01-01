@@ -67,8 +67,12 @@
         #000022, c_blue, c_blue, 0, true, true);
 		
 		//Highness bar
-        draw_healthbar(8, WINDOW_HEIGHT-8, 64, WINDOW_HEIGHT-24, obj_player.highness,
+        draw_healthbar(WINDOW_WIDTH-8, WINDOW_HEIGHT-32, WINDOW_WIDTH-64, WINDOW_HEIGHT-48, obj_player.highness,
         #000000, c_red, c_red, 1, true, true);
+		
+        //Bladder fullness bar
+        if(obj_player.character == CHAR_SONIC) draw_healthbar(WINDOW_WIDTH-8, WINDOW_HEIGHT-32-24, WINDOW_WIDTH-64, WINDOW_HEIGHT-48-24, obj_player.bladder,
+        #222200, c_yellow, c_yellow, 1, true, true);
         
 	} else {
 		draw_sprite(spr_hudtext, 2, 16 + offset[0], 8);

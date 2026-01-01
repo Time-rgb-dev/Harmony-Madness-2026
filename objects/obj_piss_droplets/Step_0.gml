@@ -6,3 +6,4 @@ y += y_speed;
 x += x_speed;
 
 if(!on_screen(32,32)) instance_destroy();
+if(instance_exists(obj_water) && y > obj_water.y) instance_destroy();

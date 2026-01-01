@@ -7,14 +7,22 @@ function player_state_dropdash(){
 	
 	if(state != player_state_dropdash)
 	{
-		audio_stop_sound(sfx_piss);
 		exit;
 	}
-	hydration -= 0.8; //Removing water from your body
 	
-	if(irandom(1) == 0)
+	if(!underwater && !audio_is_playing(sfx_piss)) play_sound(sfx_piss, true);
+	
+	if(!underwater) 
 	{
-		instance_create_depth(x-facing*6, y+15, depth-1, obj_piss_droplets);
+		hydration -= 0.2; //Removing water from your body
+		if(irandom(1) == 0)
+		{
+			instance_create_depth(x-facing*6, y+15, depth-1, obj_piss_droplets);
+		}
+	}
+	else
+	{
+		if(instance_exists(obj_water)) obj_water.pissness++;
 	}
 	
 	if(y_speed > -5) y_speed -= y_accel*2;

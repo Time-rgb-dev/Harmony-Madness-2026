@@ -24,8 +24,19 @@ function player_misc(){
     {
         hydration -= 2;
     }
+	
+    if(FRAME_TIMER mod 10 == 0 && input_disable == false && global.annoying_killing_bullshit)
+    {
+        if(character = CHAR_SONIC && state != player_state_dropdash) bladder += 1;
+		else if(state == player_state_dropdash && bladder > 0) bladder -= 4;
+    }
     
     if(hydration <= 0 && state != player_state_null)
+    {
+        knockout_type = K_DIE;
+    }
+    
+    if(bladder >= 100 && state != player_state_null)
     {
         knockout_type = K_DIE;
     }

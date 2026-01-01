@@ -101,6 +101,8 @@ function player_water(){
 		x_speed = 0
 		y_speed = 0
 	}
+	//Drown in piss!
+	if(underwater && instance_exists(obj_water)) hydration -= obj_water.pissness/300;
 	//Create the countdown
 	switch(air){
 		case 20*60:

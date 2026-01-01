@@ -91,6 +91,7 @@
 	transform_timer = 0;				//Timer for how long to stay in the transformation state
 	hydration = 100;                    //Hydration
 	highness = 0;                       //Amount of highness
+	bladder = 0;                        //Your need for peed
     
 	//Character specifics:
 	tails_timer = 480;					//Timer used for tails flight
