@@ -42,6 +42,7 @@
 		case "Extra Life":
 			SOUND_EXTRA_LIFE;
 			global.life += 1;
+			instance_create_depth(x,y, obj_hud.depth, obj_like_and_subscribe);
 		break;
 		
 		case "Combine Ring":

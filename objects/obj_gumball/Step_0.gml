@@ -42,7 +42,8 @@ if (player_collide_object(C_MAIN) && !obj_player.input_disable){
 		case GUMBALL.ONEUP:
 			SOUND_EXTRA_LIFE;
 			global.life += 1;
-			instance_destroy()
+			instance_create_depth(x,y, obj_hud.depth, obj_like_and_subscribe);
+			instance_destroy();
 		break;
 		case GUMBALL.REPOSITION:
 			play_sound(sfx_burst)
