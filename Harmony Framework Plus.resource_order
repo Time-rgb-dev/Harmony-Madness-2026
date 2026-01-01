@@ -88,5 +88,6 @@
     {"name":"tex_pal_superknux","order":3,"path":"sprites/tex_pal_superknux/tex_pal_superknux.yy",},
     {"name":"tex_pal_supersonic","order":1,"path":"sprites/tex_pal_supersonic/tex_pal_supersonic.yy",},
     {"name":"tex_pal_supertails","order":2,"path":"sprites/tex_pal_supertails/tex_pal_supertails.yy",},
+    {"name":"ghz_collision","order":2,"path":"tilesets/ghz_collision/ghz_collision.yy",},
   ],
 }
