@@ -209,6 +209,7 @@
     {"id":{"name":"obj_collisionTunnel01","path":"objects/obj_collisionTunnel01/obj_collisionTunnel01.yy",},},
     {"id":{"name":"obj_combine_ring","path":"objects/obj_combine_ring/obj_combine_ring.yy",},},
     {"id":{"name":"obj_crumple_spring","path":"objects/obj_crumple_spring/obj_crumple_spring.yy",},},
+    {"id":{"name":"obj_crystal_meth","path":"objects/obj_crystal_meth/obj_crystal_meth.yy",},},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},},
     {"id":{"name":"obj_debug_teleport","path":"objects/obj_debug_teleport/obj_debug_teleport.yy",},},
     {"id":{"name":"obj_dev","path":"objects/obj_dev/obj_dev.yy",},},

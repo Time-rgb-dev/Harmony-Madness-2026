@@ -395,6 +395,7 @@
     {"name":"inst_529377E4","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
     {"name":"inst_7E2B00EB","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
     {"name":"inst_1264B883","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
+    {"name":"inst_5693FD46","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -2841,6 +2842,7 @@
         {"$GMRInstance":"v4","%Name":"inst_529377E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_529377E4","objectId":{"name":"obj_flom_egg","path":"objects/obj_flom_egg/obj_flom_egg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":376.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_7E2B00EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E2B00EB","objectId":{"name":"obj_flom_egg","path":"objects/obj_flom_egg/obj_flom_egg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":360.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_1264B883","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1264B883","objectId":{"name":"obj_flom_egg","path":"objects/obj_flom_egg/obj_flom_egg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":344.0,"y":800.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5693FD46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5693FD46","objectId":{"name":"obj_crystal_meth","path":"objects/obj_crystal_meth/obj_crystal_meth.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":400.0,"y":768.0,},
       ],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_13C60B49","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_13C60B49","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_aaz_crystal1","path":"sprites/spr_aaz_crystal1/spr_aaz_crystal1.yy",},"x":992.0,"y":784.0,},

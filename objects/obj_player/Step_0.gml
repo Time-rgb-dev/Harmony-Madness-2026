@@ -1,5 +1,7 @@
 /// @description Player scripts
 	
+	if (highness > 0.0) highness -= 0.1;
+	
 	//Step movement for sticking on the collision
 	steps = 1 + abs(floor(x_speed/13)) + abs(floor(y_speed/13));
 	

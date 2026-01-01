@@ -17,6 +17,7 @@
 	reach_range = 16;					//Range of how much angle sensors can go below floor checks
 	ceiling_lock = 0;					//Timer used for locking ceiling landing, hacky fix for collision bugs
 	facing = 1;							//Player's facing direction
+	highness = 0;                       //Amount of highness
 	
 	//Physics values
 	x_accel = 0.046875;					//Value used for player's horizontal acceleration

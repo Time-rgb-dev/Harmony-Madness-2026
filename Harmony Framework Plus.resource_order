@@ -1,9 +1,13 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+<<<<<<< Updated upstream
     {"name":"rm_arboreal_agate1","order":1,"path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},
     {"name":"rm_bonus","order":3,"path":"rooms/rm_bonus/rm_bonus.yy",},
     {"name":"rm_utter_bullshit1","order":1,"path":"rooms/rm_utter_bullshit1/rm_utter_bullshit1.yy",},
     {"name":"rm_your_zone","order":2,"path":"rooms/rm_your_zone/rm_your_zone.yy",},
+=======
+    {"name":"obj_crystal_meth","order":1,"path":"objects/obj_crystal_meth/obj_crystal_meth.yy",},
+>>>>>>> Stashed changes
   ],
 }
