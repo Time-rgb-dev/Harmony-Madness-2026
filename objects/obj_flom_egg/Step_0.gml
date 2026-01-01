@@ -16,10 +16,11 @@
     //He gives you rings nicely
     for(var i = 0; i < max_rings; i++) {
         if(timer == 120 + (i*10)) {
-            if(timer == 120 + (max_rings*10)) triggered = true;
             var r = instance_create_depth(x, y-24, depth, obj_ring);
             r.ringloss = true;
             r.y_speed = -2;
             r.x_speed = 2*image_xscale;
         }
     }
+    
+    if(timer == 120 + (max_rings*10)) triggered = true;
