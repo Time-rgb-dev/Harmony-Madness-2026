@@ -111,7 +111,7 @@ function player_handle_hurt()
 			state = player_state_knockout;
 			
 			//Bounce the player out
-			y_speed = -7;
+			y_speed = 0;
 			x_speed = 0;
 			ground = false;
 			
@@ -119,7 +119,9 @@ function player_handle_hurt()
 			camera_set_mode(CAM_NULL);
 			
 			//Play the hurt sound
-			play_sound(sfx_hurt);
+			var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
+			play_sound(splats[irandom(3)])
+			play_sound(sfx_death);
 		}
 		
 		//Kill the player after time has reached the limit

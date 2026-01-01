@@ -51,6 +51,8 @@ function player_state_knockout(){
 			//Disable collision
 			collision_allow = false;
 			x_speed = 0;
+			y_speed = 0;
+			y_accel = 0;
 			ground_speed = 0;
 			
 			//Add death timer
@@ -90,6 +92,7 @@ function player_state_knockout(){
 					global.store_player_state.rings = 0
 					ds_list_clear(global.store_object_state)
 					music_set_fade(FADE_OUT, 2);
+					global.subway_surfers = irandom(4) < 3 ? true : false; 
 					room_goto(rm_stage_select)
 				}
 			}
@@ -110,6 +113,7 @@ function player_state_knockout(){
 				global.store_player_state.shield = S_NONE
 				global.store_player_state.rings = 0
 				ds_list_clear(global.store_object_state)
+				global.subway_surfers = irandom(4) < 3 ? true : false; 
 				room_restart();
 			}
 		break;

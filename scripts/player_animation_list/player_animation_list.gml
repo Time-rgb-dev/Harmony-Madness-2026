@@ -67,8 +67,8 @@ function player_animation_list(){
 		animation_add(ANIM.SKID, spr_sonic_skid, 0.4, 0, false, false);
 		animation_add(ANIM.SKIDTURN, spr_sonic_skidturn, 0.3, 0, false, false);
 		animation_add(ANIM.HURT, spr_sonic_hurt, 0.3, 0, false, false);
-		animation_add(ANIM.DIE, spr_sonic_death, 0.3, 0, false, false);
-		animation_add(ANIM.DROWN, spr_sonic_drown, 0.3, 0, false, false);
+		animation_add(ANIM.DIE, spr_effect_explosion01, 0.3, 0, false, false);
+		animation_add(ANIM.DROWN, spr_effect_explosion01, 0.3, 0, false, false);
 		animation_add(ANIM.BREATHE, spr_sonic_breathe, 16, 0, false, true);
 		animation_add(ANIM.LEDGE1, spr_sonic_ledge1, 0.1, 0, true, false);
 		animation_add(ANIM.LEDGE2, spr_sonic_ledge2, 0.1, 0, true, false);
@@ -91,12 +91,12 @@ function player_animation_list(){
 		animation_add(ANIM.SKID, spr_tails_skid, 0.4, 0, false, false);
 		animation_add(ANIM.SKIDTURN, spr_tails_skidturn, 0.3, 0, false, false);
 		animation_add(ANIM.HURT, spr_tails_hurt, 0.3, 0, false, false);
-		animation_add(ANIM.DIE, spr_tails_die, 0.3, 0, false, false);
+		animation_add(ANIM.DIE, spr_effect_explosion01, 0.3, 0, false, false);
 		animation_add(ANIM.TAILSFLY, spr_tails_fly, 0.3, 0, true, false);
 		animation_add(ANIM.TAILSTIRED, spr_tails_tired, 0.2, 0, true, false);
 		animation_add(ANIM.TAILSSWIM, spr_tails_swim, 0.3, 0, true, false);
 		animation_add(ANIM.TAILSSWIMTIRED, spr_tails_swim_tired, 0.2, 0, true, false);	
-		animation_add(ANIM.DROWN, spr_tails_drown, 0.3, 0, false, false);
+		animation_add(ANIM.DROWN, spr_effect_explosion01, 0.3, 0, false, false);
 		animation_add(ANIM.BREATHE, spr_tails_breathe, 16, 0, false, true);
 		animation_add(ANIM.PUSH, spr_tails_push, 0.1, 0, true, false);
 		animation_add(ANIM.LEDGE1, spr_tails_ledge1, 0.1, 0, true, false);
@@ -119,7 +119,7 @@ function player_animation_list(){
 		animation_add(ANIM.SKID, spr_knuckles_skid, 0.4, 0, false, false);
 		animation_add(ANIM.SKIDTURN, spr_knuckles_skidturn, 0.3, 0, false, false);
 		animation_add(ANIM.HURT, spr_knuckles_hurt, 0.3, 0, false, false);
-		animation_add(ANIM.DIE, spr_knuckles_death, 0.3, 0, false, false);
+		animation_add(ANIM.DIE, spr_effect_explosion01, 0.3, 0, false, false);
 		animation_add(ANIM.KNUXGLIDE, spr_knuckles_glide, 0.15, 0, true, false);
 		animation_add(ANIM.KNUXGLIDETURN, spr_knuckles_turn, 0.12, 0, false, false);
 		animation_add(ANIM.KNUXCLIMBUP, spr_knuckles_climb, 0.12, 0, true, false);
@@ -130,7 +130,7 @@ function player_animation_list(){
 		animation_add(ANIM.KNUXLAND, spr_knuckles_landed, 0.2, 0, false, false);
 		animation_add(ANIM.KNUXSLIDE, spr_knuckles_slide, 0.2, 0, false, false);
 		animation_add(ANIM.KNUXGETUP, spr_knuckles_getup, 0.2, 0, false, false);
-		animation_add(ANIM.DROWN, spr_knuckles_drown, 0.3, 0, false, false);
+		animation_add(ANIM.DROWN, spr_effect_explosion01, 0.3, 0, false, false);
 		animation_add(ANIM.BREATHE, spr_knuckles_breathe, 16, 0, false, true);
 		animation_add(ANIM.PUSH, spr_knuckles_push, 0.1, 0, true, false);
 		animation_add(ANIM.LEDGE1, spr_knuckles_ledge1, 0.1, 0, true, false);

@@ -18,10 +18,7 @@
 		{
 			//Create battery ring
 			if (!shard) {
-				if(global.use_battery_rings)
-					instance_create_depth(x, y, depth, obj_battery_ring);
-				else	//Create flickies instead
-					instance_create_depth(x, y, depth, obj_flicky);
+				//nah
 			} else {
 				shard.hidden_within = false;
 				shard.collected = true;	
@@ -36,12 +33,14 @@
 		
 			//Create score object and add combo and badnik chain
 			obj_level.badnik_chain += 1;
-			create_score();
+			//create_score();
 		
 			//Create explosion effect
 			create_effect(x, y, spr_effect_explosion01, 0.3);
 		
 			//Play destroying sound
+			var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
+			play_sound(splats[irandom(3)])
 			play_sound(sfx_destroy);
 		
 			//Destroy badnik

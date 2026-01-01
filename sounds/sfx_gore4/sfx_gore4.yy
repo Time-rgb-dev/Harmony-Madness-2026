@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_destroy",
+  "%Name":"sfx_gore4",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.83591837,
+  "duration":1.0681179,
   "exportDir":"",
-  "name":"sfx_destroy",
+  "name":"sfx_gore4",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sounds/Sound Effects/Objects.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_destroy.mp3",
+  "soundFile":"sfx_gore4.wav",
   "volume":1.0,
 }

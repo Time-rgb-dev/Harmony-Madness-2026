@@ -52,7 +52,8 @@
 			y_speed = -2 * sign(image_yscale);
 			player.y_speed = max(abs(player.y_speed), 4) * -sign(image_yscale);
 			create_effect(x, y, spr_effect_explosion01, 0.3);
-			play_sound(sfx_destroy);
+			var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
+			play_sound(splats[irandom(3)])
 			
 			if (!instance_exists(obj_bonus_level)) {
 				global.store_object_state[| id] = true

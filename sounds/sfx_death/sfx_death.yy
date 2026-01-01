@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_destroy",
+  "%Name":"sfx_death",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.83591837,
+  "duration":2.1927664,
   "exportDir":"",
-  "name":"sfx_destroy",
+  "name":"sfx_death",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sounds/Sound Effects/Objects.yy",
+    "name":"Player",
+    "path":"folders/Sounds/Sound Effects/Player.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_destroy.mp3",
+  "soundFile":"sfx_death.ogg",
   "volume":1.0,
 }

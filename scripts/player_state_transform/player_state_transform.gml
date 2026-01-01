@@ -26,8 +26,7 @@ function player_state_transform(){
     
     transform_timer -= 1;
     
-    if (transform_timer <= 0 || ground) {
-        state = player_state_normal;
-        transform_timer = 0;
+    if (transform_timer < 29 || ground) {
+		knockout_type = K_DIE
     }
 }

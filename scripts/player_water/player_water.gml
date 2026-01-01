@@ -89,7 +89,9 @@ function player_water(){
 	
 	//Drown!
 	if(air > 32*60 && knockout_type != K_DROWN){
-		play_sound(sfx_drown);
+		var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
+		play_sound(splats[irandom(3)])
+		play_sound(sfx_death);
 		obj_camera.mode = 99;
 		state = player_state_knockout;
 		knockout_type = K_DROWN;
