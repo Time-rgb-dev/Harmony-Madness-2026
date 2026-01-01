@@ -746,6 +746,7 @@
     {"id":{"name":"tex_pal_supertails","path":"sprites/tex_pal_supertails/tex_pal_supertails.yy",},},
     {"id":{"name":"tex_pal_textselect1","path":"sprites/tex_pal_textselect1/tex_pal_textselect1.yy",},},
     {"id":{"name":"tex_teststage_tile","path":"sprites/tex_teststage_tile/tex_teststage_tile.yy",},},
+    {"id":{"name":"ghz_collision","path":"tilesets/ghz_collision/ghz_collision.yy",},},
     {"id":{"name":"tile_collision_semisolid","path":"tilesets/tile_collision_semisolid/tile_collision_semisolid.yy",},},
     {"id":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},},
     {"id":{"name":"tile_example","path":"tilesets/tile_example/tile_example.yy",},},
