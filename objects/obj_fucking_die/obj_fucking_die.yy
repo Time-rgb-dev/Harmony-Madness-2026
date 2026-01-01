@@ -9,8 +9,8 @@
   "name":"obj_fucking_die",
   "overriddenProperties":[],
   "parent":{
-    "name":"fucking die",
-    "path":"folders/Objects/fucking die.yy",
+    "name":"fucking die object",
+    "path":"folders/Objects/Player Objects/fucking die object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

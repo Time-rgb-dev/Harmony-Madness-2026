@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"fucking die",
-    "path":"folders/Sprites/fucking die.yy",
+    "name":"fucking die sprites",
+    "path":"folders/Sprites/Player Sprites/fucking die sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

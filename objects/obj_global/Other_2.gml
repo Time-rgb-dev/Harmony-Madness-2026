@@ -13,12 +13,9 @@
 	#macro DEVMODE false
 	#macro Dev:DEVMODE true
 	
-	//TO ENABLE DEVELOPER FEATURES, PLEASE GO INTO THE TARGET ICON AND SELECT "Dev"
-	//This helps you easily switch dev features on or off when compiling or testing your game
-	
 	//Game variables
 	global.process_objects = true;			//Flag that allows step event of every object to be processed
-	global.dev_mode = true;		//Flag for developer mode, which allows you to use dev commands, don't forget to turn this off when releasing the game
+	global.dev_mode = true;		            //Flag for developer mode, which allows you to use dev commands, don't forget to turn this off when releasing the game
 	
 	//Character globals
 	global.character = CHAR_SONIC;			//Global value for the character
@@ -86,7 +83,7 @@
 	global.use_dropdash = true;				//Flag that allows dropdash ability
 	global.use_airroll = true;				//Flag that allows rolling while air-borne
 	global.use_spindash = true;				//Flag taht allows player to use the spindash
-	global.camera_pan_type = 0;				//Variable that changes how camera panning works. 0 = No panning, 1 = Sonic CD panning[currently inaccurate], 2 = S1D/XG styled camera panning 
+	global.camera_pan_type = 2;				//Variable that changes how camera panning works. 0 = No panning, 1 = Sonic CD panning[currently inaccurate], 2 = S1D/XG styled camera panning 
 	global.chaotix_dust_effect = false;		//Flag that disables classic spindash/skid dust effect
 	global.camera_type = 1;					//Vertical camera scrolling type, 0 = Megadrive, 1 = Mania
 	global.knux_camera_smooth = false;		//Flag for using smooth ledge climb camera movement
