@@ -301,6 +301,7 @@
     {"id":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},},
     {"id":{"name":"rm_stage_select","path":"rooms/rm_stage_select/rm_stage_select.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"id":{"name":"rm_utter_bullshit1","path":"rooms/rm_utter_bullshit1/rm_utter_bullshit1.yy",},},
     {"id":{"name":"rm_your_zone","path":"rooms/rm_your_zone/rm_your_zone.yy",},},
     {"id":{"name":"add_background","path":"scripts/add_background/add_background.yy",},},
     {"id":{"name":"alpha_dither","path":"scripts/alpha_dither/alpha_dither.yy",},},
@@ -784,6 +785,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"roomId":{"name":"rm_utter_bullshit1","path":"rooms/rm_utter_bullshit1/rm_utter_bullshit1.yy",},},
     {"roomId":{"name":"rm_nintendo","path":"rooms/rm_nintendo/rm_nintendo.yy",},},
     {"roomId":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
