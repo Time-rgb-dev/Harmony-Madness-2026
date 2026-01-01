@@ -8,12 +8,12 @@
 	show_debug_message(sound_arr[0])
 	
 	//The lists
-	zone_list = [["ARBOREAL AGATE", rm_arboreal_agate1, rm_arboreal_agate2]];
+	zone_list = [["WEED HILL", rm_arboreal_agate1, rm_arboreal_agate2]];
 	
 	reset_stage_data();
 	global.score = 0;
 
-	quotes = ["WELCOME TO HARMONY FRAMEWORK!"];
+	quotes = ["WELCOME TO HARMONY MADNESS!"];
 	
 	quote_index = irandom(array_length(quotes)-1);
 	
