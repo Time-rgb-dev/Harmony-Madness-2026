@@ -50,6 +50,9 @@
 		draw_text(96 + offset[2], 41, string(global.rings));
 		draw_text(56 + offset[3], global.window_height - 24, (global.life > 9 ? "" : "0") + string(global.life));
 		
+		//Attention keeper
+		draw_sprite(spr_subway_surfers, image_index, WINDOW_WIDTH - 84, WINDOW_HEIGHT / 2);
+		
 		if (obj_player.combinering == 1){
 			draw_sprite(spr_monitor_icon_combine_ring, 0, 24 + offset[2], 64);	
 		}
