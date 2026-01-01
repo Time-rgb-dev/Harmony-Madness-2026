@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":141.12648,
+  "duration":167.77199,
   "exportDir":"",
   "name":"bgm_arboreal_agate1",
   "parent":{

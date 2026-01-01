@@ -284,6 +284,7 @@
     {"id":{"name":"rm_arboreal_agate1","path":"rooms/rm_arboreal_agate1/rm_arboreal_agate1.yy",},},
     {"id":{"name":"rm_arboreal_agate2","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},},
     {"id":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
+    {"id":{"name":"rm_idk","path":"rooms/rm_idk/rm_idk.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},},
     {"id":{"name":"rm_stage_select","path":"rooms/rm_stage_select/rm_stage_select.yy",},},
@@ -374,6 +375,7 @@
     {"id":{"name":"shd_alpha_dither","path":"shaders/shd_alpha_dither/shd_alpha_dither.yy",},},
     {"id":{"name":"shd_color_grading","path":"shaders/shd_color_grading/shd_color_grading.yy",},},
     {"id":{"name":"shd_color_replacer","path":"shaders/shd_color_replacer/shd_color_replacer.yy",},},
+    {"id":{"name":"shd_grayscale","path":"shaders/shd_grayscale/shd_grayscale.yy",},},
     {"id":{"name":"shd_line_dist","path":"shaders/shd_line_dist/shd_line_dist.yy",},},
     {"id":{"name":"shd_line_scroll","path":"shaders/shd_line_scroll/shd_line_scroll.yy",},},
     {"id":{"name":"bgm_arboreal_agate1","path":"sounds/bgm_arboreal_agate1/bgm_arboreal_agate1.yy",},},
@@ -756,6 +758,7 @@
     {"roomId":{"name":"rm_arboreal_agate2","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},},
     {"roomId":{"name":"rm_your_zone","path":"rooms/rm_your_zone/rm_your_zone.yy",},},
     {"roomId":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
+    {"roomId":{"name":"rm_idk","path":"rooms/rm_idk/rm_idk.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
