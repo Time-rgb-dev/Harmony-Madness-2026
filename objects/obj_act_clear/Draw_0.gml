@@ -19,7 +19,7 @@
 	
 	draw_sprite(spr_hud_actclear_time_bonus, 0, global.window_width/2-98, global.window_height/2);
 	draw_sprite(spr_hud_actclear_ring_bonus, 1, global.window_width/2-98, global.window_height/2 + 16);
-	draw_sprite(spr_hud_actclear_total_bonus, 2, global.window_width/2-82, global.window_height/2 + 48);
+	draw_sprite(spr_hud_actclear_total_bonus, 2, global.window_width/2-82, global.window_height/2 + 64);
 	
 	
 	//Draw numbers
@@ -29,7 +29,8 @@
 	//Draw text
 	draw_text(global.window_width/2+82, global.window_height/2, string(time_bonus));
 	draw_text(global.window_width/2+82, global.window_height/2+16, string(ring_bonus));
-	draw_text(global.window_width/2+74, global.window_height/2+48, string(total_bonus));
+    draw_text(global.window_width/2+82, global.window_height/2+32, string(hydration_bonus));
+	draw_text(global.window_width/2+74, global.window_height/2+64, string(total_bonus));
 	
 	draw_set_halign(fa_left);
 	

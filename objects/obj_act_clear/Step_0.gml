@@ -51,9 +51,16 @@
 			global.score += 100; 
 			total_bonus += 100
 		}
+        
+        //Subtract ring bonus
+		if(ring_bonus > 0) {
+			hydration_bonus -= 100;
+			global.score += 100; 
+			total_bonus += 100;
+		}
 		
 		//Play sound
-		if(FRAME_TIMER mod 4 = 0 && time_bonus > 0 || FRAME_TIMER mod 4 = 0 && ring_bonus > 0)
+		if(FRAME_TIMER mod 4 = 0 && time_bonus > 0 || FRAME_TIMER mod 4 = 0 && ring_bonus > 0 || FRAME_TIMER mod 4 = 0 && hydration_bonus > 0)
 			play_sound(sfx_scoreadd);
 		
 		//Skip the count down
@@ -70,9 +77,16 @@
 			total_bonus += ring_bonus;
 			ring_bonus -= ring_bonus; 
 		}
+        
+        if(Input.ActionPress && hydration_bonus > 0){
+			//Ring bonus skip
+			global.score += hydration_bonus; 
+			total_bonus += hydration_bonus;
+			hydration_bonus -= hydration_bonus; 
+		}
 		
 		//No more count down, switch to ending events
-		if(time_bonus = 0 && ring_bonus = 0){
+		if(time_bonus = 0 && ring_bonus = 0 && hydration_bonus = 0){
 			play_sound(sfx_scoretally);
 			timer = 0;
 			state = 1;
