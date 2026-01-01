@@ -70,4 +70,11 @@ function player_state_conditions(){
 		audio_stop_sound(sfx_tailstired);
 	}
 	
+	
+	//Stop if not specific state
+	if(state != player_state_dropdash)
+	{
+		audio_stop_sound(sfx_piss);
+	}
+	
 }

@@ -33,7 +33,7 @@
 	roll_speed_cap = 18;				//Value for rolling's maximum speed
 	
 	//State related values:
-	state = player_state_normal;					//Player's state machine
+	state = player_state_normal;		//Player's state machine
 	spindash_rev = 0;					//Spindash charge value
 	skid_timer = 0;						//Timer that is used to cancel the skid when input is not being held
 	dropdash_timer = 0;					//Dropdash charge delay timer

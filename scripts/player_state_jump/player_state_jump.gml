@@ -43,26 +43,21 @@ function player_state_jump(){
 		exit;
 	}
 	
-	//If global value for dropdash is diabled don't execute
-	if(global.use_dropdash) {
-	
-		//Add dropdash timer
-		if(character == CHAR_SONIC)
+	//Time to take a piss!
+	if(character == CHAR_SONIC)
+	{
+		if(press_action && dropdash_timer < 1 && y_speed > -jump_release ||
+		hold_action && dropdash_timer != 0)
 		{
-			if(press_action && dropdash_timer < 1 && y_speed > -jump_release ||
-			hold_action && dropdash_timer != 0)
-			{
-				dropdash_timer++;
-			}
+			dropdash_timer++;
 		}
-		//Trigger the dropdash state
-		if(dropdash_timer >= 8 && state != player_state_dropdash)
-		{
-			play_sound(sfx_dropdash);
-			state = player_state_dropdash;
-			exit;
-		}
-	
+	}
+	//Trigger the Piss! state
+	if(dropdash_timer >= 8 && state != player_state_dropdash)
+	{
+		state = player_state_dropdash;
+		play_sound(sfx_piss, true);
+		exit;
 	}
 	
 	//Trigger fly
