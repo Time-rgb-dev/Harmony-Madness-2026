@@ -632,6 +632,7 @@
     {"id":{"name":"spr_knuckles_walk","path":"sprites/spr_knuckles_walk/spr_knuckles_walk.yy",},},
     {"id":{"name":"spr_layer_switch","path":"sprites/spr_layer_switch/spr_layer_switch.yy",},},
     {"id":{"name":"spr_levsel_bg","path":"sprites/spr_levsel_bg/spr_levsel_bg.yy",},},
+    {"id":{"name":"spr_ltg","path":"sprites/spr_ltg/spr_ltg.yy",},},
     {"id":{"name":"spr_luo_xiaohei","path":"sprites/spr_luo_xiaohei/spr_luo_xiaohei.yy",},},
     {"id":{"name":"spr_machine_handle","path":"sprites/spr_machine_handle/spr_machine_handle.yy",},},
     {"id":{"name":"spr_machine_lid","path":"sprites/spr_machine_lid/spr_machine_lid.yy",},},

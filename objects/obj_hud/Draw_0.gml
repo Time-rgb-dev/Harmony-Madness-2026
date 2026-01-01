@@ -75,10 +75,10 @@
         #222200, c_yellow, c_yellow, 1, true, true);
         
 	} else {
-		draw_sprite(spr_hudtext, 2, 16 + offset[0], 8);
+		draw_sprite(spr_hudtext, 0, 16 + offset[0], 8);
 		
 		//Red flashing text
-		if(global.rings == 0 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 4, 16 + offset[0], 8);
+		if(global.rings == 0 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 3, 16 + offset[0], 8);
 		//Draw life icon
 		draw_sprite(spr_hud_life_icons, global.character, 16 + offset[1], global.window_height - 26);
 		
@@ -143,12 +143,12 @@
 	
 	draw_surface(surf, cx, cy);
 	
-	if (elec_timer > 0){
-		elec_timer--;	
-	}
+	if (elec_timer > 0) elec_timer--;
+	if (ltg_timer > 0) ltg_timer--;
 	
 	var sprlength = sprite_get_number(spr_may_shock_the_viewers)
-	draw_sprite_ext(spr_may_shock_the_viewers,elec_timer mod sprlength,cx,cy,1,1,0,c_white,elec_timer/60)
+	draw_sprite_ext(spr_may_shock_the_viewers,elec_timer mod sprlength,cx,cy,1,1,0,c_white,elec_timer/60);
+	draw_sprite_stretched_ext(spr_ltg,0,cx,cy,WINDOW_WIDTH,WINDOW_HEIGHT,c_white,ltg_timer/60);
 	
 	if(slide_in)
 	{
