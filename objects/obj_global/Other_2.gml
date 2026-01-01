@@ -18,7 +18,7 @@
 	
 	//Game variables
 	global.process_objects = true;			//Flag that allows step event of every object to be processed
-	global.dev_mode = DEVMODE;					//Flag for developer mode, which allows you to use dev commands, don't forget to turn this off when releasing the game
+	global.dev_mode = true;		//Flag for developer mode, which allows you to use dev commands, don't forget to turn this off when releasing the game
 	
 	//Character globals
 	global.character = CHAR_SONIC;			//Global value for the character
