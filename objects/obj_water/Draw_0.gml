@@ -2,8 +2,8 @@
 
 	//Camera position
 	var cx, cy, sw, sh;
-	cx = camera_get_view_x(view_camera[view_current])-64;
-	cy = camera_get_view_y(view_camera[view_current])
+	cx = camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])-64;
+	cy = camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])
 	sw = global.window_width;
 	sh = global.window_height;
 	

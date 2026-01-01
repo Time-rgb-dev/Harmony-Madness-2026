@@ -7,4 +7,8 @@ if (!done && (Input.APress || Input.StartPress)) {
 	image_index = 33;
 }
 
-if (done && image_index >= 40) fade_to_room(rm_stage_select, 9999, FADE_BLACK);
+if (done && image_index >= 40)
+{
+    instance_destroy();
+    instance_create_depth(0, 0, 0, obj_garn47_screen);
+}

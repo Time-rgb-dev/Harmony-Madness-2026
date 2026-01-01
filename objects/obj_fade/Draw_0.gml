@@ -1,9 +1,9 @@
 /// @description Draw fade
 	//Screen values
 	var c, cx, cy, sw, sh, r, g, b;
-	c = view_camera[view_current]
-	cx = camera_get_view_x(c)
-	cy = camera_get_view_y(c)
+	c = WINDOW_camera[WINDOW_current]
+	cx = camera_get_WINDOW_x(c)
+	cy = camera_get_WINDOW_y(c)
 	sw = global.window_width;
 	sh = global.window_height;
 	

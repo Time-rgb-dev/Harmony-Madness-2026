@@ -31,7 +31,7 @@
 		surface_reset_target();
 		
 		//Draw surface
-		draw_surface(surf, camera_get_view_x(view_camera[view_current]), camera_get_view_y(view_camera[view_current]))	
+		draw_surface(surf, camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]), camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]))	
 		
 		//Draw hitbox
 		draw_set_color(c_red);
@@ -81,7 +81,7 @@
 		surface_reset_target();
 		
 		//Draw surface
-		draw_surface(surf, camera_get_view_x(view_camera[view_current]), camera_get_view_y(view_camera[view_current]))	
+		draw_surface(surf, camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]), camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]))	
 	}
 	//Disable not in debug mode
 	if(!debug || !instance_exists(obj_player)) exit;
@@ -114,4 +114,4 @@
 	draw_text(mouse_x, mouse_y-32, string_upper(object_get_name(object_list[object_select])));
 	
 	//Draw surface
-	draw_surface(surf, camera_get_view_x(view_camera[view_current]), camera_get_view_y(view_camera[view_current]))	
+	draw_surface(surf, camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]), camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]))	

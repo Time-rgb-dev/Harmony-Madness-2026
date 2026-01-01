@@ -19,7 +19,7 @@
 		y_speed += 0.25
 		
 		//Destroy off screen
-		if(y > camera_get_view_y(view_camera[view_current]) + WINDOW_HEIGHT + 32) 
+		if(y > camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]) + WINDOW_HEIGHT + 32) 
 		{
 			instance_destroy();
 		}

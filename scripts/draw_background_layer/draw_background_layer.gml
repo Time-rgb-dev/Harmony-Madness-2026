@@ -7,13 +7,13 @@ function draw_background_layer(background_layer)
 		if(trigger[background_layer])
 		{
 			//Horizontal offset
-			var reposition_x =  ((camera_get_view_x(view_camera[view_current])*factor_x[background_layer]) + offset_x[background_layer])
-			diff_x[background_layer] = reposition_x - camera_get_view_x(view_camera[view_current]);
+			var reposition_x =  ((camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])*factor_x[background_layer]) + offset_x[background_layer])
+			diff_x[background_layer] = reposition_x - camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]);
 			offset_x[background_layer] += offset_x[background_layer] - diff_x[background_layer]
 			
 			//Vertical offset
-			var reposition_y =  ((camera_get_view_y(view_camera[view_current])*factor_y[background_layer]) + offset_y[background_layer])
-			diff_y[background_layer] = reposition_y - camera_get_view_y(view_camera[view_current]);
+			var reposition_y =  ((camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])*factor_y[background_layer]) + offset_y[background_layer])
+			diff_y[background_layer] = reposition_y - camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]);
 			offset_y[background_layer] += offset_y[background_layer] - diff_y[background_layer]
 			
 			//Disable the trigger
@@ -21,11 +21,11 @@ function draw_background_layer(background_layer)
 		}
 		
 		//Normal scrolling
-		pos_x[background_layer] = ((camera_get_view_x(view_camera[view_current])*factor_x[background_layer]) + offset_x[background_layer])
-		pos_y[background_layer] = floor(camera_get_view_y(view_camera[view_current])*factor_y[background_layer] + offset_y[background_layer]);
+		pos_x[background_layer] = ((camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])*factor_x[background_layer]) + offset_x[background_layer])
+		pos_y[background_layer] = floor(camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])*factor_y[background_layer] + offset_y[background_layer]);
 		
-		diff_x[background_layer] = pos_x[background_layer] - camera_get_view_x(view_camera[view_current]);
-		diff_y[background_layer] = pos_y[background_layer] - camera_get_view_y(view_camera[view_current]);
+		diff_x[background_layer] = pos_x[background_layer] - camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]);
+		diff_y[background_layer] = pos_y[background_layer] - camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]);
 
 		//Auto scrolling
 		offset_x[background_layer] += speed_x[background_layer];
@@ -43,13 +43,13 @@ function draw_background_layer(background_layer)
 		if(trigger[background_layer])
 		{
 			//Horizontal offset
-			var reposition_x = ((camera_get_view_x(view_camera[view_current])*(factor_x[background_layer])) + offset_x[background_layer]);
-			diff_x[background_layer] = reposition_x - camera_get_view_x(view_camera[view_current]);
+			var reposition_x = ((camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])*(factor_x[background_layer])) + offset_x[background_layer]);
+			diff_x[background_layer] = reposition_x - camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]);
 			offset_x[background_layer] += offset_x[background_layer] - diff_x[background_layer]
 			
 			//Vertical offset
-			var reposition_y =  ((camera_get_view_y(view_camera[view_current])*factor_y[background_layer]) + offset_y[background_layer])
-			diff_y[background_layer] = reposition_y - camera_get_view_y(view_camera[view_current]);
+			var reposition_y =  ((camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])*factor_y[background_layer]) + offset_y[background_layer])
+			diff_y[background_layer] = reposition_y - camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]);
 			offset_y[background_layer] += offset_y[background_layer] - diff_y[background_layer]
 			
 			//Disable the trigger
@@ -57,11 +57,11 @@ function draw_background_layer(background_layer)
 		}
 		
 		//Normal scrolling
-		pos_x[background_layer] = ((camera_get_view_x(view_camera[view_current])*(1-factor_x[background_layer])) - offset_x[background_layer]);
-		pos_y[background_layer] = floor(camera_get_view_y(view_camera[view_current])*factor_y[background_layer] + offset_y[background_layer]);
+		pos_x[background_layer] = ((camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])*(1-factor_x[background_layer])) - offset_x[background_layer]);
+		pos_y[background_layer] = floor(camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])*factor_y[background_layer] + offset_y[background_layer]);
 		
-		diff_x[background_layer] = ((camera_get_view_x(view_camera[view_current])*factor_x[background_layer]) + offset_x[background_layer]) - camera_get_view_x(view_camera[view_current])
-		diff_y[background_layer] = (floor(camera_get_view_y(view_camera[view_current])*factor_y[background_layer]) + offset_y[background_layer]) - camera_get_view_y(view_camera[view_current])
+		diff_x[background_layer] = ((camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])*factor_x[background_layer]) + offset_x[background_layer]) - camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])
+		diff_y[background_layer] = (floor(camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])*factor_y[background_layer]) + offset_y[background_layer]) - camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])
 
 
 		//Auto scrolling
@@ -85,7 +85,7 @@ function draw_background_layer(background_layer)
 		shader_set_uniform_f(BGWidth, sprite_get_width(background_sprite[background_layer]));
 		shader_set_uniform_f(BGTexel, texture_get_texel_width(sprite_get_texture(background_sprite[background_layer], 0)));
 		shader_set_uniform_f(OffX, pos_x[background_layer]);
-		shader_set_uniform_f(PosX, camera_get_view_x(view_camera[view_current]), pos_y[background_layer]);
+		shader_set_uniform_f(PosX, camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]), pos_y[background_layer]);
 		shader_set_uniform_f(StepY, line_steps[background_layer]/(1-factor_x[background_layer]));
 		shader_set_uniform_f(HeightY, line_gap[background_layer]);
 		shader_set_uniform_f(ScaleY, bg_scale[background_layer]); 
@@ -94,7 +94,7 @@ function draw_background_layer(background_layer)
 		//Draw the background if visibility flag is on
 		if (visibility[background_layer] == true) 
 		{
-			draw_sprite_ext(background_sprite[background_layer], background_frame[background_layer], camera_get_view_x(view_camera[view_current]), floor(pos_y[background_layer]) , 1, bg_scale[background_layer], 0, c_white, 1);
+			draw_sprite_ext(background_sprite[background_layer], background_frame[background_layer], camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]), floor(pos_y[background_layer]) , 1, bg_scale[background_layer], 0, c_white, 1);
 		}
 	}
 	

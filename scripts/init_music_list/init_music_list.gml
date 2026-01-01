@@ -7,6 +7,7 @@ function init_music_list()
 	//None here!
 	
 	//Game jingles:
+    music_add(MUSIC.TITLE, bgm_garn47_menu);
 	music_add(MUSIC.MENU, bgm_menu, 0.565);
 	music_add(MUSIC.TITLE, bgm_title, 0.00, 0.00, false);
 	music_add(MUSIC.J_GAME_OVER, j_game_over, 0.00, 0.00, false);

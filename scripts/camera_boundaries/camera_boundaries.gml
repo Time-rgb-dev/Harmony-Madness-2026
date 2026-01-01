@@ -1,11 +1,11 @@
 function camera_boundaries(){
 	//Screen values
 	var c, cx, cy, sw, sh;
-	c = view_camera[view_current]
-	cx = camera_get_view_x(c)
-	cy = camera_get_view_y(c)
-	sw = camera_get_view_width(view_camera[view_current]);
-	sh = camera_get_view_height(view_camera[view_current]);
+	c = WINDOW_camera[WINDOW_current]
+	cx = camera_get_WINDOW_x(c)
+	cy = camera_get_WINDOW_y(c)
+	sw = camera_get_WINDOW_width(WINDOW_camera[WINDOW_current]);
+	sh = camera_get_WINDOW_height(WINDOW_camera[WINDOW_current]);
 	
 	var by = abs(floor(target_y - previous_y));
 	

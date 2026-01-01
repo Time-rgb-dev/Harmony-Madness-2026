@@ -1,9 +1,9 @@
 /// @description Draw dev menu
 	
 	//Get the screen position
-	var c = view_camera[view_current];
-	var cx = camera_get_view_x(c);
-	var cy = camera_get_view_y(c);
+	var c = WINDOW_camera[WINDOW_current];
+	var cx = camera_get_WINDOW_x(c);
+	var cy = camera_get_WINDOW_y(c);
 	
 	//Create surface if it doesn't exist
 	if(!surface_exists(surface))

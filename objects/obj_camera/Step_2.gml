@@ -22,7 +22,7 @@
 	shake_y = max(shake_y - shake_speed, 0);
 	
 	//Scroll the room
-	camera_set_view_pos(view_camera[0], floor(camera_x) - center_x + random_range(-camera_shake, camera_shake) + shake_x_result, floor(camera_y) - center_y + random_range(-camera_shake, camera_shake) + shake_y_result);
+	camera_set_WINDOW_pos(WINDOW_camera[0], floor(camera_x) - center_x + random_range(-camera_shake, camera_shake) + shake_x_result, floor(camera_y) - center_y + random_range(-camera_shake, camera_shake) + shake_y_result);
 	
 	//Camera shake
 	camera_shake *= 0.9;
@@ -32,8 +32,8 @@
 	}
 	
 	//You know, sometimes it's boring to look at the checkerboard background, so have a parallax!
-	layer_x(layer_get_id("Background"), camera_get_view_x(view_camera[view_current]) * 0.7);
-	layer_y(layer_get_id("Background"), camera_get_view_y(view_camera[view_current]) * 0.7);
+	layer_x(layer_get_id("Background"), camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]) * 0.7);
+	layer_y(layer_get_id("Background"), camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]) * 0.7);
 	
 	//Subtract lag value
 	h_lag = max(h_lag - 1, 0);

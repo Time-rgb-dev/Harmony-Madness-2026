@@ -4,8 +4,8 @@ function draw_sprite_tiled_horizontal(sprite, subimg, pos_x, pos_y, vertical = f
 	Width = sprite_get_width(sprite);
 	Height = sprite_get_height(sprite);
 	Left  = -1;
-	Right = camera_get_view_x(view_camera[view_current])/Width+global.window_width/Width+2;
-	Bottom = camera_get_view_y(view_camera[view_current])/Height+global.window_height/Height+2;
+	Right = camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])/Width+global.window_width/Width+2;
+	Bottom = camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])/Height+global.window_height/Height+2;
 	
 	if(!vertical)
 	{
@@ -31,8 +31,8 @@ function draw_sprite_tiled_horizontal_part(sprite, subimg, left, top, width, hei
 	Width = sprite_get_width(sprite);
 	Height = sprite_get_height(sprite);
 	Left  = -1;
-	Right = camera_get_view_x(view_camera[view_current])/Width+global.window_width/Width+2;
-	Bottom = camera_get_view_y(view_camera[view_current])/Height+global.window_height/Height+2;
+	Right = camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])/Width+global.window_width/Width+2;
+	Bottom = camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])/Height+global.window_height/Height+2;
 	
 
 

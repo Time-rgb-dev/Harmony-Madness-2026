@@ -7,8 +7,8 @@ draw_set_halign(fa_left);
 draw_text(x, y, string(bg_mode));
 
 	var cx, cy;
-	cx = camera_get_view_x(view_camera[view_current])+global.window_width/2;
-	cy = camera_get_view_y(view_camera[view_current])+global.window_height/2;
+	cx = camera_get_WINDOW_x(WINDOW_camera[WINDOW_current])+global.window_width/2;
+	cy = camera_get_WINDOW_y(WINDOW_camera[WINDOW_current])+global.window_height/2;
 	
 draw_set_color(c_red);
 draw_set_alpha(0.5);

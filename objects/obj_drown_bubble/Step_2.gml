@@ -12,8 +12,8 @@
 	timer += 1;
 
 	//Get screen position
-	var cx = camera_get_view_x(view_camera[view_current]);
-	var cy = camera_get_view_y(view_camera[view_current]);
+	var cx = camera_get_WINDOW_x(WINDOW_camera[WINDOW_current]);
+	var cy = camera_get_WINDOW_y(WINDOW_camera[WINDOW_current]);
 	
 	//Position the bubble 
 	if(image_index < 4){

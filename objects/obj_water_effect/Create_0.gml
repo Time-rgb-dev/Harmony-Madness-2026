@@ -4,7 +4,7 @@
 	//Visual functions
 	function aaz2_water_dist_start(){
 		if(!instance_exists(obj_water)) exit;
-		var c = view_camera[0];
+		var c = WINDOW_camera[0];
               
 	    if (!surface_exists(global.pal_surf)) 
 		{
@@ -20,9 +20,9 @@
 	function aaz2_water_dist_end(){
 		if(!instance_exists(obj_water)) exit;
 		
-		var c = view_camera[0];
-	    var cx = camera_get_view_x(c);
-	    var cy = camera_get_view_y(c);
+		var c = WINDOW_camera[0];
+	    var cx = camera_get_WINDOW_x(c);
+	    var cy = camera_get_WINDOW_y(c);
   
 		
 	    surface_reset_target();
