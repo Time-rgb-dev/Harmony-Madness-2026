@@ -4,3 +4,5 @@
 	
 	//Surface
 	surf = surface_create(WINDOW_WIDTH, WINDOW_HEIGHT);
+	
+	audio_stop_sound(Sound67)

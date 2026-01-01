@@ -66,18 +66,11 @@ function player_state_knockout(){
 			
 			//Fade out
 			
-			draw_sprite_ext(spr_fucking_die, 0, x - WINDOW_WIDTH, y - WINDOW_HEIGHT,WINDOW_WIDTH,WINDOW_HEIGHT, 0, c_white, 1);
-			
-			if(death_timer == 120)
+			if(death_timer == 59)
 			{
 				if(global.life != 0 || !is_time_over)
 				{
 					global.life -= 1;
-					if(global.life != 0 && !is_time_over)
-					{
-						fade_change(FADE_OUT, 3,FADE_BLACK)
-						music_set_fade(FADE_OUT, 2);
-					}
 				}
 			}
 			
@@ -88,7 +81,7 @@ function player_state_knockout(){
 			//Create game over
 			
 			
-			if(death_timer == 80)
+			if(death_timer == 360)
 			{
 				if(global.life = 0 || is_time_over)
 				{
@@ -97,11 +90,7 @@ function player_state_knockout(){
 					global.store_player_state.rings = 0
 					ds_list_clear(global.store_object_state)
 					music_set_fade(FADE_OUT, 2);
-					if(!instance_exists(obj_game_over))	
-					{
-						var a = instance_create_layer(0, 0, "Utilities", obj_game_over);
-						if(global.life = 0)a.type = 0; else a.type = 1;
-					}
+					room_goto(rm_stage_select)
 				}
 			}
 			
@@ -115,7 +104,7 @@ function player_state_knockout(){
 			}
 			
 			//Restart
-			if(death_timer == 160 && global.life != 0 && !is_time_over)
+			if(death_timer == 60 && global.life != 0 && !is_time_over)
 			{
 				global.store_player_state.combinering = 0
 				global.store_player_state.shield = S_NONE

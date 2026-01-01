@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"fon_times","order":1,"path":"fonts/fon_times/fon_times.yy",},
+    {"name":"spr_fucking_die_character","order":1,"path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},
     {"name":"spr_may_shock_the_viewers","order":1,"path":"sprites/spr_may_shock_the_viewers/spr_may_shock_the_viewers.yy",},
   ],
 }
