@@ -82,6 +82,7 @@
 		}
 	}
 	
+	
 	if (ds_map_exists(global.red_ring_map, obj_level.stage_name)) {
 		var i = 0;
 		repeat(obj_level.red_ring_count) {
@@ -130,6 +131,12 @@
 	
 	draw_surface(surf, cx, cy);
 	
+	if (elec_timer > 0){
+		elec_timer--;	
+	}
+	
+	var sprlength = sprite_get_number(spr_may_shock_the_viewers)
+	draw_sprite_ext(spr_may_shock_the_viewers,elec_timer mod sprlength,cx,cy,1,1,0,c_white,elec_timer/60)
 	
 	if(slide_in)
 	{

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.450998,
+  "duration":1.4280272,
   "exportDir":"",
   "name":"sfx_electric_shield_jump",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_electric_shield_jump.wav",
+  "soundFile":"sfx_electric_shield_jump.ogg",
   "volume":1.0,
 }

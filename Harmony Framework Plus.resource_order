@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_may_shock_the_viewers","order":1,"path":"sprites/spr_may_shock_the_viewers/spr_may_shock_the_viewers.yy",},
+  ],
 }

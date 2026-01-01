@@ -1,6 +1,6 @@
 /// @description Look where the player is
     //So you can't have infinite rings
-    if(triggered) exit;
+    if(triggered || !on_screen()) exit;
     
     //If you're not moving while able to, add to the timer
     if(obj_player.ground_speed == 0 && !obj_player.input_disable && !triggered) timer++;
