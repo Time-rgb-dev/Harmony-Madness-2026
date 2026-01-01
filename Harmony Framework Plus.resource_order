@@ -48,6 +48,8 @@
     {"name":"spr_crabmeat_walk","order":4,"path":"sprites/spr_crabmeat_walk/spr_crabmeat_walk.yy",},
     {"name":"spr_crabmeat_walkl_steep","order":5,"path":"sprites/spr_crabmeat_walkl_steep/spr_crabmeat_walkl_steep.yy",},
     {"name":"spr_crabmeat_walkr_steep","order":8,"path":"sprites/spr_crabmeat_walkr_steep/spr_crabmeat_walkr_steep.yy",},
+    {"name":"spr_ghz_collision","order":1,"path":"sprites/spr_ghz_collision/spr_ghz_collision.yy",},
+    {"name":"spr_ghz","order":10,"path":"sprites/spr_ghz/spr_ghz.yy",},
     {"name":"spr_gumball_machine","order":2,"path":"sprites/spr_gumball_machine/spr_gumball_machine.yy",},
     {"name":"spr_gumball","order":5,"path":"sprites/spr_gumball/spr_gumball.yy",},
     {"name":"spr_hydroplaning","order":1,"path":"sprites/spr_hydroplaning/spr_hydroplaning.yy",},

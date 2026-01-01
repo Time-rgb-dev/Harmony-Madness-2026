@@ -536,6 +536,8 @@
     {"id":{"name":"spr_font_debug","path":"sprites/spr_font_debug/spr_font_debug.yy",},},
     {"id":{"name":"spr_font_random","path":"sprites/spr_font_random/spr_font_random.yy",},},
     {"id":{"name":"spr_font_small","path":"sprites/spr_font_small/spr_font_small.yy",},},
+    {"id":{"name":"spr_ghz_collision","path":"sprites/spr_ghz_collision/spr_ghz_collision.yy",},},
+    {"id":{"name":"spr_ghz","path":"sprites/spr_ghz/spr_ghz.yy",},},
     {"id":{"name":"spr_gumball_machine","path":"sprites/spr_gumball_machine/spr_gumball_machine.yy",},},
     {"id":{"name":"spr_gumball","path":"sprites/spr_gumball/spr_gumball.yy",},},
     {"id":{"name":"spr_hud_actclear_character","path":"sprites/spr_hud_actclear_character/spr_hud_actclear_character.yy",},},
