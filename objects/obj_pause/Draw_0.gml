@@ -11,9 +11,28 @@
 	
 	//Draw background
 	draw_set_color(c_black);
-	draw_set_alpha(0.75);
 	draw_rectangle(cx, cy, cx+sw, cy+sh, false);
 	draw_set_color(c_white);
-	draw_set_alpha(1);
 	
-	
+	switch(pause_screen)
+	{
+		case 0: //Xiaohei jumpscare
+		{
+			draw_set_font(global.font_debug);
+			draw_set_halign(fa_center);
+			draw_set_color(c_white);
+			draw_set_valign(fa_top);
+			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "you should be watching The Legend of Hei right now");
+			draw_set_font(-1);
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			draw_sprite_ext(spr_luo_xiaohei, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.175, 0.175, 0, c_white, 1);
+			break;
+		}
+		
+		case 1: //Spider-Man
+		{
+			draw_sprite_ext(spr_spiderman, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.5, 0.5, 0, c_white, 1);
+			break;
+		}
+	}
