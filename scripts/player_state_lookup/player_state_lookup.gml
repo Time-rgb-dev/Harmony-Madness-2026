@@ -12,7 +12,7 @@ function player_state_lookup(){
 		}
 	}
 	
-	if(press_action && ground && !touching_ceiling && !force_roll)
+	if(press_action && ground && !touching_ceiling && !force_roll && character != CHAR_GRANDMA)
 	{
 		//Change animation
 		animation_play(animator, ANIM.ROLL);

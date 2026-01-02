@@ -140,6 +140,7 @@ function player_animation_list(){
 		break;
 		
 		case CHAR_GAMETAP:
+		case CHAR_GRANDMA:
 		animation_add(ANIM.STAND, spr_super_sonic_idle, 0.2)
 		break;
 	}

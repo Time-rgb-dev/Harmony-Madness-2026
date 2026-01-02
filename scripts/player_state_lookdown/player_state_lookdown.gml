@@ -24,7 +24,7 @@ function player_state_lookdown(){
 	}
 	
 	//Trigger the spindash
-	if(press_action && global.use_spindash)
+	if(press_action && global.use_spindash && character != CHAR_GRANDMA)
 	{
 		//Reset the spindash pitch
 		audio_sound_pitch(sfx_spindash, 1);
@@ -62,7 +62,7 @@ function player_state_lookdown(){
 		exit;
 	}
 	
-	if(press_action && ground && !touching_ceiling && !force_roll)
+	if(press_action && ground && !touching_ceiling && !force_roll && character != CHAR_GRANDMA)
 	{
 		//Change animation
 		animation_play(animator, ANIM.ROLL);

@@ -12,6 +12,7 @@ if(!antonblast) {
 		case CHAR_SONIC: character_name = "theodore hedgehog" break;
 		case CHAR_TAILS: character_name = "piles prower" break;
 		case CHAR_KNUX: character_name = "the red one" break;
+		case CHAR_GRANDMA: character_name = "the grandma from coco" break;
 		default: character_name = "wjat" break;
 	}
 
@@ -70,6 +71,8 @@ if(antonblast) {
 		case CHAR_SONIC: char_death_big = spr_sonic_death break;
 		case CHAR_TAILS: char_death_big = spr_tails_die break;
 		case CHAR_KNUX: char_death_big = spr_knuckles_death break;
+		case CHAR_GAMETAP: char_death_big = spr_gametap break;
+		case CHAR_GRANDMA: char_death_big = spr_grandma_from_coco break;
 		default: char_death_big = spr_sonic_death break;
 	}
 	

@@ -97,6 +97,7 @@
 	tails_timer = 480;					//Timer used for tails flight
 	knuckles_angle = 90;				//Knuckles' gliding angle
 	glide_speed = 2.5;					//Knuckles' glide speed
+	grandma_moving = 0;					//How much has grandma moved?
 	
 	//Visuals:
 	animator = new animator_create();	//Create new animator
@@ -124,7 +125,8 @@
 		[9, 19],	//Sonic's hitbox
 		[9, 15],	//Tails' hitbox
 		[9, 14],	//Knuckles' hitbox
-		[9, 13]		//Knuckles' hitbox
+		[9, 13],		//Knuckles' hitbox
+		[9, 19]	//Grandma's hitbox
 	]
 	
 	//Rolling hitbox unique to each character
@@ -133,7 +135,8 @@
 		[7, 14],	//Sonic's hitbox
 		[7, 14],	//Tails' hitbox
 		[7, 14],		//Knuckles' hitbox
-		[7, 13]		//Knuckles' hitbox
+		[7, 13],		//Knuckles' hitbox
+		[7, 14]	//Grandma's hitbox
 	]
     
     //Player values for George's appearance
@@ -142,15 +145,16 @@
         [5, 7],  //Sonic's offset
         [5, 7],  //Tails' offset
         [5, 9],  //Wario's offset
-        [0, 0]   //GameTap's offset
+        [0, 0],   //GameTap's offset
+        [1, 18]   //Grandma's offset
     ]
 	
 	//Camera rolling offset unique to each character
-	camera_rolling_offset = [5, 1, 5, 0];
+	camera_rolling_offset = [5, 1, 5, 0, 0];
 	
 	//the index for the players super form palette
 	super_color = 0;
-	super_palettes = [tex_pal_supersonic, tex_pal_supertails, tex_pal_superknux, tex_pal_supersonic]
+	super_palettes = [tex_pal_supersonic, tex_pal_supertails, tex_pal_superknux, tex_pal_supersonic, tex_pal_supersonic]
 	#macro SUPER_PALETTE_SIZE 16
 	#macro SUPER_PALETTE_LOOP 7
 	

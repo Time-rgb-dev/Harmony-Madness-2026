@@ -12,6 +12,7 @@ function player_macros(){
 	#macro CHAR_TAILS 1
 	#macro CHAR_KNUX 2
 	#macro CHAR_GAMETAP 3
+	#macro CHAR_GRANDMA 4
 	
 	//Misc.
 	#macro K_HURT 1

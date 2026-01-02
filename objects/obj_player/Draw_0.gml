@@ -9,7 +9,7 @@
 	
 	if(state = player_state_knockout || invincible_timer mod 12 >= 6 || invincible_timer = 0 || invincible)
 	{
-		if(character != CHAR_GAMETAP)
+		if(character != CHAR_GAMETAP && character != CHAR_GRANDMA)
 		{
 			if(speed_shoes || super)
 			{
@@ -49,7 +49,8 @@
 		}
 		else
 		{
-			draw_sprite_ext(spr_gametap, 0, floor(x), floor(y), image_xscale, 1, floor(gametap_rot), c_white, 1);	
+			if(character == CHAR_GAMETAP) draw_sprite_ext(spr_gametap, 0, floor(x), floor(y), image_xscale, 1, floor(gametap_rot), c_white, 1);	
+			if(character == CHAR_GRANDMA) draw_sprite_ext(spr_grandma_from_coco, 0, floor(x), floor(y), image_xscale, 1, 0, c_white, 1);	
 		}
 	}
 	shader_reset()

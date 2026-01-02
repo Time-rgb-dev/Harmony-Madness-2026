@@ -57,6 +57,8 @@ function player_control(){
 		//Decelerate when not holding anything:
 		if (movement = 0 && control_lock = 0)
 		    ground_speed -= min(abs(ground_speed), friction_speed) * sign(ground_speed);
+		else
+			if(character == CHAR_GRANDMA) grandma_moving++;
 			
 	}
 	

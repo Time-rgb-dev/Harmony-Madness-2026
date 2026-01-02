@@ -180,7 +180,7 @@ function player_state_normal(){
 		}
 	}
 	//Trigger rolling
-	if(hold_down && abs(ground_speed) > 1 && ground)
+	if(hold_down && abs(ground_speed) > 1 && ground && character != CHAR_GRANDMA)
 	{
 
 		//Play the rolling animation
@@ -199,7 +199,7 @@ function player_state_normal(){
 	}
 	
 	//Trigger jump
-	if(press_action && ground && !touching_ceiling && !force_roll)
+	if(press_action && ground && !touching_ceiling && !force_roll && character != CHAR_GRANDMA)
 	{
 		//Change animation
 		animation_play(animator, ANIM.ROLL);

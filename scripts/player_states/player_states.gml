@@ -26,6 +26,12 @@ function player_states(){
 
 function player_state_conditions(){
 	
+	//Grandma
+	if(grandma_moving > 160) {
+		global.life = 0;
+		knockout_type = K_DIE;
+	}
+	
 	if(state == player_state_normal){
 		if (ground_speed != 0 || x_speed != 0 || y_speed != 0) {
 			idle_timer = 0;	
