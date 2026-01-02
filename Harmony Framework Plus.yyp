@@ -610,6 +610,7 @@
     {"id":{"name":"spr_emerald_sparkle","path":"sprites/spr_emerald_sparkle/spr_emerald_sparkle.yy",},},
     {"id":{"name":"spr_eppstein","path":"sprites/spr_eppstein/spr_eppstein.yy",},},
     {"id":{"name":"spr_evil","path":"sprites/spr_evil/spr_evil.yy",},},
+    {"id":{"name":"spr_eyes","path":"sprites/spr_eyes/spr_eyes.yy",},},
     {"id":{"name":"spr_fire_shield_dash","path":"sprites/spr_fire_shield_dash/spr_fire_shield_dash.yy",},},
     {"id":{"name":"spr_fire_shield_front","path":"sprites/spr_fire_shield_front/spr_fire_shield_front.yy",},},
     {"id":{"name":"spr_fire_shield","path":"sprites/spr_fire_shield/spr_fire_shield.yy",},},

@@ -33,6 +33,7 @@
     {"name":"spr_bup_hd","order":1,"path":"sprites/spr_bup_hd/spr_bup_hd.yy",},
     {"name":"spr_dk_bg","order":1,"path":"sprites/spr_dk_bg/spr_dk_bg.yy",},
     {"name":"spr_dk_boy","order":2,"path":"sprites/spr_dk_boy/spr_dk_boy.yy",},
+    {"name":"spr_eyes","order":1,"path":"sprites/spr_eyes/spr_eyes.yy",},
     {"name":"spr_gametap","order":1,"path":"sprites/spr_gametap/spr_gametap.yy",},
     {"name":"spr_ltg","order":2,"path":"sprites/spr_ltg/spr_ltg.yy",},
     {"name":"spr_ronic","order":2,"path":"sprites/spr_ronic/spr_ronic.yy",},

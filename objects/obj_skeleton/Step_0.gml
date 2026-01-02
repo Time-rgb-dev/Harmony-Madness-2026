@@ -6,14 +6,18 @@
         draw_george = true;
     }
     
+    //Exit if we aren't drawing George
     if(!draw_george) exit;
     
-    if(image_index != sprite_get_number(bg_grid))
+    //If the image index isn't the same as the sprite number of George
+    //if(george_index != sprite_get_number(spr_george))
     {
-        image_index++;
+        //Add to the image index
+        george_index = approach(george_index, sprite_get_number(spr_george), 1);
     }
-    else
+    /*else
     {
+        //Hide George and change the ran value
     	draw_george = false;
-        ran = irandom(global.object_timer+100000);
+        ran = irandom(global.object_timer + 1000);
     }

@@ -12,7 +12,7 @@ function init_music_list()
     music_add(MUSIC.TITLE_GARN47, bgm_garn47_menu);
 	music_add(MUSIC.MENU, bgm_menu, 0.565);
 	music_add(MUSIC.J_GAME_OVER, j_game_over, 0.00, 0.00, false);
-	music_add(MUSIC.KONGBLAST, j_kong_blast, 0.00, 0.00, false);
+	//music_add(MUSIC.KONGBLAST, j_kong_blast, 0.00, 0.00, false);
 	music_add(MUSIC.J_INVINCIBLE, j_invincible);
 	music_add(MUSIC.J_SPEEDSHOE, j_speedshoe, 2.644);
 	music_add(MUSIC.J_ACT_START, j_zone_start, 0.00, 0.00, false);
