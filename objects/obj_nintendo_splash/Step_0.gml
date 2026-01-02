@@ -9,5 +9,5 @@ if (round(timer) == 40)
 if (!done && (Input.APress || Input.StartPress || round(timer) == 120))
 {
 	done = true;
-	fade_to_room(rm_splash, 5, FADE_BLACK);
+	fade_to_room_next(5,FADE_BLACK);
 }
