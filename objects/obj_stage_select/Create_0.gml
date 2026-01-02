@@ -8,18 +8,18 @@
 	show_debug_message(sound_arr[0])
 	
 	//The lists
-	zone_list = [["UTTER BULLSHIT", rm_utter_bullshit1], ["KONG BLAST", rm_kongblast], ["WEED HILL", rm_arboreal_agate1, rm_arboreal_agate2]];
+	zone_list = [["UTTER BULLSHIT", rm_utter_bullshit1], ["WEED HILL", rm_arboreal_agate1, rm_arboreal_agate2]];
 	
 	reset_stage_data();
 	global.score = 0;
 
-	quotes = ["WELCOME TO HARMONY MADNESS!"];
+	quotes = ["WELCOME TO HARMONY MADNESS!", "WHAT THE FUCK", "I WANNA FUCK LANGEEEEE", "IM CRINE", "WELCOME TO HELL!"];
 	
 	quote_index = irandom(array_length(quotes)-1);
 	
 	//Randomize the BG
 	image_speed = 0;
-	image_index = 0//irandom(image_number);
+	image_index = irandom(image_number);
 	
 	fade_in_room(5);
 	play_music(MUSIC.MENU);

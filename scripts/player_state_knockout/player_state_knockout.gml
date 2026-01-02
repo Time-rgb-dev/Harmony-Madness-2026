@@ -96,8 +96,6 @@ function player_state_knockout(){
 				}
 			}
 			
-			
-			
 			//Create bunch of bubbles for drowning event
 			if(FRAME_TIMER mod 4 == 0 && knockout_type == K_DROWN){
 				var bubble = instance_create_depth(x, y-12, depth-1, obj_bubble);
