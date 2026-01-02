@@ -115,6 +115,9 @@
     {"name":"inst_719583B9","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
     {"name":"inst_773C208","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
     {"name":"inst_2AB06C13","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
+    {"name":"inst_2EFDE158","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
+    {"name":"inst_770E7B04","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
+    {"name":"inst_A18556A","path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1477,6 +1480,9 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":5456.0,"y":2784.0,},
         {"$GMRInstance":"v4","%Name":"inst_773C208","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_773C208","objectId":{"name":"obj_aaz_swing","path":"objects/obj_aaz_swing/obj_aaz_swing.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.3333333,"x":5608.0,"y":1968.0,},
         {"$GMRInstance":"v4","%Name":"inst_2AB06C13","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2AB06C13","objectId":{"name":"obj_spikes_vertical","path":"objects/obj_spikes_vertical/obj_spikes_vertical.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5256.0,"y":2736.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2EFDE158","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EFDE158","objectId":{"name":"obj_weed","path":"objects/obj_weed/obj_weed.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":2400.0,},
+        {"$GMRInstance":"v4","%Name":"inst_770E7B04","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_770E7B04","objectId":{"name":"obj_weed","path":"objects/obj_weed/obj_weed.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":2368.0,},
+        {"$GMRInstance":"v4","%Name":"inst_A18556A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A18556A","objectId":{"name":"obj_weed","path":"objects/obj_weed/obj_weed.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":2424.0,},
       ],"layers":[],"name":"Objects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PlaneBack","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PlaneBack","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":250,"SerialiseWidth":1000,"TileCompressedData":[
           -169,0,-831,-2147483648,-169,0,-831,-2147483648,-169,0,-831,-2147483648,-169,0,-831,-2147483648,-169,

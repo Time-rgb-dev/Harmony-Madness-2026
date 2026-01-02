@@ -20,6 +20,7 @@ function init_music_list()
 	music_add("ARBOREAL 1", bgm_arboreal_agate1);
 	music_add("ARBOREAL 2", bgm_arboreal_agate2);
 	music_add("BONUS", bgm_bonus, 16.657, 92.33, true);
+	music_add(MUSIC.BOSSWEED, bgm_boss_weed, 15.432);
 }
 
 	//Setup enum for music ID
@@ -33,4 +34,5 @@ function init_music_list()
 		J_ACT_START,
 		J_ACT_CLEAR,
 		SUPER,
+		BOSSWEED,
 	}
