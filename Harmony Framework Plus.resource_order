@@ -1,8 +1,15 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_retro_splash","order":1,"path":"objects/obj_retro_splash/obj_retro_splash.yy",},
+    {"name":"obj_video","order":2,"path":"objects/obj_video/obj_video.yy",},
+    {"name":"rm_retro_splash","order":1,"path":"rooms/rm_retro_splash/rm_retro_splash.yy",},
+    {"name":"rm_video","order":2,"path":"rooms/rm_video/rm_video.yy",},
+    {"name":"j_ronicretro","order":1,"path":"sounds/j_ronicretro/j_ronicretro.yy",},
     {"name":"sfx_gametap","order":1,"path":"sounds/sfx_gametap/sfx_gametap.yy",},
     {"name":"spr_gametap","order":1,"path":"sprites/spr_gametap/spr_gametap.yy",},
     {"name":"spr_ltg","order":2,"path":"sprites/spr_ltg/spr_ltg.yy",},
+    {"name":"spr_ronic","order":2,"path":"sprites/spr_ronic/spr_ronic.yy",},
+    {"name":"spr_ronicretro","order":1,"path":"sprites/spr_ronicretro/spr_ronicretro.yy",},
   ],
 }
