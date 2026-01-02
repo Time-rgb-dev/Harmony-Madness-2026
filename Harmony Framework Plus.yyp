@@ -839,6 +839,7 @@
     {"id":{"name":"spr_weed_sparkle","path":"sprites/spr_weed_sparkle/spr_weed_sparkle.yy",},},
     {"id":{"name":"spr_weed","path":"sprites/spr_weed/spr_weed.yy",},},
     {"id":{"name":"spr_wheeltank","path":"sprites/spr_wheeltank/spr_wheeltank.yy",},},
+    {"id":{"name":"spr_you_are_watched","path":"sprites/spr_you_are_watched/spr_you_are_watched.yy",},},
     {"id":{"name":"sprCapsuleBody","path":"sprites/sprCapsuleBody/sprCapsuleBody.yy",},},
     {"id":{"name":"sprCapsuleButton","path":"sprites/sprCapsuleButton/sprCapsuleButton.yy",},},
     {"id":{"name":"sprCapsulePiece","path":"sprites/sprCapsulePiece/sprCapsulePiece.yy",},},

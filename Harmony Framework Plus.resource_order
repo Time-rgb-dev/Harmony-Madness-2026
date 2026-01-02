@@ -51,5 +51,6 @@
     {"name":"spr_vibrator_energy_capacity","order":4,"path":"sprites/spr_vibrator_energy_capacity/spr_vibrator_energy_capacity.yy",},
     {"name":"spr_vibrator_energy_pickup","order":5,"path":"sprites/spr_vibrator_energy_pickup/spr_vibrator_energy_pickup.yy",},
     {"name":"spr_vibrator_energy","order":3,"path":"sprites/spr_vibrator_energy/spr_vibrator_energy.yy",},
+    {"name":"spr_you_are_watched","order":5,"path":"sprites/spr_you_are_watched/spr_you_are_watched.yy",},
   ],
 }

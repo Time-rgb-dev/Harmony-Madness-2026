@@ -55,17 +55,9 @@
 			break;
 		}
 		
-		case 5: //Sukuna
+		case 5: //you're being watched
 		{
-			draw_set_font(global.font_debug);
-			draw_set_halign(fa_center);
-			draw_set_color(c_white);
-			draw_set_valign(fa_top);
-			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "unpause and you'll not die immediately");
-			draw_set_font(-1);
-			draw_set_halign(fa_left);
-			draw_set_valign(fa_top);
-			draw_sprite_ext(spr_ryomen_sukuna_fortnite, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT, 0.45, 0.45, 0, c_white, 1);
+			draw_sprite_stretched(spr_you_are_watched, 0, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT);
 			break;
 		}
 	}
