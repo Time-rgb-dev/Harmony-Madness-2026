@@ -23,10 +23,13 @@
 	//Screen values
 	global.window_width  = 426;				//Window's horizontal size
 	global.window_height = 240;				//Window's vertical size
-	global.window_size   = 2;				//Window size multiplier
-	global.subway_surfers = irandom(4) < 3 ? true : false;           //Wether to show subway surfers or not
+	global.window_size   = 3;				//Window size multiplier
 	
-	//keyboard inputs
+	//Random bullshit
+	global.faggot_mode = false;				//Hez
+	global.subway_surfers = irandom(4) < 3 ? true : false;           //Whether to show subway surfers or not
+	
+	//Keyboard inputs
 	global.key_up = vk_up;						
     global.key_down = vk_down;
     global.key_left = vk_left;
@@ -129,7 +132,6 @@
 	#macro FRAME_TIMER global.object_timer
 	
 	global.red_ring_map = ds_map_create();
-	
 	
 	//Ending event:
 	room_goto_next();

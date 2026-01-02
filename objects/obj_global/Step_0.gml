@@ -56,3 +56,9 @@
 	
 	//Add the frame timer
 	global.object_timer++;
+	
+	//Hez Mode
+	if(keyboard_check_pressed(ord("7"))) {
+		if(!global.faggot_mode) play_sound(sfx_discovery);
+		global.faggot_mode = !global.faggot_mode;
+	}

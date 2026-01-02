@@ -108,12 +108,6 @@
 		}
 		
 		//Hurt the player
-		if(keyboard_check_pressed(ord("7")))
-		{
-			player_hurt(obj_player.x + obj_player.facing);
-		}
-		
-		//Hurt the player
 		if(keyboard_check_pressed(ord("8")))
 		{
 			obj_player.knockout_type = K_DIE;

@@ -12,6 +12,6 @@
 	window_center();
 	
 	//Fullscreen
-	if(global.window_size >= 4) window_set_fullscreen(true); else window_set_fullscreen(false);
+	if(global.window_size >= 5) window_set_fullscreen(true); else window_set_fullscreen(false);
 	
 	

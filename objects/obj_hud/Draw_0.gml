@@ -138,6 +138,24 @@
 		}
 	}
 	
+	//Hez Mode Text
+	draw_set_font(global.font_small);
+	draw_set_color(c_yellow);
+	draw_set_halign(fa_center);
+	var fagtext = string_upper("** YOU ARE A BIG GIANT FAGGOT **");
+	for(var i = 0; i < string_length(fagtext); i++) {
+		var size;
+		size = string_width(string_copy(fagtext, 0, i));
+		draw_text(floor(((global.window_width/2)-string_width(fagtext)/2)+size), floor(faggot_ypos+(5*dsin((global.stage_timer/3)+24*i))), string_char_at(fagtext , i+1));
+	}
+	draw_set_color(c_white);
+	draw_set_halign(fa_left);
+	if(global.faggot_mode) {
+		faggot_ypos = lerp(faggot_ypos, WINDOW_HEIGHT - 25, 0.1);
+	} else {
+		faggot_ypos = lerp(faggot_ypos, WINDOW_HEIGHT + 50, 0.1);
+	}
+	
 	
 	surface_reset_target();
 	

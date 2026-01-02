@@ -81,8 +81,6 @@ function player_state_knockout(){
 			}
 			
 			//Create game over
-			
-			
 			if(death_timer == 360)
 			{
 				if(global.life = 0 || is_time_over)
@@ -93,7 +91,8 @@ function player_state_knockout(){
 					ds_list_clear(global.store_object_state)
 					music_set_fade(FADE_OUT, 2);
 					global.subway_surfers = irandom(4) < 3 ? true : false; 
-					room_goto(rm_stage_select)
+					global.life = 3;
+					room_goto(rm_stage_select);
 				}
 			}
 			

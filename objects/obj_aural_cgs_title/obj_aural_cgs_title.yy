@@ -3,6 +3,8 @@
   "%Name":"obj_aural_cgs_title",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_aural_cgs_title",
@@ -11,7 +13,10 @@
     "name":"Menu Objects",
     "path":"folders/Objects/Menu Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_background",
+    "path":"objects/par_background/par_background.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
