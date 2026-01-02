@@ -428,6 +428,7 @@
     {"id":{"name":"j_game_over","path":"sounds/j_game_over/j_game_over.yy",},},
     {"id":{"name":"j_harmony_splash","path":"sounds/j_harmony_splash/j_harmony_splash.yy",},},
     {"id":{"name":"j_invincible","path":"sounds/j_invincible/j_invincible.yy",},},
+    {"id":{"name":"j_kong_blast","path":"sounds/j_kong_blast/j_kong_blast.yy",},},
     {"id":{"name":"j_ronicretro","path":"sounds/j_ronicretro/j_ronicretro.yy",},},
     {"id":{"name":"j_speedshoe","path":"sounds/j_speedshoe/j_speedshoe.yy",},},
     {"id":{"name":"j_super","path":"sounds/j_super/j_super.yy",},},

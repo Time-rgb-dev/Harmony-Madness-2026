@@ -14,6 +14,7 @@
     {"name":"rm_retro_splash","order":1,"path":"rooms/rm_retro_splash/rm_retro_splash.yy",},
     {"name":"rm_switch","order":1,"path":"rooms/rm_switch/rm_switch.yy",},
     {"name":"rm_video","order":2,"path":"rooms/rm_video/rm_video.yy",},
+    {"name":"j_kong_blast","order":1,"path":"sounds/j_kong_blast/j_kong_blast.yy",},
     {"name":"j_ronicretro","order":1,"path":"sounds/j_ronicretro/j_ronicretro.yy",},
     {"name":"sfx_bump_10ring","order":2,"path":"sounds/sfx_bump_10ring/sfx_bump_10ring.yy",},
     {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
