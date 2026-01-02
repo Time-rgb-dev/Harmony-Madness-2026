@@ -1,10 +1,12 @@
 {
   "FolderOrderSettings":[
     {"name":"Kong Blast","order":1,"path":"folders/Objects/Kong Blast.yy",},
+    {"name":"Skeletor Sprites","order":1,"path":"folders/Sprites/Skeletor Sprites.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_retro_splash","order":1,"path":"objects/obj_retro_splash/obj_retro_splash.yy",},
     {"name":"obj_ring_visual","order":1,"path":"objects/obj_ring_visual/obj_ring_visual.yy",},
+    {"name":"obj_skeleton","order":1,"path":"objects/obj_skeleton/obj_skeleton.yy",},
     {"name":"obj_switch_splash","order":2,"path":"objects/obj_switch_splash/obj_switch_splash.yy",},
     {"name":"obj_tutorial_screen","order":3,"path":"objects/obj_tutorial_screen/obj_tutorial_screen.yy",},
     {"name":"obj_vibrator_energy","order":3,"path":"objects/obj_vibrator_energy/obj_vibrator_energy.yy",},

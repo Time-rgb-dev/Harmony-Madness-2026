@@ -115,6 +115,7 @@
 	instance_create_depth(0, 0, 0, obj_input);
 	instance_create_depth(0, 0, 0, obj_music);
 	instance_create_depth(0, 0, -100, obj_fade);
+    instance_create_depth(0, 0, -100, obj_skeleton);
 	
 	//Controlers for dev mode
 	if(global.dev_mode) 
