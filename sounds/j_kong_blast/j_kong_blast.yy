@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"j_game_over",
+  "%Name":"j_kong_blast",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":10.223197,
+  "duration":7.386667,
   "exportDir":"",
-  "name":"j_game_over",
+  "name":"j_kong_blast",
   "parent":{
     "name":"Jingle Music",
     "path":"folders/Sounds/Music/Jingle Music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"j_game_over.ogg",
+  "soundFile":"j_kong_blast.ogg",
   "volume":1.0,
 }
