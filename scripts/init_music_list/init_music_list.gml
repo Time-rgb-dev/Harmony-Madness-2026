@@ -21,6 +21,7 @@ function init_music_list()
 	music_add("ARBOREAL 2", bgm_arboreal_agate2);
 	music_add("BONUS", bgm_bonus, 16.657, 92.33, true);
 	music_add(MUSIC.BOSSWEED, bgm_boss_weed, 15.432);
+	music_add(MUSIC.SUPERSTARS_TITLE, bgm_boss_weed, 0.00, 0.00, false);
 }
 
 	//Setup enum for music ID
@@ -35,4 +36,5 @@ function init_music_list()
 		J_ACT_CLEAR,
 		SUPER,
 		BOSSWEED,
+		SUPERSTARS_TITLE,
 	}

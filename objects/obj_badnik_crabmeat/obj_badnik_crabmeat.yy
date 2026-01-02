@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crabmeat_walk",
-    "path":"sprites/spr_crabmeat_walk/spr_crabmeat_walk.yy",
+    "name":"spr_anton",
+    "path":"sprites/spr_anton/spr_anton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

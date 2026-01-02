@@ -83,8 +83,8 @@
   ],
   "name":"rm_level_template",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Stages",
+    "path":"folders/Rooms/Stages.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

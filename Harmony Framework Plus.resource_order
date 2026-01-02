@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"Stages","order":7,"path":"folders/Rooms/Stages.yy",},
+    {"name":"Presentation","order":8,"path":"folders/Rooms/Presentation.yy",},
     {"name":"Base Stage","order":1,"path":"folders/Sprites/Stage Sprites/Base Stage.yy",},
     {"name":"Bonus Stage","order":2,"path":"folders/Sprites/Stage Sprites/Bonus Stage.yy",},
     {"name":"Bridge Zone","order":3,"path":"folders/Sprites/Stage Sprites/Bridge Zone.yy",},
@@ -19,8 +21,19 @@
     {"name":"Effects","order":7,"path":"folders/Sprites/Stage Sprites/Effects.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_aural_cgs_title","order":1,"path":"objects/obj_aural_cgs_title/obj_aural_cgs_title.yy",},
     {"name":"obj_weed","order":1,"path":"objects/obj_weed/obj_weed.yy",},
+    {"name":"rm_arboreal_agate2","order":3,"path":"rooms/rm_arboreal_agate2/rm_arboreal_agate2.yy",},
+    {"name":"rm_bonus","order":2,"path":"rooms/rm_bonus/rm_bonus.yy",},
+    {"name":"rm_init","order":3,"path":"rooms/rm_init/rm_init.yy",},
+    {"name":"rm_level_template","order":5,"path":"rooms/rm_level_template/rm_level_template.yy",},
+    {"name":"rm_splash","order":1,"path":"rooms/rm_splash/rm_splash.yy",},
+    {"name":"rm_stage_select","order":2,"path":"rooms/rm_stage_select/rm_stage_select.yy",},
+    {"name":"rm_title","order":3,"path":"rooms/rm_title/rm_title.yy",},
+    {"name":"rm_utter_bullshit1","order":4,"path":"rooms/rm_utter_bullshit1/rm_utter_bullshit1.yy",},
+    {"name":"rm_your_zone","order":1,"path":"rooms/rm_your_zone/rm_your_zone.yy",},
     {"name":"bgm_boss_weed","order":1,"path":"sounds/bgm_boss_weed/bgm_boss_weed.yy",},
+    {"name":"bgm_superstars_title","order":1,"path":"sounds/bgm_superstars_title/bgm_superstars_title.yy",},
     {"name":"sfx_gametap","order":1,"path":"sounds/sfx_gametap/sfx_gametap.yy",},
     {"name":"sfx_weed","order":2,"path":"sounds/sfx_weed/sfx_weed.yy",},
     {"name":"spr_aaz_bridge","order":7,"path":"sprites/spr_aaz_bridge/spr_aaz_bridge.yy",},

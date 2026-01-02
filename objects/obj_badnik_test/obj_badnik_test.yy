@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_evil",
-    "path":"sprites/spr_evil/spr_evil.yy",
+    "name":"spr_anton",
+    "path":"sprites/spr_anton/spr_anton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

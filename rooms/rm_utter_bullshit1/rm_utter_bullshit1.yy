@@ -208,8 +208,8 @@
   ],
   "name":"rm_utter_bullshit1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Stages",
+    "path":"folders/Rooms/Stages.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

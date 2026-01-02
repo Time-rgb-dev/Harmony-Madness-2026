@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wheeltank",
-    "path":"sprites/spr_wheeltank/spr_wheeltank.yy",
+    "name":"spr_anton",
+    "path":"sprites/spr_anton/spr_anton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
