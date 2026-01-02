@@ -4,7 +4,7 @@ fade_thing3 = 0.0;
 active = false;
 delay = 0;
 
-antonblast_chance = 0//irandom(8);
+antonblast_chance = irandom(8);
 antonblast = antonblast_chance == 0 && global.life > 1 ? true : false;
 death_big_scale = 1;
 death_big_stretch = 1;
