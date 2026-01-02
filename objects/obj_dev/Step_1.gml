@@ -110,6 +110,7 @@
 		//Hurt the player
 		if(keyboard_check_pressed(ord("8")))
 		{
+			obj_player.state = player_state_knockout;
 			obj_player.knockout_type = K_DIE;
 		}
 		

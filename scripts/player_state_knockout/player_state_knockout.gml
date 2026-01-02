@@ -99,7 +99,7 @@ function player_state_knockout(){
 			}
 			
 			//Restart
-			var death_timer_set = obj_fucking_die.antonblast ? 120 : 60;
+			var death_timer_set = obj_fucking_die.antonblast ? 250 : 60;
 			if(death_timer == death_timer_set && global.life != 0 && !is_time_over)
 			{
 				global.store_player_state.combinering = 0

@@ -2,7 +2,9 @@ var c = view_camera[view_current];
 var cx = camera_get_view_x(c);
 var cy = camera_get_view_y(c);
 
-//Normal death
+if(active) obj_player.input_disable = true;
+
+//Normal death sequence
 if(!antonblast) {
 	var character_name = "soos i guess????";
 	switch(global.character)
@@ -10,6 +12,7 @@ if(!antonblast) {
 		case CHAR_SONIC: character_name = "theodore hedgehog" break;
 		case CHAR_TAILS: character_name = "piles prower" break;
 		case CHAR_KNUX: character_name = "the red one" break;
+		default: character_name = "wjat" break;
 	}
 
 	if (obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
@@ -25,7 +28,7 @@ if(!antonblast) {
 				}
 			}
 		}
-		delay++
+		delay++;
 	}
 
 	if (active) {
@@ -58,29 +61,59 @@ if(!antonblast) {
 	}
 }
 
-//Antonblast death
+//Antonblast death sequence
 if(antonblast) {
 	var char_death_big;
-	switch(global.character)
-	{
+	switch(global.character) {
+		//Add screen splat death sprites every character
 		case CHAR_SONIC: char_death_big = spr_sonic_death break;
 		case CHAR_TAILS: char_death_big = spr_tails_die break;
 		case CHAR_KNUX: char_death_big = spr_knuckles_death break;
+		default: char_death_big = spr_sonic_death break;
 	}
 	
-	if (obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
+	//I ain't commenting all of the code down here, just don't change it lol
+	//- Frosty
+	if(obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
 		if(!active) {
-			if(delay > 5) {
-				active = true;
-				audio_stop_all();
-			}
+			audio_stop_all();
+			play_sound(sfx_smack);
+			death_player_pos_y = obj_player.y;
+			death_player_pos_x = obj_player.x;
+			active = true;
 		}
 		delay++;
 	}
 	
 	if(active) {
 		obj_player.visible = false;
+		depth = obj_hud.depth - 1;
+		var scale_dest = 15;
+		death_big_scale = approach(death_big_scale, scale_dest, 2);
+		if(!scale_reached) death_big_rot += 55;
+		if(death_big_scale == scale_dest) {
+			if(!scale_reached) {
+				play_sound(sfx_anton_bombcrushed);
+				obj_camera.camera_shake = 10;
+			}
+			slide_timer++;
+			scale_reached = true;
+		}
+		if(slide_timer == 80) play_sound(sfx_anton_slideglass);
+		if(slide_timer > 75) {
+			stretch_mult += 0.05;
+			death_player_pos_y += 5 * stretch_mult;
+			death_big_stretch += 0.01;
+		}
+		if(obj_player.death_timer > 5) {
+			draw_badluck = true;
+			badluck_scale = approach(badluck_scale, 1, 0.5);
+		}
+		if(obj_player.death_timer == 200) {
+			fade_change(FADE_OUT, 3);
+		}
 		
-		draw_sprite_ext(char_death_big, 0, obj_player.x - cx, obj_player.y - cy, death_big_scale, death_big_scale + death_big_stretch, death_big_rot, c_white, 1);
+		if(draw_badluck) draw_sprite_ext(spr_badluck, 0, cx + WINDOW_WIDTH/2, cy + 50, badluck_scale, badluck_scale, 0, c_white, 1);
+		draw_sprite_skew(char_death_big, 0, death_player_pos_x, death_player_pos_y, death_big_scale, death_big_scale, death_big_rot, 1, 0, 0, 1, death_big_stretch);
 	}
 }

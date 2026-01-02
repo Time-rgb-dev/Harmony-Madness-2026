@@ -2,7 +2,7 @@
 	// You can write your code in this editor
 	delay = 0;
 	timer = 0;
-	pause_screen = irandom_range(0, 2);
+	pause_screen = irandom_range(0, 3);
 	pausemenu = surface_create(global.window_width, global.window_height);
 	global.process_objects = false;
 	

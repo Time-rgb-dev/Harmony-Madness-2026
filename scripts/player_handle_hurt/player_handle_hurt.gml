@@ -113,15 +113,16 @@ function player_handle_hurt()
 			//Bounce the player out
 			y_speed = 0;
 			x_speed = 0;
+			gravity_allow = false;
 			ground = false;
 			
 			//Disable camera movement
 			camera_set_mode(CAM_NULL);
 			
 			//Play the hurt sound
-			var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
-			play_sound(splats[irandom(3)])
-			play_sound(sfx_death);
+			var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4];
+			play_sound(splats[irandom(3)]);
+			if(!obj_fucking_die.antonblast) play_sound(sfx_death);
 		}
 		
 		//Kill the player after time has reached the limit
@@ -137,6 +138,4 @@ function player_handle_hurt()
 	{
 		knockout_type = K_DIE;
 	}
-	
-	
 }

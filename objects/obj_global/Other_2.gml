@@ -2,6 +2,9 @@
 	//Variables for this object only
 	process_object_list = ds_list_create();
 	
+	//Randomize the game seed so all the random functions actually work
+	randomize();
+	
 	global.store_object_state = ds_list_create();
 	global.previous_room = rm_splash
 	global.store_player_state = {

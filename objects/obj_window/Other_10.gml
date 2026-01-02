@@ -9,7 +9,7 @@
 	surface_resize(application_surface, global.window_width, global.window_height);
 	
 	//Center the screen
-	window_center();
+	alarm[0] = 10;
 	
 	//Fullscreen
 	if(global.window_size >= 5) window_set_fullscreen(true); else window_set_fullscreen(false);

@@ -43,4 +43,10 @@
 			draw_sprite_ext(spr_anton, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 1, 1, 0, c_white, 1);
 			break;
 		}
+		
+		case 3: //bup
+		{
+			draw_sprite_ext(spr_bup_hd, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 1, 1, 0, c_white, 1);
+			break;
+		}
 	}
