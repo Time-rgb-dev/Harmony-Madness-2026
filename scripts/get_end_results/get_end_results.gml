@@ -18,5 +18,5 @@ function get_end_results(){
 	if(minute = 3 && sec <= 29) time_bonus = 1000;
 	if(minute >= 3 && minute <= 9 && sec >= 30 && sec <= 59) time_bonus = 100;
 	
-	hydration_bonus = obj_player.hydration * 100;
+	hydration_bonus = max((floor(obj_player.hydration)*1000)-50000, 0);
 }
