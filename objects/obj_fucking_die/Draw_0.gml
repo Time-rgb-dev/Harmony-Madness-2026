@@ -76,6 +76,9 @@ if(antonblast) {
 	//- Frosty
 	if(obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
 		if(!active) {
+            //AND set the camera mode to null so it doesn't move!
+            //Sincerely, The Flamer
+            camera_set_mode(CAM_NULL);
 			audio_stop_all();
 			play_sound(sfx_smack);
 			death_player_pos_y = obj_player.y;
