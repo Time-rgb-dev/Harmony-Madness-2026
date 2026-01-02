@@ -1,4 +1,12 @@
 /// @description Values
+
+	//random chance to replace with weed
+	if (random_range(0, 67) == 21)
+	{
+		instance_create_depth(x, y, depth, obj_weed);
+		instance_destroy();
+	}
+
 	x_speed = 0;
 	y_speed = 0;
 	magnet = false;
