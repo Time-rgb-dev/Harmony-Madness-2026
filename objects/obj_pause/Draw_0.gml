@@ -49,4 +49,9 @@
 			draw_sprite_ext(spr_bup_hd, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 1, 1, 0, c_white, 1);
 			break;
 		}
+		case 4: //bold and ready
+		{
+			draw_sprite_ext(spr_jordan, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.75, 0.75, 0, c_white, 1);
+			break;
+		}
 	}

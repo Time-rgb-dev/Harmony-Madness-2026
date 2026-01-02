@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":152.08,
+  "duration":0.0,
   "exportDir":"",
   "name":"j_super",
   "parent":{
