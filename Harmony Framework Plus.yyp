@@ -582,6 +582,7 @@
     {"id":{"name":"spr_emerald_radar","path":"sprites/spr_emerald_radar/spr_emerald_radar.yy",},},
     {"id":{"name":"spr_emerald_shard","path":"sprites/spr_emerald_shard/spr_emerald_shard.yy",},},
     {"id":{"name":"spr_emerald_sparkle","path":"sprites/spr_emerald_sparkle/spr_emerald_sparkle.yy",},},
+    {"id":{"name":"spr_eppstein","path":"sprites/spr_eppstein/spr_eppstein.yy",},},
     {"id":{"name":"spr_evil","path":"sprites/spr_evil/spr_evil.yy",},},
     {"id":{"name":"spr_fire_shield_dash","path":"sprites/spr_fire_shield_dash/spr_fire_shield_dash.yy",},},
     {"id":{"name":"spr_fire_shield_front","path":"sprites/spr_fire_shield_front/spr_fire_shield_front.yy",},},
