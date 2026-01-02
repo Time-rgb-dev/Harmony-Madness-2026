@@ -60,6 +60,14 @@ if(!antonblast) {
 
 //Antonblast death
 if(antonblast) {
+	var char_death_big;
+	switch(global.character)
+	{
+		case CHAR_SONIC: char_death_big = spr_sonic_death break;
+		case CHAR_TAILS: char_death_big = spr_tails_die break;
+		case CHAR_KNUX: char_death_big = spr_knuckles_death break;
+	}
+	
 	if (obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
 		if(!active) {
 			if(delay > 5) {
@@ -71,6 +79,8 @@ if(antonblast) {
 	}
 	
 	if(active) {
+		obj_player.visible = false;
 		
+		draw_sprite_ext(char_death_big, 0, obj_player.x - cx, obj_player.y - cy, death_big_scale, death_big_scale + death_big_stretch, death_big_rot, c_white, 1);
 	}
 }

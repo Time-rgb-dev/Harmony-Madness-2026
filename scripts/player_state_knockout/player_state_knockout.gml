@@ -67,17 +67,12 @@ function player_state_knockout(){
 			hitbox_allow = false;
 			
 			//Fade out
-			
 			if(death_timer == 59)
 			{
 				if(global.life != 0 || !is_time_over)
 				{
 					global.life = max(global.life - 1, 0);
 				}
-			}
-			
-			if(death_timer == 2) {
-				
 			}
 			
 			//Create game over
@@ -104,7 +99,8 @@ function player_state_knockout(){
 			}
 			
 			//Restart
-			if(death_timer == 60 && global.life != 0 && !is_time_over)
+			var death_timer_set = obj_fucking_die.antonblast ? 120 : 60;
+			if(death_timer == death_timer_set && global.life != 0 && !is_time_over)
 			{
 				global.store_player_state.combinering = 0
 				global.store_player_state.shield = S_NONE
