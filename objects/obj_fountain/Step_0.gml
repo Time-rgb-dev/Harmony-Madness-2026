@@ -10,7 +10,7 @@
     }
     
     //Replenish hydration if you're holding E and you can drink
-    if(keyboard_check(ord("E")) && can_drink)
+    if(obj_player.hold_z && can_drink)
     {
         obj_player.hydration = approach(obj_player.hydration, 100, 1);
     }

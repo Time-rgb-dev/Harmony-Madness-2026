@@ -8,6 +8,9 @@ function player_get_input(){
 	hold_a = Input.A;
 	hold_b = Input.B;
 	hold_c = Input.C;
+	hold_x = Input.X;
+	hold_y = Input.Y;
+	hold_z = Input.Z;
 	hold_action = Input.Action;
 	
 	//Button holds
@@ -18,6 +21,9 @@ function player_get_input(){
 	press_a = Input.APress;
 	press_b = Input.BPress;
 	press_c = Input.CPress;
+	press_x = Input.XPress;
+	press_y = Input.YPress;
+	press_z = Input.ZPress;
 	press_action = Input.ActionPress;	
 	
 	//Disable inputs
@@ -31,6 +37,9 @@ function player_get_input(){
 		hold_a = false;
 		hold_b = false;
 		hold_c = false;
+		hold_x = false;
+		hold_y = false;
+		hold_z = false;
 		hold_action = false;
 	
 		//Button holds
@@ -41,6 +50,9 @@ function player_get_input(){
 		press_a = false;
 		press_b = false;
 		press_c = false;
+		press_x = false;
+		press_y = false;
+		press_z = false;
 		press_action = false;	
 	}
 	
@@ -55,6 +67,9 @@ function player_get_input(){
 		hold_a = false;
 		hold_b = false;
 		hold_c = false;
+		hold_x = false;
+		hold_y = false;
+		hold_z = false;
 		hold_action = false;
 	
 		//Button holds
@@ -65,6 +80,9 @@ function player_get_input(){
 		press_a = false;
 		press_b = false;
 		press_c = false;
+		press_x = false;
+		press_y = false;
+		press_z = false;
 		press_action = false;	
 	}
 }

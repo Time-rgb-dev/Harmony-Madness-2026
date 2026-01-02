@@ -690,6 +690,7 @@
     {"id":{"name":"spr_sonic_ledge2","path":"sprites/spr_sonic_ledge2/spr_sonic_ledge2.yy",},},
     {"id":{"name":"spr_sonic_lookdown","path":"sprites/spr_sonic_lookdown/spr_sonic_lookdown.yy",},},
     {"id":{"name":"spr_sonic_lookup","path":"sprites/spr_sonic_lookup/spr_sonic_lookup.yy",},},
+    {"id":{"name":"spr_sonic_mania_saturn_jp_input","path":"sprites/spr_sonic_mania_saturn_jp_input/spr_sonic_mania_saturn_jp_input.yy",},},
     {"id":{"name":"spr_sonic_peelout","path":"sprites/spr_sonic_peelout/spr_sonic_peelout.yy",},},
     {"id":{"name":"spr_sonic_push","path":"sprites/spr_sonic_push/spr_sonic_push.yy",},},
     {"id":{"name":"spr_sonic_roll","path":"sprites/spr_sonic_roll/spr_sonic_roll.yy",},},

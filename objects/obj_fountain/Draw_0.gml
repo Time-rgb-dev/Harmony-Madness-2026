@@ -1,12 +1,5 @@
 ///@description Draw fountain
     draw_self();
     
-    //Setup the font and the alignment
-    draw_set_font(fon_titlecard);
-    draw_set_halign(fa_center);
-    
-    //Draw E
-    if(can_drink) draw_text(x, y - 88, "E");
-    
-    //Reset
-    draw_set_halign(fa_center);
+    //Draw "Z"
+    if(can_drink) draw_sprite(spr_sonic_mania_saturn_jp_input, 5, x, y - 88);

@@ -4,5 +4,6 @@
     {"name":"sfx_gametap","order":1,"path":"sounds/sfx_gametap/sfx_gametap.yy",},
     {"name":"spr_gametap","order":1,"path":"sprites/spr_gametap/spr_gametap.yy",},
     {"name":"spr_ltg","order":2,"path":"sprites/spr_ltg/spr_ltg.yy",},
+    {"name":"spr_sonic_mania_saturn_jp_input","order":1,"path":"sprites/spr_sonic_mania_saturn_jp_input/spr_sonic_mania_saturn_jp_input.yy",},
   ],
 }

@@ -27,14 +27,17 @@
 	global.subway_surfers = irandom(4) < 3 ? true : false;           //Wether to show subway surfers or not
 	
 	//keyboard inputs
-	global.up = vk_up;						
-    global.down = vk_down;
-    global.left = vk_left;
-    global.right = vk_right;
-    global.a = ord("A");
-    global.b = ord("S");
-    global.c = ord("D");
-    global.start = vk_enter;
+	global.key_up = vk_up;						
+    global.key_down = vk_down;
+    global.key_left = vk_left;
+    global.key_right = vk_right;
+    global.key_a = ord("A");
+    global.key_b = ord("S");
+    global.key_c = ord("D");
+    global.key_x = ord("Q");
+    global.key_y = ord("W");
+    global.key_z = ord("E");
+    global.key_start = vk_enter;
 	
 	//Setup volume
 	global.bgm_volume = 1;					//Music's channel volume
