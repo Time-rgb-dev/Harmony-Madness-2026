@@ -8,6 +8,7 @@ function init_music_list()
 	
 	//Game jingles:
 	music_add(MUSIC.TITLE, bgm_title, 0.00, 0.00, false);
+	music_add(MUSIC.RETRO, j_ronicretro, 0.00, 0.00, false);
     music_add(MUSIC.TITLE_GARN47, bgm_garn47_menu);
 	music_add(MUSIC.MENU, bgm_menu, 0.565);
 	music_add(MUSIC.J_GAME_OVER, j_game_over, 0.00, 0.00, false);
@@ -28,6 +29,7 @@ function init_music_list()
 	enum MUSIC {
 		TITLE,
 		TITLE_GARN47,
+		RETRO,
 		MENU,
 		J_GAME_OVER,
 		J_INVINCIBLE,

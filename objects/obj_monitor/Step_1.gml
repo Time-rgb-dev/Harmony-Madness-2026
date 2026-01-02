@@ -47,23 +47,40 @@
 		//Destroy the monitor
 		if(player_collide_object(C_MAIN) && !collision_flag && player.y < bbox_bottom-1)
 		{
-			destroyed = true;
-			ground = false;
-			y_speed = -2 * sign(image_yscale);
-			player.y_speed = max(abs(player.y_speed), 4) * -sign(image_yscale);
-			create_effect(x, y, spr_effect_explosion01, 0.3);
-			var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
-			play_sound(splats[irandom(3)])
+			if (monitor_type != "10 Rings") {
+				destroyed = true;
+				ground = false;
+				y_speed = -2 * sign(image_yscale);
+				player.y_speed = max(abs(player.y_speed), 4) * -sign(image_yscale);
+				create_effect(x, y, spr_effect_explosion01, 0.3);
+				var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
+				play_sound(splats[irandom(3)])
 			
-			if (!instance_exists(obj_bonus_level)) {
-				global.store_object_state[| id] = true
+				if (!instance_exists(obj_bonus_level)) {
+					global.store_object_state[| id] = true
+				}
+			
+				//Create icons
+				var icon = instance_create_depth(x, y, depth, obj_monitor_icon);
+				icon.monitor_type = monitor_type;
+				icon.sprite_index = monitor_icon;
+				icon.y_speed *= sign(image_yscale);
+			} else {
+				timer += 1;	
+				y_speed = -2 * sign(image_yscale);
+				apex = false
+				ground = false;	
+				player.y_speed = max(abs(player.y_speed), 2) * -sign(image_yscale);
+				if (timer > (60 * 4)) {
+					destroyed = true;
+					ground = false;	
+					create_effect(x, y, spr_effect_explosion01, 0.3);
+					var splats = [sfx_gore1,sfx_gore2,sfx_gore3,sfx_gore4]
+					play_sound(splats[irandom(3)])
+				} else {
+					play_sound(sfx_bump_10ring)	
+				}
 			}
-			
-			//Create icons
-			var icon = instance_create_depth(x, y, depth, obj_monitor_icon);
-			icon.monitor_type = monitor_type;
-			icon.sprite_index = monitor_icon;
-			icon.y_speed *= sign(image_yscale);
 		}
 	}
 	else
@@ -82,6 +99,12 @@
 		//Update position by speed
 		y += y_speed;
 		
+		if (timer > 0 && y_speed > 0 && !apex){
+			apex = true
+			instance_create_depth(x,y,depth,obj_ring_visual)
+			play_sound(sfx_ring)
+		}
+		
 		//Gravity
 		if(!ground) 
 		{
@@ -95,6 +118,7 @@
 			if(!instance_place(x, y, player))
 			{
 				ground = true;
+				apex = false
 			}
 			y -= 1;
 			y = floor(y);
@@ -108,7 +132,11 @@
 	}
 	//User event for icon
 	event_user(0);
-
+	
+	if (timer > 0) {
+		timer++	
+	}
+	
 	if(!on_screen() && ground && culling) 
 	{
 		instance_deactivate_object(id);
