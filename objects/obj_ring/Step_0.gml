@@ -18,7 +18,9 @@
         global.rings += 1;
 		
 		//Everyone knows that rings are made of water!
-		obj_player.hydration += 5;
+		//This shit BROKE EVERYTHING!!! I fiXED IT!
+		obj_player.hydration = min(obj_player.hydration + 1, 100);
+		obj_player.bladder = min(obj_player.bladder + 0.5, 100);
         
         //Create the effect
         create_effect(x, y, spr_ring_sparkle, 0.2);

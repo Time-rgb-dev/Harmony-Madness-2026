@@ -3,6 +3,9 @@
 	//character palettes for super form
 	palette_swap(super_palettes[character],super_color);
 	
+	//Dehydrate.
+	shader_set(shd_grayscale);
+	shader_set_uniform_f(shader_get_uniform(shd_grayscale, "u_Amount"), clamp(1-hydration/100, 0.0, 1.0));
 	
 	if(state = player_state_knockout || invincible_timer mod 12 >= 6 || invincible_timer = 0 || invincible)
 	{
@@ -66,7 +69,7 @@
 	}
     
     //Draw eyes to the player when Georges appears
-    if(obj_skeleton.draw_george && !animation_is_playing(animator, ANIM.ROLL))
+    if(instance_exists(obj_skeleton) && obj_skeleton.draw_george && !animation_is_playing(animator, ANIM.ROLL))
     {
         draw_sprite(spr_eyes, 0, floor(x) + skeleton_player_offset[global.character][0] * facing, floor(y) - skeleton_player_offset[global.character][1]);
     }

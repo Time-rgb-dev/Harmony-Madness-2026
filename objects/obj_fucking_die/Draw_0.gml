@@ -56,6 +56,7 @@ if(!antonblast) {
 		}
 		draw_set_alpha(1)
 		shader_set(shd_grayscale);
+		shader_set_uniform_f(shader_get_uniform(shd_grayscale, "u_Amount"), 1.0);
 		draw_sprite_ext(spr_fucking_die_character, global.character, cx + 64, cy + (WINDOW_HEIGHT/2), 1, 1, 0, c_white, fade_thing);
 		shader_reset();	
 	}
