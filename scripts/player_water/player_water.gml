@@ -47,7 +47,7 @@ function player_water(){
 	if(underwater)
 	{
 		//always fill up hydration cuz you're underwater
-		hydration = approach(hydration, 100, 1);
+		hydration = min(hydration + 1, 100);
 		
 		//bubbles
 		if (bubble_delay > 0 && (air mod bubble_delay == 0)){
@@ -57,7 +57,7 @@ function player_water(){
 			bubble.angle = facing == -1 ? 180 : 0;
 		}
 		
-		if(air mod 60 == 0 ){
+		if(air mod 60 == 0){
 			var rand = round(random(1));
 			show_debug_message(rand);
 			if (rand == 0){
@@ -83,7 +83,8 @@ function player_water(){
 			audio_sound_gain(jing, global.bgm_volume, 0);
 		}
 		
-	}else
+	}
+	else
 	{
 		air = 0;
 	}

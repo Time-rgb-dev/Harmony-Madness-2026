@@ -22,6 +22,15 @@
 			state = player_state_null;
 			animation_play(animator, ANIM.VICTORY);
 		}
+		
+		//reset hydration and bladder
+		//NOTE: this does not impact the gathered score, but would prevent the player from dying
+		//during the act results sequence
+		if(obj_act_clear.timer = 1)
+		{
+			hydration = 100;
+			bladder = 0;
+		}
 	}
 	//Fade out
 	if(timer = 1 && state = 0)
