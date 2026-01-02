@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
+  ],
 }
