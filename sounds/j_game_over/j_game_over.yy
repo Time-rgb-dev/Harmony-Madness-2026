@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":10.223197,
+  "duration":7.386667,
   "exportDir":"",
   "name":"j_game_over",
   "parent":{
