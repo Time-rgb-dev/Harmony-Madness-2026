@@ -55,3 +55,11 @@
 	{
 		draw_sprite_ext(spr_effect_spindash, spindash_dust_frames, floor(x) - 2 * facing, floor(y) + hitbox_h + 1, facing, 1, 0, c_white, 1);	
 	}
+	
+	if(character = CHAR_SONIC && bladder > 70)
+	{
+		var scale = easeInOutCubic(clamp((bladder-70)/10,0,1))
+		draw_set_alpha(0.5);
+		draw_sprite_ext(spr_sonic_pisswarning, 0, x, y, scale-dcos(bladder*40)/10, scale-dsin(bladder*40)/10, 0, c_white, 1);	
+		draw_set_alpha(1);
+	}

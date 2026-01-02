@@ -25,10 +25,10 @@ function player_misc(){
         hydration -= 2;
     }
 	
-    if(FRAME_TIMER mod 10 == 0 && input_disable == false && global.annoying_killing_bullshit)
+    if(input_disable == false && global.annoying_killing_bullshit)
     {
-        if(character = CHAR_SONIC && state != player_state_dropdash && (shield == S_NONE || shield == S_NORMAL)) bladder += 1;
-		else if(state == player_state_dropdash && bladder > 0) bladder -= 4;
+        if(character = CHAR_SONIC && state != player_state_dropdash && (shield == S_NONE || shield == S_NORMAL)) bladder += 0.1;
+		else if(state == player_state_dropdash && bladder > 0) bladder -= 0.6;
     }
     
     if(hydration <= 0 && state != player_state_null)
