@@ -465,6 +465,7 @@
     {"id":{"name":"sfx_fire_dash","path":"sounds/sfx_fire_dash/sfx_fire_dash.yy",},},
     {"id":{"name":"sfx_gametap","path":"sounds/sfx_gametap/sfx_gametap.yy",},},
     {"id":{"name":"sfx_garn47","path":"sounds/sfx_garn47/sfx_garn47.yy",},},
+    {"id":{"name":"sfx_gfred","path":"sounds/sfx_gfred/sfx_gfred.yy",},},
     {"id":{"name":"sfx_gore1","path":"sounds/sfx_gore1/sfx_gore1.yy",},},
     {"id":{"name":"sfx_gore2","path":"sounds/sfx_gore2/sfx_gore2.yy",},},
     {"id":{"name":"sfx_gore3","path":"sounds/sfx_gore3/sfx_gore3.yy",},},

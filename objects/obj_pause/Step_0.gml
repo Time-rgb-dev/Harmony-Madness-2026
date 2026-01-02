@@ -1,5 +1,9 @@
 /// @description pause
-	audio_pause_all();
+	if(!fred)
+	{
+		if(pause_screen == 4) play_sound(sfx_gfred);
+		fred = true;
+	}
 	global.process_objects = false;
 	
 	delay += 1

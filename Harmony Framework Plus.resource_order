@@ -29,6 +29,7 @@
     {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
     {"name":"sfx_doublekill","order":3,"path":"sounds/sfx_doublekill/sfx_doublekill.yy",},
     {"name":"sfx_gametap","order":1,"path":"sounds/sfx_gametap/sfx_gametap.yy",},
+    {"name":"sfx_gfred","order":3,"path":"sounds/sfx_gfred/sfx_gfred.yy",},
     {"name":"sfx_hez","order":2,"path":"sounds/sfx_hez/sfx_hez.yy",},
     {"name":"sfx_smack","order":2,"path":"sounds/sfx_smack/sfx_smack.yy",},
     {"name":"sfx_switch","order":1,"path":"sounds/sfx_switch/sfx_switch.yy",},

@@ -61,7 +61,7 @@
 			draw_set_halign(fa_center);
 			draw_set_color(c_white);
 			draw_set_valign(fa_top);
-			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "unpause and you'll die immediately");
+			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "unpause and you'll not die immediately");
 			draw_set_font(-1);
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
