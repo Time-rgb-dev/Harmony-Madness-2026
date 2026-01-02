@@ -3,7 +3,7 @@
 	{
 		case "10 Rings":
 			global.rings += 10;
-			obj_player.hydration += 50;
+			obj_player.hydration = min(obj_player.hydration+10, 100);
 			play_sound(sfx_superring);
 		break;
 		
