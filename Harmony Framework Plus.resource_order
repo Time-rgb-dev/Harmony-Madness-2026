@@ -1,6 +1,10 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_switch_splash","order":2,"path":"objects/obj_switch_splash/obj_switch_splash.yy",},
+    {"name":"rm_switch","order":1,"path":"rooms/rm_switch/rm_switch.yy",},
     {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
+    {"name":"sfx_switch","order":1,"path":"sounds/sfx_switch/sfx_switch.yy",},
+    {"name":"spr_switch","order":3,"path":"sprites/spr_switch/spr_switch.yy",},
   ],
 }
