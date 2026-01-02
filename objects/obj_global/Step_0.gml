@@ -49,8 +49,7 @@
 	
 	
 	//Suspend everything in here if objects are not processed anymore
-	if(!global.process_objects)
-	{
+	if(!global.process_objects) {
 		exit;	
 	}
 	
@@ -59,6 +58,6 @@
 	
 	//Hez Mode
 	if(keyboard_check_pressed(ord("7"))) {
-		if(!global.faggot_mode) play_sound(sfx_discovery);
+		if(!global.faggot_mode) play_sound(sfx_hez);
 		global.faggot_mode = !global.faggot_mode;
 	}

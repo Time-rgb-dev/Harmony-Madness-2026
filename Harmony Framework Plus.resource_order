@@ -1,10 +1,18 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Kong Blast","order":1,"path":"folders/Objects/Kong Blast.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_switch_splash","order":2,"path":"objects/obj_switch_splash/obj_switch_splash.yy",},
+    {"name":"obj_vibrator_energy","order":3,"path":"objects/obj_vibrator_energy/obj_vibrator_energy.yy",},
+    {"name":"obj_vibrator_obstacle","order":2,"path":"objects/obj_vibrator_obstacle/obj_vibrator_obstacle.yy",},
+    {"name":"obj_vibrator_spawner","order":1,"path":"objects/obj_vibrator_spawner/obj_vibrator_spawner.yy",},
+    {"name":"rm_kongblast","order":2,"path":"rooms/rm_kongblast/rm_kongblast.yy",},
     {"name":"rm_switch","order":1,"path":"rooms/rm_switch/rm_switch.yy",},
     {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
     {"name":"sfx_switch","order":1,"path":"sounds/sfx_switch/sfx_switch.yy",},
+    {"name":"spr_dk_bg","order":1,"path":"sprites/spr_dk_bg/spr_dk_bg.yy",},
+    {"name":"spr_dk_boy","order":2,"path":"sprites/spr_dk_boy/spr_dk_boy.yy",},
     {"name":"spr_switch","order":3,"path":"sprites/spr_switch/spr_switch.yy",},
     {"name":"obj_retro_splash","order":1,"path":"objects/obj_retro_splash/obj_retro_splash.yy",},
     {"name":"obj_ring_visual","order":1,"path":"objects/obj_ring_visual/obj_ring_visual.yy",},
@@ -18,5 +26,8 @@
     {"name":"spr_ltg","order":2,"path":"sprites/spr_ltg/spr_ltg.yy",},
     {"name":"spr_ronic","order":2,"path":"sprites/spr_ronic/spr_ronic.yy",},
     {"name":"spr_ronicretro","order":1,"path":"sprites/spr_ronicretro/spr_ronicretro.yy",},
+    {"name":"spr_vibrator_energy_capacity","order":4,"path":"sprites/spr_vibrator_energy_capacity/spr_vibrator_energy_capacity.yy",},
+    {"name":"spr_vibrator_energy_pickup","order":5,"path":"sprites/spr_vibrator_energy_pickup/spr_vibrator_energy_pickup.yy",},
+    {"name":"spr_vibrator_energy","order":3,"path":"sprites/spr_vibrator_energy/spr_vibrator_energy.yy",},
   ],
 }
