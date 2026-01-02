@@ -123,7 +123,7 @@
 	[
 		[9, 19],	//Sonic's hitbox
 		[9, 15],	//Tails' hitbox
-		[9, 19],	//Knuckles' hitbox
+		[9, 14],	//Knuckles' hitbox
 		[9, 13]		//Knuckles' hitbox
 	]
 	
