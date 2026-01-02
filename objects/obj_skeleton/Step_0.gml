@@ -10,12 +10,12 @@
     if(!draw_george) exit;
     
     //If the image index isn't the same as the sprite number of George
-    //if(george_index != sprite_get_number(spr_george))
+    if(george_index != sprite_get_number(spr_george))
     {
         //Add to the image index
         george_index = approach(george_index, sprite_get_number(spr_george), 1);
     }
-    /*else
+    else
     {
         //Hide George and change the ran value
     	draw_george = false;

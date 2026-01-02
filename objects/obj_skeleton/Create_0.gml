@@ -3,7 +3,7 @@
     ran = irandom(1000);
     
     //George values
-    draw_george = true//false;
+    draw_george = false;
     george_index = 0;
     
     //Player values
