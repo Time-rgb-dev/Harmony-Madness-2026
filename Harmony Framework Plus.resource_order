@@ -61,6 +61,7 @@
     {"name":"spr_bg_aaz_water","order":11,"path":"sprites/spr_bg_aaz_water/spr_bg_aaz_water.yy",},
     {"name":"spr_dk_bg","order":3,"path":"sprites/spr_dk_bg/spr_dk_bg.yy",},
     {"name":"spr_dk_boy","order":1,"path":"sprites/spr_dk_boy/spr_dk_boy.yy",},
+    {"name":"spr_eppstein","order":2,"path":"sprites/spr_eppstein/spr_eppstein.yy",},
     {"name":"spr_gametap","order":1,"path":"sprites/spr_gametap/spr_gametap.yy",},
     {"name":"spr_ltg","order":2,"path":"sprites/spr_ltg/spr_ltg.yy",},
     {"name":"spr_seesaw","order":3,"path":"sprites/spr_seesaw/spr_seesaw.yy",},

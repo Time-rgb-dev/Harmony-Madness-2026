@@ -23,9 +23,11 @@
 			draw_set_color(c_white);
 			draw_set_valign(fa_top);
 			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "you should be watching The Legend of Hei right now");
+			draw_text(cx + WINDOW_WIDTH / 2, cy + 16, "^ no");
 			draw_set_font(-1);
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
+			draw_sprite_ext(spr_eppstein, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.175, 0.175, 0, c_white, 0.5);
 			draw_sprite_ext(spr_luo_xiaohei, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.175, 0.175, 0, c_white, 1);
 			break;
 		}
