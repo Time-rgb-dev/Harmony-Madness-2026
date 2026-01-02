@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings":[
     {"name":"Kong Blast","order":1,"path":"folders/Objects/Kong Blast.yy",},
+    {"name":"announcer","order":3,"path":"folders/Sounds/Sound Effects/Objects/announcer.yy",},
     {"name":"Skeletor Sprites","order":1,"path":"folders/Sprites/Skeletor Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"font_PT_sans","order":1,"path":"fonts/font_PT_sans/font_PT_sans.yy",},
     {"name":"obj_retro_splash","order":1,"path":"objects/obj_retro_splash/obj_retro_splash.yy",},
     {"name":"obj_ring_visual","order":1,"path":"objects/obj_ring_visual/obj_ring_visual.yy",},
     {"name":"obj_skeleton","order":1,"path":"objects/obj_skeleton/obj_skeleton.yy",},
@@ -25,10 +27,13 @@
     {"name":"sfx_anton_slideglass","order":3,"path":"sounds/sfx_anton_slideglass/sfx_anton_slideglass.yy",},
     {"name":"sfx_bump_10ring","order":2,"path":"sounds/sfx_bump_10ring/sfx_bump_10ring.yy",},
     {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
+    {"name":"sfx_doublekill","order":3,"path":"sounds/sfx_doublekill/sfx_doublekill.yy",},
     {"name":"sfx_gametap","order":1,"path":"sounds/sfx_gametap/sfx_gametap.yy",},
     {"name":"sfx_hez","order":2,"path":"sounds/sfx_hez/sfx_hez.yy",},
     {"name":"sfx_smack","order":2,"path":"sounds/sfx_smack/sfx_smack.yy",},
     {"name":"sfx_switch","order":1,"path":"sounds/sfx_switch/sfx_switch.yy",},
+    {"name":"sfx_triplekill","order":2,"path":"sounds/sfx_triplekill/sfx_triplekill.yy",},
+    {"name":"sfx_ultrakill","order":1,"path":"sounds/sfx_ultrakill/sfx_ultrakill.yy",},
     {"name":"spr_badluck","order":2,"path":"sprites/spr_badluck/spr_badluck.yy",},
     {"name":"spr_bup_hd","order":1,"path":"sprites/spr_bup_hd/spr_bup_hd.yy",},
     {"name":"spr_dk_bg","order":1,"path":"sprites/spr_dk_bg/spr_dk_bg.yy",},

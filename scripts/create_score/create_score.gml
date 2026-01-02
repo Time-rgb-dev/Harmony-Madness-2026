@@ -11,20 +11,30 @@ function create_score(offx = 0, offy = 0){
 	if(obj_level.badnik_chain = 2){
 		Object.image_index = 1;
 		global.score += 200;
+		play_sound(sfx_doublekill);
 	}
 	
 	if(obj_level.badnik_chain = 3){
 		Object.image_index = 2;
 		global.score += 500;
+		play_sound(sfx_triplekill);
 	}
 	
-	if(obj_level.badnik_chain >= 4 && obj_level.badnik_chain <= 15){
+	if(obj_level.badnik_chain = 4){
 		Object.image_index = 3;
 		global.score += 1000;
+		play_sound(sfx_ultrakill);
+	}
+	
+	if(obj_level.badnik_chain >= 5 && obj_level.badnik_chain <= 15){
+		Object.image_index = 3;
+		global.score += 1000;
+		play_sound(sfx_monsterkill);
 	}
 	
 	if(obj_level.badnik_chain >= 16){
 		Object.image_index = 4;
 		global.score += 10000;
+		play_sound(sfx_monsterkill);
 	}
 }

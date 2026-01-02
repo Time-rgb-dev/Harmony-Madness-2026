@@ -33,7 +33,7 @@
 		
 			//Create score object and add combo and badnik chain
 			obj_level.badnik_chain += 1;
-			//create_score();
+			create_score();
 		
 			//Create explosion effect
 			create_effect(x, y, spr_effect_explosion01, 0.3);
