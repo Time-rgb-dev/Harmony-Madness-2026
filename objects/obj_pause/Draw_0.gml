@@ -48,9 +48,24 @@
 			draw_sprite_ext(spr_bup_hd, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 1, 1, 0, c_white, 1);
 			break;
 		}
+		
 		case 4: //bold and ready
 		{
 			draw_sprite_ext(spr_jordan, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.75, 0.75, 0, c_white, 1);
+			break;
+		}
+		
+		case 5: //Sukuna
+		{
+			draw_set_font(global.font_debug);
+			draw_set_halign(fa_center);
+			draw_set_color(c_white);
+			draw_set_valign(fa_top);
+			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "unpause and you'll die immediately");
+			draw_set_font(-1);
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			draw_sprite_ext(spr_ryomen_sukuna_fortnite, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT, 0.45, 0.45, 0, c_white, 1);
 			break;
 		}
 	}

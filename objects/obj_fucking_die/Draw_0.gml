@@ -6,7 +6,7 @@ if(active) obj_player.input_disable = true;
 
 //Normal death sequence
 if(!antonblast) {
-	var character_name = "soos i guess????";
+	var character_name = "this is a dummy string, i got nothin";
 	switch(global.character)
 	{
 		case CHAR_SONIC: character_name = "theodore hedgehog" break;
