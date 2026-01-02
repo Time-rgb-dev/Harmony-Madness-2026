@@ -1,4 +1,4 @@
-play_music(bgm_foregone);
+	play_music("FOREGONE DESTRUCTION - MICHIEL VAN DEN BOS");
 
 	global.window_width  = 480;		            //Window's horizontal size
 	global.window_height = 270;

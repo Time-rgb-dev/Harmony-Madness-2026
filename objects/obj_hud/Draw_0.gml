@@ -165,7 +165,7 @@
 	if (ltg_timer > 0) ltg_timer--;
 	
 	var sprlength = sprite_get_number(spr_may_shock_the_viewers)
-	draw_sprite_ext(spr_may_shock_the_viewers,elec_timer mod sprlength,cx,cy,1,1,0,c_white,elec_timer/60);
+	draw_sprite_stretched_ext(spr_may_shock_the_viewers,(elec_timer /2)  mod sprlength,cx,cy,WINDOW_WIDTH,WINDOW_HEIGHT,c_white,elec_timer/60);
 	draw_sprite_stretched_ext(spr_ltg,0,cx,cy,WINDOW_WIDTH,WINDOW_HEIGHT,c_white,ltg_timer/60);
 	
 	if(slide_in)
