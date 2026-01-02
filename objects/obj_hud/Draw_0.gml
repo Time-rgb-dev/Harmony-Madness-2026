@@ -31,7 +31,8 @@
 		//Draw normal text
 		draw_sprite(spr_hudtext, 0, 16 + offset[0], 8);
 		draw_sprite(spr_hudtext, 1, 16 + offset[1], 24);
-		draw_sprite(spr_hudtext, 2, 16 + offset[2], 40);
+		if(global.score < 100000) draw_sprite(spr_hudtext, 2, 16 + offset[2], 40);
+		else draw_sprite(spr_hudtext, 5, 16 + offset[2], 40);
 	
 		//Red flashing text
 		if(global.rings == 0 && FRAME_TIMER mod 20 < 20/2) draw_sprite(spr_hudtext, 3, 16 + offset[0], 8);
@@ -47,7 +48,7 @@
 		//Draw number
 		draw_text(120 + offset[0], 9, string(global.rings));
 		draw_text(120 + offset[1], 25, string(minute)+" "+(sec > 9 ? "" : "0") + string(sec)+" "+(milsec > 9 ? "" : "0") + string(milsec));
-		draw_text(96 + offset[2], 41, string(global.score));
+		if(global.score < 100000) draw_text(96 + offset[2], 41, string(global.score));
 		draw_text(56 + offset[3], global.window_height - 24, (global.life > 9 ? "" : "0") + string(global.life));
 		
 		//Attention keeper

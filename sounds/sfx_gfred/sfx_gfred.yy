@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_gfred",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":0,
+  "duration":15.71288,
+  "exportDir":"",
+  "name":"sfx_gfred",
+  "parent":{
+    "name":"Random Shit",
+    "path":"folders/Sounds/Sound Effects/Random Shit.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":22050,
+  "soundFile":"sfx_gfred.ogg",
+  "volume":1.0,
+}

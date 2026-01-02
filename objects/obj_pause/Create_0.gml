@@ -7,5 +7,4 @@
 	global.process_objects = false;
 	
 	audio_pause_all();
-	
-
+	fred = false;
