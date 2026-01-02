@@ -50,6 +50,7 @@
 		}
 	}
 	shader_reset()
+    
 	//Draw spindash dust effect
 	if(!global.chaotix_dust_effect && state = player_state_spindash && ground)
 	{
@@ -63,3 +64,9 @@
 		draw_sprite_ext(spr_sonic_pisswarning, 0, x, y, scale-dcos(bladder*40)/10, scale-dsin(bladder*40)/10, 0, c_white, 1);	
 		draw_set_alpha(1);
 	}
+    
+    //Draw eyes to the player when Georges appears
+    if(obj_skeleton.draw_george && !animation_is_playing(animator, ANIM.ROLL))
+    {
+        draw_sprite(spr_eyes, 0, floor(x) + skeleton_player_offset[global.character][0] * facing, floor(y) - skeleton_player_offset[global.character][1]);
+    }

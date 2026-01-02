@@ -10,9 +10,3 @@
     
     //Draw george
     draw_sprite(spr_george, global.object_timer-ran, cx, cy);
-    
-    //Draw eyes to the player, if they exist
-    if(instance_exists(obj_player))
-    {
-        draw_sprite(spr_eyes, 0, obj_player.x + player_offset[global.character][0], obj_player.y - player_offset[global.character][1]);
-    }

@@ -135,6 +135,15 @@
 		[7, 14],		//Knuckles' hitbox
 		[7, 13]		//Knuckles' hitbox
 	]
+    
+    //Player values for George's appearance
+    skeleton_player_offset = 
+    [
+        [5, 7],  //Sonic's offset
+        [5, 7],  //Tails' offset
+        [5, 9],  //Wario's offset
+        [0, 0]   //GameTap's offset
+    ]
 	
 	//Camera rolling offset unique to each character
 	camera_rolling_offset = [5, 1, 5, 0];

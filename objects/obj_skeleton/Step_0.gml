@@ -19,5 +19,5 @@
     {
         //Hide George and change the ran value
     	draw_george = false;
-        ran = irandom(global.object_timer + 1000);
+        ran = global.object_timer + irandom(1000);
     }
