@@ -17,7 +17,8 @@
     }
     else
     {
-        //Hide George and change the ran value
+        //Reset
+        george_index = 0;
     	draw_george = false;
         ran = global.object_timer + irandom(1000);
     }
