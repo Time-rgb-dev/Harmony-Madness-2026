@@ -7,13 +7,14 @@ if(active) obj_player.input_disable = true;
 //Normal death sequence
 if(!antonblast) {
 	var character_name = "this is a dummy string, i got nothin";
+	var character_frame = 3;
 	switch(global.character)
 	{
-		case CHAR_SONIC: character_name = "theodore hedgehog" break;
-		case CHAR_TAILS: character_name = "piles prower" break;
-		case CHAR_KNUX: character_name = "the red one" break;
-		case CHAR_GRANDMA: character_name = "the grandma from coco" break;
-		default: character_name = "wjat" break;
+		case CHAR_SONIC: character_name = "theodore hedgehog"; character_frame = 0; break;
+		case CHAR_TAILS: character_name = "piles prower"; character_frame = 1; break;
+		case CHAR_KNUX: character_name = "yellow waluigi"; character_frame = 2; break;
+		case CHAR_GRANDMA: character_name = "the grandma from coco"; character_frame = 4; break;
+		default: character_name = "wjat"; character_frame = 3; break;
 	}
 
 	if (obj_player.knockout_type == K_DIE || obj_player.knockout_type == K_DROWN) {
@@ -58,7 +59,7 @@ if(!antonblast) {
 		draw_set_alpha(1)
 		shader_set(shd_grayscale);
 		shader_set_uniform_f(shader_get_uniform(shd_grayscale, "u_Amount"), 1.0);
-		draw_sprite_ext(spr_fucking_die_character, global.character, cx + 64, cy + (WINDOW_HEIGHT/2), 1, 1, 0, c_white, fade_thing);
+		draw_sprite_ext(spr_fucking_die_character, character_frame, cx + 64, cy + (WINDOW_HEIGHT/2), 1, 1, 0, c_white, fade_thing);
 		shader_reset();	
 	}
 }
