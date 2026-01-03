@@ -13,8 +13,7 @@
 	reset_stage_data();
 	global.score = 0;
 
-	quotes = ["WELCOME TO HARMONY MADNESS!", "WHAT THE FUCK", "I WANNA FUCK LANGEEEEE", "IM CRINE", "WELCOME TO HELL!", "THIS WAS A MISTAKE", "FROSTY WAS HERE"];
-	
+	quotes = ["WELCOME TO HARMONY MADNESS!", "WHAT THE FUCK", "I WANNA FUCK LANGEEEEE", "IM CRINE", "WELCOME TO HELL!", "THIS WAS A MISTAKE", "FROSTY WAS HERE", "EMPTY STRING", "NULL", "VOID", "TS SO PEAK"];
 	quote_index = irandom(array_length(quotes)-1);
 	
 	//Randomize the BG

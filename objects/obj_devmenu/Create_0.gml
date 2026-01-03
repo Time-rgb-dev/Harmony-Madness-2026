@@ -82,7 +82,8 @@
 	
 	//Add the presentation category
 	dev_menu_add_category("REGULAR STAGES");
-	dev_menu_add_entry("YOUR LEVEL", rm_your_zone);
+	dev_menu_add_entry("UTTER BULLSHIT 1", rm_utter_bullshit1);
+	dev_menu_add_entry("KONG BLAST", rm_kongblast);
 	dev_menu_add_entry("WEED HILL 1", rm_arboreal_agate1);
 	dev_menu_add_entry("WEED HILL 2", rm_arboreal_agate2);
 	
