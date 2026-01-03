@@ -6,7 +6,7 @@
 	randomize();
 	
 	global.store_object_state = ds_list_create();
-	global.previous_room = rm_splash
+	global.previous_room = rm_splash;
 	global.store_player_state = {
 		shield : S_NONE,
 		combinering : 0,
@@ -72,7 +72,7 @@
 	global.title_card = true;				//Flag that allows title card to be triggered, used in dev
 	global.emeralds = [true, true, true, true, true, true, true];				//List of active emeralds
 	global.col_tile = ["CollisionMain", "CollisionSemi", "CollisionA", "CollisionB"];	//List of collision layers
-	global.extra_life_jingle = true;		//flag that plays a jingle that cuts out the music when true, plays a sound effect if false
+	global.extra_life_jingle = false;		//flag that plays a jingle that cuts out the music when true, plays a sound effect if false
 	
 	#macro SOUND_EXTRA_LIFE if (global.extra_life_jingle){ play_sound(j_extra_life)} else {play_sound(sfx_extralife)}
 	
