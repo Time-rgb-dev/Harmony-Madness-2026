@@ -25,6 +25,7 @@
     {"name":"j_ronicretro","order":1,"path":"sounds/j_ronicretro/j_ronicretro.yy",},
     {"name":"sfx_anton_bombcrushed","order":1,"path":"sounds/sfx_anton_bombcrushed/sfx_anton_bombcrushed.yy",},
     {"name":"sfx_anton_slideglass","order":3,"path":"sounds/sfx_anton_slideglass/sfx_anton_slideglass.yy",},
+    {"name":"sfx_boing","order":4,"path":"sounds/sfx_boing/sfx_boing.yy",},
     {"name":"sfx_bump_10ring","order":2,"path":"sounds/sfx_bump_10ring/sfx_bump_10ring.yy",},
     {"name":"sfx_discovery","order":1,"path":"sounds/sfx_discovery/sfx_discovery.yy",},
     {"name":"sfx_doublekill","order":3,"path":"sounds/sfx_doublekill/sfx_doublekill.yy",},

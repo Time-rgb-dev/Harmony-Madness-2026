@@ -1,7 +1,7 @@
      
 	var _scale = 1.2 + (dcos(1 * 8) * 0.22)
-	image_xscale = _scale
-	image_yscale = _scale
+	image_xscale = _scale;
+	image_yscale = _scale;
 	
 	var RandomRingSparkle = [spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle, spr_ring_sparkle];
 	//Add timer

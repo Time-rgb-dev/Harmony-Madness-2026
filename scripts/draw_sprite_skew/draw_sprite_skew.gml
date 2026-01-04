@@ -1,4 +1,4 @@
-function draw_sprite_skew(){
+function draw_sprite_skew(sprite, subimg, _x, _y, scalex, scaley, rot, alpha, skew_kx, skew_ky, skew_sx, skew_sy){
 /// draw_sprite_ext_skew(sprite,subimg, x,y, xscale,yscale, rot,alpha, kx,ky, xmult,ymult)
 /// https://yal.cc/draw_sprite_ext_skew
 /// @arg sprite
@@ -13,11 +13,6 @@ function draw_sprite_skew(){
 /// @arg ky How much Y skews per each pixel of X
 /// @arg xmult Post-skew, post-rotate scale X
 /// @arg ymult Post-skew, post-rotate scale Y
-
-// get the arguments:
-var sprite = argument0, subimg = argument1, _x = argument2, _y = argument3,
-    scalex = argument4, scaley = argument5, rot = argument6, alpha = argument7,
-    skew_kx = argument8, skew_ky = argument9, skew_sx = argument10, skew_sy = argument11;
 
 // compute values that will be reused:
 var rcos = dcos(rot);
