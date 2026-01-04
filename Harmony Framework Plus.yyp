@@ -627,6 +627,7 @@
     {"id":{"name":"spr_font_debug","path":"sprites/spr_font_debug/spr_font_debug.yy",},},
     {"id":{"name":"spr_font_random","path":"sprites/spr_font_random/spr_font_random.yy",},},
     {"id":{"name":"spr_font_small","path":"sprites/spr_font_small/spr_font_small.yy",},},
+    {"id":{"name":"spr_football_field","path":"sprites/spr_football_field/spr_football_field.yy",},},
     {"id":{"name":"spr_fountain","path":"sprites/spr_fountain/spr_fountain.yy",},},
     {"id":{"name":"spr_fucking_die_character","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},},
     {"id":{"name":"spr_fucking_die","path":"sprites/spr_fucking_die/spr_fucking_die.yy",},},

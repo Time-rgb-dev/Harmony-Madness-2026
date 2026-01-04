@@ -16,18 +16,17 @@
 	
 	switch(pause_screen)
 	{
-		case 0: //Xiaohei jumpscare
+		case 0: //epstein jumpscare
 		{
+			draw_sprite_stretched_ext(spr_eppstein, 0, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT, c_white, 0.5);
 			draw_set_font(global.font_debug);
 			draw_set_halign(fa_center);
 			draw_set_color(c_white);
 			draw_set_valign(fa_top);
-			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "you should be watching The Legend of Hei right now");
+			draw_text(cx + WINDOW_WIDTH / 2, cy + 8, "isn't there something you forgot to check?");
 			draw_set_font(-1);
 			draw_set_halign(fa_left);
 			draw_set_valign(fa_top);
-			draw_sprite_ext(spr_eppstein, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.175, 0.175, 0, c_white, 0.5);
-			draw_sprite_ext(spr_luo_xiaohei, 0, cx + WINDOW_WIDTH / 2, cy + WINDOW_HEIGHT / 2, 0.175, 0.175, 0, c_white, 1);
 			break;
 		}
 		
@@ -58,6 +57,13 @@
 		case 5: //you're being watched
 		{
 			draw_sprite_stretched(spr_you_are_watched, 0, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT);
+			break;
+		}
+		
+		case 6: //football
+		{
+			draw_sprite_stretched(spr_football_field, 0, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT);
+			if(sukuna_chance == 16) draw_sprite(spr_ryomen_sukuna_fortnite, 0, cx + WINDOW_WIDTH - 84, cy + WINDOW_HEIGHT + 304);
 			break;
 		}
 	}
