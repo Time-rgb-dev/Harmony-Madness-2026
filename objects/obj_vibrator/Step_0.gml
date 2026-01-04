@@ -17,9 +17,8 @@ if abs(mov)
 else lane_index = 0;
 
 // squishy time
-if level >= 10 
-{var input = obj_input.A}
-else var input = obj_input.APress
+var input = (level >= 10 ? Input.A : Input.APress);
+
 if input
 {scale_x = 2.2
  scale_y = 0.2
