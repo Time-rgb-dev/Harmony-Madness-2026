@@ -1,7 +1,9 @@
 	play_music("FOREGONE DESTRUCTION - MICHIEL VAN DEN BOS");
 
-	global.window_width  = 480;		            //Window's horizontal size
+	//NOTE: Why the fuck would you do this?
+	global.window_width  = 480;
 	global.window_height = 270;
+	global.window_size_limit = (round(display_get_width() / global.window_width) - 1);
 	
 	  base_y = WINDOW_HEIGHT / 2 + 64;
 	  base_x = (WINDOW_WIDTH / 2)

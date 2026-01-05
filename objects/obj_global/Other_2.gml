@@ -26,7 +26,8 @@
 	//Screen values
 	global.window_width  = 426;				//Window's horizontal size
 	global.window_height = 240;				//Window's vertical size
-	global.window_size   = 3;				//Window size multiplier
+	global.window_size_limit = (round(display_get_width() / global.window_width) - 1);
+	global.window_size   = round(global.window_size_limit / 2); //Window size multiplier
 	
 	//Random bullshit
 	global.faggot_mode = false;				//Hez

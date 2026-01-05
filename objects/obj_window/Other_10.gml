@@ -12,6 +12,6 @@
 	alarm[0] = 10;
 	
 	//Fullscreen
-	if(global.window_size >= 5) window_set_fullscreen(true); else window_set_fullscreen(false);
+	window_set_fullscreen((global.window_size >= global.window_size_limit));
 	
 	
