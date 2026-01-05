@@ -68,7 +68,7 @@ if(!antonblast) {
 if(antonblast) {
 	var char_death_big;
 	switch(global.character) {
-		//Add screen splat death sprites every character
+		//Add screen splat death sprites for every character
 		case CHAR_SONIC: char_death_big = spr_sonic_death break;
 		case CHAR_TAILS: char_death_big = spr_tails_die break;
 		case CHAR_KNUX: char_death_big = spr_knuckles_death break;
@@ -83,6 +83,7 @@ if(antonblast) {
 		if(!active) {
             //AND set the camera mode to null so it doesn't move!
             //Sincerely, The Flamer
+			//Thank you Flame - Regards, Frosty
             camera_set_mode(CAM_NULL);
 			audio_stop_all();
 			play_sound(sfx_smack);
@@ -121,7 +122,7 @@ if(antonblast) {
 			fade_change(FADE_OUT, 3);
 		}
 		
-		if(draw_badluck) draw_sprite_ext(spr_badluck, 0, cx + WINDOW_WIDTH/2, cy + 50, badluck_scale, badluck_scale, 0, c_white, 1);
+		if(draw_badluck) draw_sprite_ext(spr_badluck, 0, cx + WINDOW_WIDTH/2, cy + 40, badluck_scale, badluck_scale, 0, c_white, 1);
 		draw_sprite_skew(char_death_big, 0, death_player_pos_x, death_player_pos_y, death_big_scale, death_big_scale, death_big_rot, 1, 0, 0, 1, death_big_stretch);
 	}
 }
