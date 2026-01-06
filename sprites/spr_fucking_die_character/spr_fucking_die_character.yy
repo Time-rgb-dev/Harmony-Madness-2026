@@ -2,16 +2,17 @@
   "$GMSprite":"v2",
   "%Name":"spr_fucking_die_character",
   "bboxMode":0,
-  "bbox_bottom":117,
-  "bbox_left":15,
-  "bbox_right":110,
-  "bbox_top":13,
+  "bbox_bottom":127,
+  "bbox_left":0,
+  "bbox_right":127,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+    {"$GMSpriteFrame":"v1","%Name":"38ca2299-0d89-4f74-b886-aba775799d5b","name":"38ca2299-0d89-4f74-b886-aba775799d5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"aad51802-0171-4174-ac60-81b3b2abca58","name":"aad51802-0171-4174-ac60-81b3b2abca58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"388bbbc2-c528-4e34-9bc5-94ed87be1ce5","name":"388bbbc2-c528-4e34-9bc5-94ed87be1ce5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"5d57d4a5-e5d9-44f5-8c90-434dfa53adf9","name":"5d57d4a5-e5d9-44f5-8c90-434dfa53adf9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -53,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -73,20 +74,23 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38ca2299-0d89-4f74-b886-aba775799d5b","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"116c95ed-6401-48a1-9f79-17a6843d9891","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aad51802-0171-4174-ac60-81b3b2abca58","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d90615af-d0c7-4ba4-8dfd-f5d6d6b38497","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"d90615af-d0c7-4ba4-8dfd-f5d6d6b38497","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"388bbbc2-c528-4e34-9bc5-94ed87be1ce5","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6219bc92-fe3f-48c3-8b25-b0403482df1c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"6219bc92-fe3f-48c3-8b25-b0403482df1c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d57d4a5-e5d9-44f5-8c90-434dfa53adf9","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fcc22a23-f249-47ba-8769-460f11e35ad7","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"fcc22a23-f249-47ba-8769-460f11e35ad7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37c5f931-4eee-4e0b-9732-91d888091ddd","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"922239f3-29e8-4177-8413-f2119c6b7902","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"922239f3-29e8-4177-8413-f2119c6b7902","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9572c444-a4b4-450f-8baa-333ef942e556","path":"sprites/spr_fucking_die_character/spr_fucking_die_character.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"943b699c-db05-4329-8d0f-4087863a5642","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"943b699c-db05-4329-8d0f-4087863a5642","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
