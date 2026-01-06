@@ -20,12 +20,12 @@ function player_misc(){
 	}
     
     //Lose water
-    if(FRAME_TIMER mod 60 == 0 && input_disable == false && global.annoying_killing_bullshit)
+    if(FRAME_TIMER mod 60 == 0 && input_disable == false && global.annoying_killing_bullshit && earthly_desires)
     {
         hydration -= 2;
     }
 	
-    if(input_disable == false && global.annoying_killing_bullshit)
+    if(input_disable == false && global.annoying_killing_bullshit && earthly_desires)
     {
         if(character = CHAR_SONIC && state != player_state_dropdash && (shield == S_NONE || shield == S_NORMAL)) bladder += 0.1;
 		else if(state == player_state_dropdash && bladder > 0) bladder -= 0.6;

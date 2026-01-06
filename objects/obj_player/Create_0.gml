@@ -92,6 +92,7 @@
 	hydration = 100;                    //Hydration
 	highness = 0;                       //Amount of highness
 	bladder = 0;                        //Your need for peed
+	earthly_desires = true;				//Are you really safe?
     
 	//Character specifics:
 	tails_timer = 480;					//Timer used for tails flight

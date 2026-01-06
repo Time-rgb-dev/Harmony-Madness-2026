@@ -44,7 +44,7 @@ function player_state_jump(){
 	}
 	
 	//Time to take a piss!
-	if(character == CHAR_SONIC)
+	if(character == CHAR_SONIC && earthly_desires)
 	{
 		if(press_action && dropdash_timer < 1 && y_speed > -jump_release ||
 		hold_action && dropdash_timer != 0)
@@ -52,6 +52,8 @@ function player_state_jump(){
 			dropdash_timer++;
 		}
 	}
+	if(!earthly_desires) dropdash_timer = 0;
+	
 	//Trigger the Piss! state
 	if(dropdash_timer >= 8 && state != player_state_dropdash)
 	{

@@ -23,6 +23,8 @@
 		spin_speed = 16;
 		triggered = true;
 		
+		player.earthly_desires = false;
+		
 		//Sonic be too fast!!!
 		if (player.ground_speed > 6)
 		{

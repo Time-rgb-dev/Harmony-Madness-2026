@@ -31,6 +31,8 @@
 			//play_sound(sfx_beep);
 			pressed = true;
 			other.active = true;
+		
+			obj_player.earthly_desires = false;
 		}
 		
 		//Move the button
