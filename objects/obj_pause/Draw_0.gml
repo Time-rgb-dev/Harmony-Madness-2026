@@ -66,4 +66,31 @@
 			if(sukuna_chance == 16) draw_sprite(spr_ryomen_sukuna_fortnite, 0, cx + WINDOW_WIDTH - 84, cy + WINDOW_HEIGHT + 304);
 			break;
 		}
+		
+		case 7: //Her
+		{
+			draw_sprite(spr_mokou_bg, 0, cx, cy);
+			var count = 8;
+			for (var i = 0; i < count; ++i) {
+				//It's called depth sorting mom
+				var ang = ((360/count)*i)+timer*3;
+				var scale = (1-dsin(ang+180)*0.4)*0.5
+				
+				var _depth = gpu_get_depth()
+
+				gpu_set_depth(_depth-scale)
+				gpu_set_ztestenable(1)
+				gpu_set_alphatestenable(1)
+				gpu_set_zwriteenable(1)
+				
+				draw_sprite_ext(spr_mokou, 0, (cx+sw/2)+dcos(ang)*64, (cy+sh/2)+dsin(ang)*32, scale, scale, 0, c_white, 1);
+				
+				//Reset depth sorting
+				gpu_set_depth(_depth)
+				gpu_set_ztestenable(0)
+				gpu_set_zwriteenable(0)
+				gpu_set_alphatestenable(0)
+			}
+			break;
+		}
 	}

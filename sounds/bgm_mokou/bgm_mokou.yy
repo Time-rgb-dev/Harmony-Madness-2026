@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"bgm_mokou",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":0,
+  "conversionMode":1,
+  "duration":175.67671,
+  "exportDir":"",
+  "name":"bgm_mokou",
+  "parent":{
+    "name":"Random Shit",
+    "path":"folders/Sounds/Sound Effects/Random Shit.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"bgm_mokou.ogg",
+  "volume":1.0,
+}
