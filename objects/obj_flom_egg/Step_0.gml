@@ -29,4 +29,5 @@
     if(player_collide_object(C_MAIN) && obj_player.attacking && global.annoying_killing_bullshit)
     {
         obj_player.knockout_type = K_DIE;
+        obj_fucking_die.flom_murder = true;
     }

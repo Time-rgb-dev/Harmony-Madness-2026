@@ -16,3 +16,5 @@ slide_timer = 0;
 stretch_mult = 0;
 badluck_scale = 3;
 draw_badluck = false;
+
+flom_murder = false;

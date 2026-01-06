@@ -32,6 +32,11 @@ if(!antonblast) {
 		}
 		delay++;
 	}
+    
+    if(flom_murder)
+    {
+        character_frame = 5;
+    }
 
 	if (active) {
 		draw_sprite_ext(sprite_index, image_index, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT, 0, c_white, 1);
