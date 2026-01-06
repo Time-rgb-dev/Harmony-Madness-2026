@@ -11,9 +11,11 @@ draw_set_color(c_white);
 draw_sprite(spr_vibrator_energy_capacity, max_energy, WINDOW_WIDTH / 2 + 64, WINDOW_HEIGHT / 2 - 109)
 draw_sprite(spr_vibrator_energy, energy, WINDOW_WIDTH / 2 + 64, WINDOW_HEIGHT / 2 - 109)
 draw_set_font(global.text_random);
-draw_set_halign(fa_right);
-draw_text(WINDOW_WIDTH / 2 + 18, WINDOW_HEIGHT / 2 - 109, "COUNTER")
+draw_set_halign(fa_center);
+draw_text(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2 - 109, "COUNTER");
 draw_text(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2 - 96, string(squish_count))
+draw_set_halign(fa_left);
 draw_text(WINDOW_WIDTH / 2 + 64, WINDOW_HEIGHT / 2 - 96, string(tillenergy));
+draw_set_halign(fa_right);
 draw_text(WINDOW_WIDTH / 2 - 64, WINDOW_HEIGHT / 2 - 109, "LEVEL " + string(level));
 draw_text(WINDOW_WIDTH / 2 - 64, WINDOW_HEIGHT / 2 - 96, string(tilllevel));
