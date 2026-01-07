@@ -5,11 +5,11 @@ if(obj_player.x > bbox_left && trigger == 0) {
 	trigger = 1;
 }
 
-if (trigger > 0) {
-	if (vertical_cap) obj_camera.target_top = min(cs_t,bbox_top);
-    obj_camera.target_bottom = bbox_bottom+1;
-	obj_camera.target_left = cs_l;
-	obj_camera.target_right = bbox_right+1;
+if (trigger > 0 && trigger < 4) {
+	if (vertical_cap) obj_camera.target_top = floor(min(cs_t,bbox_top));
+    obj_camera.target_bottom = floor(bbox_bottom+1);
+	obj_camera.target_left = floor(cs_l);
+	obj_camera.target_right = floor(bbox_right+1);
 }
 	
 if (trigger = 1) {
@@ -26,10 +26,11 @@ if (trigger = 1) {
 if (trigger == 1 && obj_music.general_fade_multiplier = 0) {
 	music_reset_fade();
 	play_music(boss_music);
-	instance_create_depth(x+boss_offset_x,y+boss_offset_y,depth,boss_object);
+	var boss = instance_create_depth(x+boss_offset_x,y+boss_offset_y,depth,boss_object);
 	trigger = 2;
 }
 
+//kill boss
 if (global.dev_mode && trigger == 2 && keyboard_check_pressed(ord("H"))) {
 	trigger = 3;
 }
@@ -37,26 +38,54 @@ if (global.dev_mode && trigger == 2 && keyboard_check_pressed(ord("H"))) {
 if (trigger == 3) {
 	switch (uncap_type) {
 	    case "Immediate":
+			//Your earthly desires do not get set to false. Why? Just in case someone makes a midboss. Idk why.
 			obj_camera.target_top = 0;
 			obj_camera.target_bottom = room_height;
 			obj_camera.target_left = 0;
 			obj_camera.target_right = room_width;
-	        instance_destroy();
+			trigger = 4;
 	        break;
 	    case "Signpost":
-			obj_player.earthly_desires = false;
 			play_sound(sfx_twinkle);
+			obj_player.earthly_desires = false;
 			var signpost = instance_create_depth(floor(x+bbox_right) >> 1, cs_t, depth, obj_signpost);
 			signpost.spin_speed = 16;
 			signpost.triggered = true;
 			signpost.ground = false;
 			//i think the ysp is not 0
+			//play_music(obj_level.stage_music);
 			trigger = 4;
 	        break;
-		//FUCK YOU! THIS CODE IS UNFNINISHED! NO SONIC 2 AND IMMEDIATE HORIZONTAL 4 U!
-	    default:
-	        play_sound(sfx_death);
+	    case "Sonic 2":
+	    case "Immediate Horizontal":
+			obj_player.earthly_desires = false;
+			play_music(obj_level.stage_music);
+			if(instance_exists(obj_capsule)) var nv = instance_nearest(bbox_right,y,obj_capsule);
+			else if(instance_exists(obj_signpost)) var nv = instance_nearest(bbox_right,y,obj_signpost);
+			else {
+				show_debug_message("No capsule or signpost found.");
+				instance_destroy();
+				break;
+			}
 			trigger = 4;
-	        break;
+			dist = floor(nv.x+global.window_width/2);
+			break;
+	}	
+}
+
+if (trigger == 4) {
+	switch (uncap_type) {
+	    case "Sonic 2":
+			show_debug_message(obj_camera.target_right);
+			show_debug_message(dist);
+			obj_camera.target_left = cs_l;
+			obj_camera.target_right = approach(obj_camera.target_right, dist, 1.5);
+			break;
+	    case "Immediate Horizontal":
+			obj_camera.target_right = dist;
+			break;
+		default:
+			//Do nothing!
+			break;
 	}	
 }
