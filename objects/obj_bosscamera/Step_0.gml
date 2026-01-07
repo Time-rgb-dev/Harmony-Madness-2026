@@ -26,7 +26,7 @@ if (trigger = 1) {
 if (trigger == 1 && obj_music.general_fade_multiplier = 0) {
 	music_reset_fade();
 	play_music(boss_music);
-	var boss = instance_create_depth(x+boss_offset_x,y+boss_offset_y,depth,boss_object);
+	var boss = instance_create_depth(boss_x,boss_y,depth,boss_object);
 	trigger = 2;
 }
 

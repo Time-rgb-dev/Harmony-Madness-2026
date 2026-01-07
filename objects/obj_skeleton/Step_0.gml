@@ -1,6 +1,6 @@
 ///@description Scripts
     //If the object timer matches the ran value
-    if(global.object_timer == ran)
+    if(global.object_timer == ran && instance_exists(obj_player))
     {
         //Run, little Reddit, Run!
         draw_george = true;

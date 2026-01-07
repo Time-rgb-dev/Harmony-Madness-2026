@@ -29,8 +29,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"boss_music","filters":[],"listItems":[],"multiselect":false,"name":"boss_music","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MUSIC.BOSSWEED","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"boss_object","filters":[],"listItems":[],"multiselect":false,"name":"boss_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_battery_ring","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"boss_offset_x","filters":[],"listItems":[],"multiselect":false,"name":"boss_offset_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"boss_offset_y","filters":[],"listItems":[],"multiselect":false,"name":"boss_offset_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"boss_x","filters":[],"listItems":[],"multiselect":false,"name":"boss_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"bbox_right","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"boss_y","filters":[],"listItems":[],"multiselect":false,"name":"boss_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"y","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"vertical_cap","filters":[],"listItems":[],"multiselect":false,"name":"vertical_cap","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"uncap_type","filters":[],"listItems":[
         "\"Signpost\"",
