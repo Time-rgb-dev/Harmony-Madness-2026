@@ -37,7 +37,7 @@
         "\"Sonic 2\"",
         "\"Immediate Horizontal\"",
         "\"Immediate\"",
-      ],"multiselect":false,"name":"uncap_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Immediate\"","varType":6,},
+      ],"multiselect":false,"name":"uncap_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Signpost\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
