@@ -6,3 +6,9 @@
 	
 	//Call the resize event
 	event_user(0);
+	
+	//Save window size
+	ini_open("options.ini")
+	ini_write_real("graphics", "window_size", global.window_size);
+	show_debug_message("Window size saved");
+	ini_close();

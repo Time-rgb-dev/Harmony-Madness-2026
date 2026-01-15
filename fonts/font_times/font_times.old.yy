@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fon_times",
+  "%Name":"font_times",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":14,
@@ -212,7 +212,7 @@
   "last":0,
   "lineHeight":18,
   "maintainGms1Font":false,
-  "name":"fon_times",
+  "name":"font_times",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

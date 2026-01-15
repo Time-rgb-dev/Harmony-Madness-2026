@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fon_titlecard",
+  "%Name":"font_titlecard",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":30,
@@ -500,7 +500,7 @@
   "last":0,
   "lineHeight":39,
   "maintainGms1Font":false,
-  "name":"fon_titlecard",
+  "name":"font_titlecard",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

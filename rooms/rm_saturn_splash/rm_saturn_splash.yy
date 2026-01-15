@@ -19,8 +19,8 @@
   ],
   "name":"rm_saturn_splash",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Presentation",
+    "path":"folders/Rooms/Presentation.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

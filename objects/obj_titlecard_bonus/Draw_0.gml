@@ -39,7 +39,7 @@
 	//Clear alpha
 	draw_clear_alpha(c_black, 0)
 	
-	draw_set_font(fon_titlecard);
+	draw_set_font(font_titlecard);
 	draw_set_halign(fa_left);
 	
 	//Draw the red part of title card

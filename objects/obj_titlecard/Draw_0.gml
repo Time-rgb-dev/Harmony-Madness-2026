@@ -43,7 +43,7 @@
 		lives_text = "Lives Remaining:\nbro is actually\nimmortal what the shit?";
 	}
 	draw_text(16, WINDOW_HEIGHT / 2, lives_text);
-	draw_set_font(fon_titlecard);
+	draw_set_font(font_titlecard);
 	draw_set_halign(fa_right);
 	draw_set_valign(fa_middle);
 	draw_text_ext(WINDOW_WIDTH - 16, WINDOW_HEIGHT / 2, string(obj_level.stage_name), 30, WINDOW_WIDTH / 4);

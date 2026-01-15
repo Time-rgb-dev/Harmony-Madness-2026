@@ -1,7 +1,7 @@
 draw_self();
 
 //Setup the font and the alignment
-draw_set_font(fon_titlecard);
+draw_set_font(font_titlecard);
 draw_set_halign(fa_center);
     
 //Draw E

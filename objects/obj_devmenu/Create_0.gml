@@ -78,7 +78,9 @@
 	
 	//Add the presentation category
 	dev_menu_add_category("PRESENTATION");
-	dev_menu_add_entry("STAGE SELECT", rm_splash);
+	dev_menu_add_entry("HARMONY SPLASH", rm_splash);
+	dev_menu_add_entry("STAGE SELECT", rm_stage_select);
+	dev_menu_add_entry("OPTIONS", rm_options);
 	
 	//Add the presentation category
 	dev_menu_add_category("REGULAR STAGES");

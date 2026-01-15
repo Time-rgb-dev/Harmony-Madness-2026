@@ -6,7 +6,7 @@
 		//Trigger the window event
 		with(obj_window)
 		{
-			event_user(0);	
+			event_user(0);
 		}
 		
 		global.process_objects = true;

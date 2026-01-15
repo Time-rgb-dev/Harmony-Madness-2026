@@ -17,8 +17,8 @@
   ],
   "name":"rm_ssw",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Presentation",
+    "path":"folders/Rooms/Presentation.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

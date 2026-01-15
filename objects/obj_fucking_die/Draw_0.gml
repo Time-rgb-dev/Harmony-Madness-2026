@@ -48,7 +48,7 @@ if(!antonblast) {
 			fade_thing3 = min(1.0, fade_thing3 + 0.05)
 			draw_set_alpha(fade_thing3)
 			draw_set_colour(c_white)
-			draw_set_font(fon_times)
+			draw_set_font(font_times)
 			draw_set_halign(fa_left)
 			draw_text(cx + 156,cy + 32, "rip " + character_name)
 		}
@@ -57,14 +57,14 @@ if(!antonblast) {
 			fade_thing2 = min(1.0, fade_thing2 + 0.02)
 			draw_set_alpha(fade_thing2)
 			draw_set_colour(c_white)
-			draw_set_font(fon_times)
+			draw_set_font(font_times)
 			draw_set_halign(fa_left)
 			draw_text(cx + 156,cy + (WINDOW_HEIGHT) - 64, "loved by absolutly no one")
 		}
 		draw_set_alpha(1)
 		shader_set(shd_grayscale);
 		shader_set_uniform_f(shader_get_uniform(shd_grayscale, "u_Amount"), 1.0);
-		draw_sprite_ext(spr_fucking_die_character, character_frame, cx + 64, cy + (WINDOW_HEIGHT/2), 1, 1, 0, c_black, fade_thing);
+		draw_sprite_ext(spr_fucking_die_character, character_frame, cx + 64, cy + (WINDOW_HEIGHT/2), 1, 1, 0, c_white, fade_thing);
 		shader_reset();	
 	}
 }

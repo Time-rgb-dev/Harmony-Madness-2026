@@ -14,4 +14,3 @@
 	//Fullscreen
 	window_set_fullscreen((global.window_size >= global.window_size_limit));
 	
-	
