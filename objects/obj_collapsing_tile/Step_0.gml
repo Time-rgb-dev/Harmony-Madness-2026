@@ -1,4 +1,4 @@
-/// @description Collaps it
+/// @description Collapse it
 	if(obj_player.ground && player_collide_object(C_BOTTOM) && !triggered){
 		triggered = true
 		event_user(0)

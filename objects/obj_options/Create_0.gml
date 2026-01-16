@@ -15,7 +15,7 @@
 	option_flag = [];
 	option_min = [];
 	option_max = [];
-	max_displayed_options = 12;
+	max_displayed_options = 10;
 	
 	//Text colors
 	unselected_text_color = #808080;
@@ -33,12 +33,7 @@
 	dev_menu_add_option_flag("Air-roll", "use_airroll");
 	dev_menu_add_option_flag("Make Sonic impossible to play as", "use_dropdash");
 	dev_menu_add_option_flag("Super Peel-out", "use_peelout");
-	dev_menu_add_option_flag("Super Peel-out", "use_peelout");
-	dev_menu_add_option_flag("Super Peel-out", "use_peelout");
-	dev_menu_add_option_flag("Super Peel-out", "use_peelout");
-	dev_menu_add_option_flag("Super Peel-out", "use_peelout");
-	dev_menu_add_option_flag("Super Peel-out", "use_peelout");
 	
 	//Self explanatory
-	fade_in_room(1);
+	fade_in_room(3);
 	play_music(MUSIC.MAMORUKUN);

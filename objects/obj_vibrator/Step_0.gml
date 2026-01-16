@@ -75,3 +75,9 @@ if energy < max_energy and tillenergy
   phaser = true;
   energy -= 5
   }
+  
+  if(Input.StartPress) {
+	fade_to_room(rm_stage_select, 2);
+	music_set_fade(FADE_OUT, 3);
+	play_sound(sfx_handle_pull);
+  }

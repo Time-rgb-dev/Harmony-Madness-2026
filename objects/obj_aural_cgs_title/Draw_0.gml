@@ -1,9 +1,7 @@
+gpu_set_blendmode(bm_add);
 for(var i = 0; i < bg_id; i++) {
 	draw_background_layer(i);
 }
-
-gpu_set_blendmode(bm_add);
-draw_sprite_tiled_horizontal(spr_titlescreen_bg3d, 0, water_move, 144);
 draw_sprite_tiled_horizontal(spr_titlescreen_bg, 2, 0, 144);
 gpu_set_blendmode(bm_normal);
 

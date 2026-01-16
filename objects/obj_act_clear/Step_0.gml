@@ -112,13 +112,17 @@
 	
 		if(timer = 80)
 		{
-			fade_change(FADE_OUT, 5, FADE_BLACK)
+			if(!obj_level.act_transition) fade_change(FADE_OUT, 5, FADE_BLACK)
 		}
 		
 		//Go to the next stage
 		if(timer = 110)
 		{
 			reset_stage_data();
-			room_goto(obj_level.next_level);
+			if(obj_level.act_transition) {
+				instance_create_layer(0, 0, "Utilities", obj_act_transition);
+			} else {
+				room_goto(obj_level.next_level);
+			}
 		}
 	}

@@ -6,7 +6,7 @@
 	randomize();
 	
 	global.store_object_state = ds_list_create();
-	global.previous_room = rm_splash;
+	global.previous_room = rm_harmony_splash;
 	global.store_player_state = {
 		shield : S_NONE,
 		combinering : 0,

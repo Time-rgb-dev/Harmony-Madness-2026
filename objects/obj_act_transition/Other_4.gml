@@ -9,7 +9,7 @@
 	player.x = marker.x + player_pos[0];
 	player.y = marker.y + player_pos[1];
 	
-	//Player musc
+	//Player misc
 	player.shield = shield_store;
 	
 	//Position the signpost

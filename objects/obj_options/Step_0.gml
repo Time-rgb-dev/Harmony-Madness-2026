@@ -49,7 +49,7 @@
 	}
 			
 	//Scroll menu text down
-	if(option_select-1 < option_offset)
+	if(option_select < option_offset+1)
 	{
 		option_offset = option_select;
 	}
@@ -65,7 +65,8 @@
 				
 		//Leave
 		input_enable = false;
-		fade_to_room(rm_stage_select, 2, FADE_BLACK, 20);
+		fade_to_room(rm_stage_select, 2, FADE_BLACK, 30);
+		music_set_fade(FADE_OUT, 3);
 		play_sound(sfx_red_ring_all);
 	}
 			
@@ -92,8 +93,8 @@
 				
 		//Update the variable when either left or right is being pressed
 		var result;
-		if(input_enable) result = option_number[option_select] * input_h_final;
-		else result = option_number[option_select];
+		var idk = input_enable ? input_h_final : 0;
+		result = option_number[option_select] * idk;
 				
 		//Update the variable
 		variable_instance_set(global, option_variable[option_select], clamp(val + result, option_min[option_select], option_max[option_select]));	

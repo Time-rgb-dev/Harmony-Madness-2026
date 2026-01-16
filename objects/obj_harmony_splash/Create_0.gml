@@ -1,4 +1,4 @@
-	for (var i = 0; i < 3; ++i) 
+for (var i = 0; i < 3; ++i) 
 	{
 	    logo_surface[i] = surface_create(WINDOW_WIDTH, WINDOW_HEIGHT)
 	}
@@ -28,7 +28,21 @@
 	
 	bar_pos = 0;
 	
+	sfghq_pos = -160;
+	sfghq_frame = 0;
+	alterable_d = 0;
+	alterable_c = 0;
+	alterable_b = 0;
+	sfghq_y_speed = 0;
+	bounce1 = false;
+	bounce2 = false;
+	sonic_frame = 0;
+	grayscale = true;
+	fade_color = room == rm_harmony_splash ? FADE_BLACK : FADE_WHITE;
+	fading_out = false;
+	
 	skipped = false;
 	
 	fade_in_room(3);
-	play_sound(j_harmony_splash);
+	if(room == rm_harmony_splash) play_sound(j_harmony_splash);
+	else play_sound(sfx_s3drop);

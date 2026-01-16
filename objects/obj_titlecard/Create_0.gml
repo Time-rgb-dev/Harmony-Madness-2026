@@ -1,4 +1,5 @@
 /// @description Values
+	act_trans = global.act_transition;
 	play_music(MUSIC.J_ACT_START, Jingle);
 	surf_bg = surface_create(global.window_width, global.window_height);
 	surf = surface_create(global.window_width, global.window_height);

@@ -4,16 +4,19 @@
 	var center_y = WINDOW_HEIGHT / 2;
 	
 	//Change the font
-	draw_set_font(font_times);
+	draw_set_font(font_papyrus);
 	
 	//Change text alingment to the center
 	draw_set_halign(fa_center);
 	
 	//Draw title
-	draw_text(center_x, 20, "HELL'S CUSTOMIZATION STATION");
+	draw_text(center_x, 20, "customize yo shit");
+	
+	//Change the font
+	draw_set_font(font_comic_sans);
 	
 	//Draw options
-	for (var i = option_offset; i < min(option_id, max_displayed_options) + option_offset; ++i) 
+	for (var i = option_offset; i < min(option_id, max_displayed_options+1) + option_offset; ++i) 
 	{
 		//Draw the name of the option
 		draw_set_color(option_select == i ? text_color : unselected_text_color);

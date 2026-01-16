@@ -2,7 +2,7 @@
 	obj_player.input_disable = true;
 	
 	//Remove the title card with debug
-	if(!global.title_card)
+	if(!global.title_card || global.act_transition)
 	{
 		instance_destroy();	
 		camera_return();

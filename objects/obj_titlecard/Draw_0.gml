@@ -7,7 +7,9 @@
 	cy = camera_get_view_y(c);
 	
 	draw_set_color(c_black);
+	if(act_trans) draw_set_alpha(0.7);
 	draw_rectangle(cx, cy, cx + global.window_width,  cy + global.window_height, false);
+	draw_set_alpha(1);
 	draw_set_color(c_white);
 	
 	//Draw whole ass water

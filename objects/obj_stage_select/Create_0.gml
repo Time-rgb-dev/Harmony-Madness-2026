@@ -10,7 +10,7 @@
 	//show_debug_message(sound_arr[0]);
 	
 	//The lists
-	zone_list = [["UTTER BULLSHIT", rm_utter_bullshit1], ["WEED HILL", rm_arboreal_agate1, rm_arboreal_agate2], ["KONG BLAST", rm_kongblast], ["CRASH THE GAME", rm_crash]];
+	zone_list = [["UTTER BULLSHIT", rm_utter_bullshit1], ["WEED HILL", rm_arboreal_agate1, rm_arboreal_agate2], ["GREEN HILL", rm_green_hill1], ["KONG BLAST", rm_kongblast], ["CRASH THE GAME", rm_crash]];
 	char_list = [["SONIC", CHAR_SONIC], ["TAILS", CHAR_TAILS], ["WARIO", CHAR_KNUX], ["GAMETAP", CHAR_GAMETAP], ["MAMA COCO", CHAR_GRANDMA]];
 	
 	reset_stage_data();

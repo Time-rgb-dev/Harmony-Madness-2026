@@ -25,6 +25,7 @@ function init_music_list()
 	music_add(MUSIC.BOSSWEED, bgm_boss_weed, 15.432);
 	music_add(MUSIC.SUPERSTARS_TITLE, bgm_superstars_title, 0.00, 0.00, false);
 	music_add(MUSIC.MAMORUKUN, bgm_mamorukun);
+	music_add(MUSIC.GREEN_HILL, bgm_green_hill, 14.918, 130.266);
 }
 
 	//Setup enum for music ID
@@ -43,4 +44,5 @@ function init_music_list()
 		SUPERSTARS_TITLE,
 		KONGBLAST,
 		MAMORUKUN,
+		GREEN_HILL,
 	}

@@ -19,6 +19,7 @@ function save_options(){
 	// Gameplay -----------------------------------------------------------------------------
 	ini_write_real("gameplay", "jokes_kill_you", global.annoying_killing_bullshit);
 	ini_write_real("gameplay", "camera_pan_type", global.camera_pan_type);
+	ini_write_real("gameplay", "use_spindash", global.use_spindash);
 	ini_write_real("gameplay", "use_airroll", global.use_airroll);
 	ini_write_real("gameplay", "use_dropdash", global.use_dropdash);
 	ini_write_real("gameplay", "use_peelout", global.use_peelout);
@@ -47,6 +48,7 @@ function load_options(){
 	{
 		global.annoying_killing_bullshit = true;
 		global.camera_pan_type = 2;
+		global.use_spindash = true;
 		global.use_airroll = true;
 		global.use_dropdash = true;
 		global.use_peelout = true;
@@ -61,6 +63,7 @@ function load_options(){
 	global.rotation_type = ini_read_real("graphics", "rotation_type", 2);
 	global.camera_pan_type = ini_read_real("gameplay", "camera_pan_type", 2);
 	global.annoying_killing_bullshit = ini_read_real("gameplay", "jokes_kill_you", 1);
+	global.use_spindash = ini_read_real("gameplay", "use_spindash", 1);
 	global.use_airroll = ini_read_real("gameplay", "use_airroll", 1);
 	global.use_dropdash = ini_read_real("gameplay", "use_dropdash", 1);
 	global.use_peelout = ini_read_real("gameplay", "use_peelout", 1);
