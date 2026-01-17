@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ghz_rock",
+  "%Name":"obj_ghz_chopper",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ghz_rock",
+  "name":"obj_ghz_chopper",
   "overriddenProperties":[],
   "parent":{
     "name":"Green Hill",
     "path":"folders/Objects/Stage Objects/Green Hill.yy",
   },
   "parentObjectId":{
-    "name":"par_solid_object",
-    "path":"objects/par_solid_object/par_solid_object.yy",
+    "name":"par_badnik",
+    "path":"objects/par_badnik/par_badnik.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ghz_rock",
-    "path":"sprites/spr_ghz_rock/spr_ghz_rock.yy",
+    "name":"spr_ghz_chopper",
+    "path":"sprites/spr_ghz_chopper/spr_ghz_chopper.yy",
   },
   "spriteMaskId":null,
   "visible":true,

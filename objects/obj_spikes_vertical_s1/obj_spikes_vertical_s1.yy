@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ghz_rock",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_spikes_vertical_s1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_ghz_rock",
+  "name":"obj_spikes_vertical_s1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Green Hill",
-    "path":"folders/Objects/Stage Objects/Green Hill.yy",
+    "name":"Spikes",
+    "path":"folders/Objects/Stage Objects/Common Objects/Spikes.yy",
   },
   "parentObjectId":{
-    "name":"par_solid_object",
-    "path":"objects/par_solid_object/par_solid_object.yy",
+    "name":"obj_spikes_vertical",
+    "path":"objects/obj_spikes_vertical/obj_spikes_vertical.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ghz_rock",
-    "path":"sprites/spr_ghz_rock/spr_ghz_rock.yy",
+    "name":"spr_spikes_vertical_s1",
+    "path":"sprites/spr_spikes_vertical_s1/spr_spikes_vertical_s1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
