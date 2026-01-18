@@ -18,7 +18,7 @@
 	{
 		case 0: //epstein jumpscare
 		{
-			draw_sprite_stretched_ext(spr_eppstein, 0, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT, c_white, 0.5);
+			draw_sprite_stretched_ext(spr_epstein, 0, cx, cy, WINDOW_WIDTH, WINDOW_HEIGHT, c_white, 0.5);
 			draw_set_font(global.font_debug);
 			draw_set_halign(fa_center);
 			draw_set_color(c_white);

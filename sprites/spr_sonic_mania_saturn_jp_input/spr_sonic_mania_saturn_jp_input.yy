@@ -24,6 +24,7 @@
   "height":20,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"47f02dd4-3383-42ba-a229-0cf07131526a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"47f02dd4-3383-42ba-a229-0cf07131526a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"da4f9f48-2489-4bb3-9bdc-0d60d2ea52e4","blendMode":0,"displayName":"default","isLocked":false,"name":"da4f9f48-2489-4bb3-9bdc-0d60d2ea52e4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_sonic_mania_saturn_jp_input",

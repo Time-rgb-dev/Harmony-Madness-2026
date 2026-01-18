@@ -1,5 +1,3 @@
-	
-	//NOTE: Duplicate this room to make levels!
 	with(obj_level)
 	{
 		//Set stage music and loop points
@@ -32,4 +30,20 @@
 			player_animation_list();
 			animator_reset(animator);
 		}
+		
+		//Palette cycle layers
+		function layer_shader_start() {
+			if(event_type == ev_draw && event_number == ev_draw_normal) {
+				palette_swap(pal_ghz_water, obj_ghz_bg.pal_i);
+			}
+		}
+		function layer_shader_end() {
+			if(event_type == ev_draw && event_number == ev_draw_normal) {
+			    shader_reset();
+			}
+		}
+		layer_script_begin("Chunks_Fore", layer_shader_start);
+		layer_script_begin("Chunks_Front", layer_shader_start);
+		layer_script_end("Chunks_Fore", layer_shader_end);
+		layer_script_end("Chunks_Front", layer_shader_end);
 	}
