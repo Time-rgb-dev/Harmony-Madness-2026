@@ -9,6 +9,9 @@
 	//Palette cycle index
 	pal_i = 0;
 	
+	//Surface
+	//wat_surf = surface_create(WINDOW_WIDTH, WINDOW_HEIGHT);
+	
 	//Add backgrounds, ID starting out from 0, increments by 1 with each background added
 	add_background(spr_ghz_bg_clouds, 0,		0.8, v_scroll, -1, 0, 0, v_off, false);
 	add_background(spr_ghz_bg_clouds, 1,		0.8, v_scroll, -0.5, 0, 0, 32+v_off, false);

@@ -13,9 +13,9 @@
     {"name":"Common Sprites","order":6,"path":"folders/Sprites/Stage Sprites/Common Sprites.yy",},
     {"name":"Effects","order":7,"path":"folders/Sprites/Stage Sprites/Effects.yy",},
     {"name":"Green Hill","order":8,"path":"folders/Sprites/Stage Sprites/Green Hill.yy",},
-    {"name":"Green Hill","order":3,"path":"folders/Tile Sets/Green Hill.yy",},
     {"name":"Collision Tileset","order":1,"path":"folders/Tile Sets/Collision Tileset.yy",},
     {"name":"Example Tileset","order":2,"path":"folders/Tile Sets/Example Tileset.yy",},
+    {"name":"Green Hill","order":3,"path":"folders/Tile Sets/Green Hill.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"font_comic_sans","order":2,"path":"fonts/font_comic_sans/font_comic_sans.yy",},
@@ -53,6 +53,7 @@
     {"name":"rm_retro_splash","order":11,"path":"rooms/rm_retro_splash/rm_retro_splash.yy",},
     {"name":"rm_saturn_splash","order":8,"path":"rooms/rm_saturn_splash/rm_saturn_splash.yy",},
     {"name":"rm_scary_green_hill","order":8,"path":"rooms/rm_scary_green_hill/rm_scary_green_hill.yy",},
+    {"name":"rm_sonic_team_splash","order":14,"path":"rooms/rm_sonic_team_splash/rm_sonic_team_splash.yy",},
     {"name":"rm_ssw","order":9,"path":"rooms/rm_ssw/rm_ssw.yy",},
     {"name":"rm_stage_select","order":2,"path":"rooms/rm_stage_select/rm_stage_select.yy",},
     {"name":"rm_switch","order":10,"path":"rooms/rm_switch/rm_switch.yy",},
