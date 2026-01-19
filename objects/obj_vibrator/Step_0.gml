@@ -60,7 +60,7 @@ if energy < max_energy and tillenergy
 	  
   }
   
- if !tilllevel or keyboard_check_pressed(ord(("B")))
+ if !tilllevel or keyboard_check(ord(("B")))
  {
 	 level++ 
 	 play_sound(sfx_air_warning);

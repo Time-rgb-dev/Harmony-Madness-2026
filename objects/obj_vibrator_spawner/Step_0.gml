@@ -10,8 +10,13 @@ if (spawn_timer <= 0) {
     }
 
     // faster spawn rate to account for split chance
-    spawn_timer = irandom_range(
-        80 - (obj_vibrator.level / 5) * 25,
-        180 - (obj_vibrator.level / 5) * 25
+    spawn_timer = irandom_range(80 - (obj_vibrator.level / 5) * 25,90 - (obj_vibrator.level / 5) * 25
     );
+}
+if (obj_vibrator.level > 200)
+{
+	instance_create_layer(0, 0, "Obstacles", obj_vibrator_obstacle);
+	instance_create_layer(0, 0, "Obstacles", obj_vibrator_obstacle);
+	instance_create_layer(x,y,"Instances",obj_vibrator_spawner)
+	play_sound(sfx_weed,true);
 }
