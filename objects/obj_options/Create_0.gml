@@ -21,10 +21,6 @@
 	unselected_text_color = #808080;
 	text_color = c_white;
 	
-	//Random backgrounds!!
-	backgrounds = [spr_may_shock_the_viewers, spr_anton, spr_levsel_bg];
-	layer_background_sprite(layer_get_id("Background"), backgrounds[random(array_length(backgrounds))]);
-	
 	//Add all option entries
 	dev_menu_add_option_number("Music Volume", "bgm_volume", 0.0, 1.0, 0.05);
 	dev_menu_add_option_number("Sound Volume", "sfx_volume", 0.0, 1.0, 0.05);
