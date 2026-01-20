@@ -1,13 +1,12 @@
-event_inherited();
-
 fade_in_room(3, FADE_BLACK);
 play_music(MUSIC.SUPERSTARS_TITLE);
 
-started = false;
-timer = 0;
-prompt_draw = true;
-water_move = 0;
+ViewMat2D = matrix_build_lookat(0, 0, -100, 0, 0, 0, 0, 1, 0);
+ProjMat2D = matrix_build_projection_ortho(426, 240, 1.0, 32000.0);
+    
+ViewMat3D = matrix_build_lookat(0, 0, -100, room_width, room_height, 0, 0, 0, 1);
+ProjMat3D = matrix_build_projection_perspective_fov(60, 426/224, 1, 32000);
 
-add_background(spr_titlescreen_bg, 0, 0, 0, -0.18);
-add_background(spr_titlescreen_bg, 1, 0, 0, -0.13, 0, 0, 0);
-add_background_line(spr_titlescreen_bg3d, 1, 0, 0, -0.13, 0, -700, 144, 1, 0.2 );
+surf = surface_create(WINDOW_WIDTH, WINDOW_HEIGHT);
+
+timer = 0;

@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_title",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_fake_camera",
+  "eventList":[],
   "managed":true,
-  "name":"obj_title",
+  "name":"obj_fake_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Splash Screens",
-    "path":"folders/Objects/Menu Objects/Splash Screens.yy",
+    "name":"Aural CGS Title",
+    "path":"folders/Objects/Menu Objects/Aural CGS Title.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_title",
-    "path":"sprites/spr_title/spr_title.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

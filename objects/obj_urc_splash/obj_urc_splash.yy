@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_aural_cgs_title",
+  "%Name":"obj_urc_splash",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_aural_cgs_title",
+  "name":"obj_urc_splash",
   "overriddenProperties":[],
   "parent":{
-    "name":"Aural CGS Title",
-    "path":"folders/Objects/Menu Objects/Aural CGS Title.yy",
+    "name":"Splash Screens",
+    "path":"folders/Objects/Menu Objects/Splash Screens.yy",
   },
-  "parentObjectId":{
-    "name":"par_background",
-    "path":"objects/par_background/par_background.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_urc_splash",
+    "path":"sprites/spr_urc_splash/spr_urc_splash.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

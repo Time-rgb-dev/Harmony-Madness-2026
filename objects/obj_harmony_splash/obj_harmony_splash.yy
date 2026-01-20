@@ -10,8 +10,8 @@
   "name":"obj_harmony_splash",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu Objects",
-    "path":"folders/Objects/Menu Objects.yy",
+    "name":"Splash Screens",
+    "path":"folders/Objects/Menu Objects/Splash Screens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

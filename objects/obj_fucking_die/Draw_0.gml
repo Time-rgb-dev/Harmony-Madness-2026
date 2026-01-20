@@ -103,8 +103,9 @@ if(antonblast) {
 		obj_player.visible = false;
 		depth = obj_hud.depth - 1;
 		var scale_dest = 15;
-		death_big_scale = approach(death_big_scale, scale_dest, 2);
-		if(!scale_reached) death_big_rot += 55;
+		var time_scale = 0.8;
+		death_big_scale = approach(death_big_scale, scale_dest, 2*time_scale);
+		if(!scale_reached) death_big_rot += 55*time_scale;
 		if(death_big_scale == scale_dest) {
 			if(!scale_reached) {
 				play_sound(sfx_anton_bombcrushed);
