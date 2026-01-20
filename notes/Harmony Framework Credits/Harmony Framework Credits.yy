@@ -1,7 +1,7 @@
 {
   "$GMNotes":"v1",
-  "%Name":"Credits",
-  "name":"Credits",
+  "%Name":"Harmony Framework Credits",
+  "name":"Harmony Framework Credits",
   "parent":{
     "name":"Notes",
     "path":"folders/Notes.yy",

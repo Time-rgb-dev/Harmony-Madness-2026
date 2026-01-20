@@ -23,6 +23,7 @@
     {"name":"font_comic_sans","order":2,"path":"fonts/font_comic_sans/font_comic_sans.yy",},
     {"name":"font_papyrus","order":3,"path":"fonts/font_papyrus/font_papyrus.yy",},
     {"name":"font_PT_sans","order":1,"path":"fonts/font_PT_sans/font_PT_sans.yy",},
+    {"name":"Rules & Credits","order":1,"path":"notes/Rules & Credits/Rules & Credits.yy",},
     {"name":"obj_aural_cgs_title","order":1,"path":"objects/obj_aural_cgs_title/obj_aural_cgs_title.yy",},
     {"name":"obj_bosscamera","order":1,"path":"objects/obj_bosscamera/obj_bosscamera.yy",},
     {"name":"obj_garn47_screen","order":1,"path":"objects/obj_garn47_screen/obj_garn47_screen.yy",},
