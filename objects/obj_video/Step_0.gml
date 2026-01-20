@@ -1,7 +1,7 @@
 if (!played)
 {
     played = true;
-	video_open(video_path)
+	video_open(video_path);
 } 
 else 
 {

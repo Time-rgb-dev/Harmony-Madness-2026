@@ -8,12 +8,8 @@ if(timer >= 30) {
 		play_sound(sfx_combinering);
 	}
 	
-	if(timer == 200 || skipped) {
+	if((Input.StartPress || Input.APress) || timer == 200) {
 		fade_to_room_next(2, FADE_BLACK, 30);
-	}
-	
-	if(Input.StartPress || Input.APress) {
-		skipped = true;
 	}
 }
 

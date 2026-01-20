@@ -1,0 +1,1 @@
+global.scary_green_mode = false;

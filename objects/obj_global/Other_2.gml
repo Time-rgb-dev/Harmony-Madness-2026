@@ -43,6 +43,7 @@
 	global.faggot_mode = false;				//Hez
 	//global.subway_surfers = irandom(4) < 3 ? true : false; //Whether to show subway surfers or not
 	//global.annoying_killing_bullshit = true; //Jokes can kill you
+	global.scary_green_mode = false;			//Green Hill shit
 	
 	//Keyboard inputs
 	global.key_up = vk_up;						

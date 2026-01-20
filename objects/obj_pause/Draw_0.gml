@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Random pause screen
 
 	var c, cx, cy, sw, sh;
 	c = view_camera[view_current];
@@ -91,6 +90,12 @@
 				gpu_set_zwriteenable(0)
 				gpu_set_alphatestenable(0)
 			}
+			break;
+		}
+		
+		case 8: //Square
+		{
+			draw_sprite(spr_shredder, 0, WINDOW_WIDTH/2, WINDOW_HEIGHT/2);
 			break;
 		}
 	}
