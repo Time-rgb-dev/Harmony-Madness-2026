@@ -4,8 +4,8 @@
   "name":"Rules & Credits",
   "openedOnFirstLoad":true,
   "parent":{
-    "name":"Harmony Framework Plus",
-    "path":"Harmony Framework Plus.yyp",
+    "name":"Harmony Madness Jan 2026",
+    "path":"Harmony Madness Jan 2026.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"Harmony Framework Plus",
+  "%Name":"Harmony Madness Jan 2026",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -150,7 +150,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.2.213",
   },
-  "name":"Harmony Framework Plus",
+  "name":"Harmony Madness Jan 2026",
   "resources":[
     {"id":{"name":"curve_titlecard_bonus","path":"animcurves/curve_titlecard_bonus/curve_titlecard_bonus.yy",},},
     {"id":{"name":"curve_titlecard_leave","path":"animcurves/curve_titlecard_leave/curve_titlecard_leave.yy",},},
