@@ -6,6 +6,7 @@ Rules:
 - Do not destroy other people's work
 - Please keep within the content guidelines and rules of URC and Discord as a whole. (No NSFW!!)
 - No .EXE content.
+
 Deadline is February 28, 2026.
 
 
