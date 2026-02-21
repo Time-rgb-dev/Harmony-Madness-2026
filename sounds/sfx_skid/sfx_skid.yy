@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.466984,
+  "duration":0.46698412,
   "exportDir":"",
   "name":"sfx_skid",
   "parent":{

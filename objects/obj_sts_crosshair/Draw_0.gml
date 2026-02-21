@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_sts_crosshair, _frame, x, y, 1, 1, 0, c_white, 1)

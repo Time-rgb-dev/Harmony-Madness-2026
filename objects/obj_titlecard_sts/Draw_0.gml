@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_sts_titlecard, floor(FRAME_TIMER / 10) mod 2, x, y, 4, 4, 0, c_white, image_alpha)
