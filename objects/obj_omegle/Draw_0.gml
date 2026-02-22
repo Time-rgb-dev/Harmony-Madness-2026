@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_omegle_attack, 0, obj_camera.camera_x, obj_camera.camera_y, size, size, rot, c_white, 1)
