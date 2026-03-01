@@ -19,14 +19,14 @@ function init_music_list()
 	music_add(MUSIC.J_ACT_CLEAR, j_zone_complete, 0.00, 0.00, false);
 	music_add(MUSIC.SUPER, j_super, 0.565);
 	music_add("FOREGONE DESTRUCTION - MICHIEL VAN DEN BOS", bgm_foregone, 0.000);
-	music_add("ARBOREAL 1", bgm_arboreal_goonbait1);
-	music_add("ARBOREAL 2", bgm_arboreal_goonbait2, 7.742);
+	//music_add("ARBOREAL 1", bgm_arboreal_goonbait1);
+	//music_add("ARBOREAL 2", bgm_arboreal_goonbait2, 7.742);
 	music_add("BONUS", bgm_bonus, 16.657, 92.33, true);
 	music_add(MUSIC.BOSSWEED, bgm_boss_weed, 15.432);
 	music_add(MUSIC.SUPERSTARS_TITLE, bgm_superstars_title, 0.00, 0.00, false);
 	music_add(MUSIC.MAMORUKUN, bgm_mamorukun);
 	music_add(MUSIC.GREEN_HILL, bgm_green_hill, 14.918, 130.266);
-	music_add(MUSIC.STS, bgm_sts,0.00, 0.00);
+	//music_add(MUSIC.STS, bgm_sts,0.00, 0.00);
 }
 
 	//Setup enum for music ID

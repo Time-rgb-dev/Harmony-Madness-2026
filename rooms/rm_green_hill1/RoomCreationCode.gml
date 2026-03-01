@@ -22,7 +22,7 @@
 		animal = [A_FLICKY, A_CUCKY, A_RICKY];
 		
 		//Next level
-		next_level = rm_scary_green_hill;
+		next_level = rm_stage_select;
 		
 		//Force character switch
 		with(obj_player) {

@@ -44,5 +44,7 @@ for (var i = 0; i < 3; ++i)
 	skipped = false;
 	
 	fade_in_room(3);
-	if(room == rm_harmony_splash) play_sound(j_harmony_splash);
+	if(room == rm_harmony_splash) {
+		play_sound(j_harmony_splash);
+	}
 	else play_sound(sfx_s3drop);
